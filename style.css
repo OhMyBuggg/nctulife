@@ -389,7 +389,7 @@ label{ display: none;}
 
 .nav_menu{
     position: fixed;
-    top: 50px;
+    top: 32px;
     right: 5vw;
     height: 3.9vmin;
     width:52vmin;
