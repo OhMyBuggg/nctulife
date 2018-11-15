@@ -3,7 +3,9 @@
  * Template Name: intro
  */
 ?>
+
 <?php get_header(); ?>
+
 <div class="page-intro">
     <div class="container intro-mobile-container">
         <div id="intro-container">
@@ -31,6 +33,12 @@
     //just querying the DOM...like a boss!
 
 /*Annie added for mobile*/
+// add_action( 'wp_enqueue_scripts', 'enqueue_child_theme_styles', PHP_INT_MAX);
+// function enqueue_child_theme_styles() {
+// wp_enqueue_style( 'parent-style',get_template_directory_uri().'/style.css' );
+// wp_enqueue_style( 'child-style', get_stylesheet_uri(), NULL,
+// filemtime( get_stylesheet_directory() . '/style.css' ) );
+// }
     function iconDown(){
     	var nextpageDuration = 140;
 	document.getElementById("icon_down_wrapper").style.height = "100vh";
