@@ -110,7 +110,7 @@ a{font-family:'Noto Sans TC', '微軟正黑體', sans-serif; text-decoration:non
 #header{
 	position: fixed;
 	left: 0px;
-	width: 8vw;
+	width: 150px;
 	height: 100%;
 	background-color: rgba(255,255,255,0.45);
 	z-index: 10;
@@ -124,7 +124,7 @@ a{font-family:'Noto Sans TC', '微軟正黑體', sans-serif; text-decoration:non
 	position: fixed;
 	top: 0px;
 	left:0px;
-	width: 8vw;
+	width: 150px;
 	height: 22.5vh;
 	transition: width 2s;
 	-webkit-transition: width 2s;
@@ -137,15 +137,15 @@ a{font-family:'Noto Sans TC', '微軟正黑體', sans-serif; text-decoration:non
 	position: fixed;
 	top: 0px;
 	left:0px;
-	width: 8vw;
-	height: 22.5vh;
+	width: 150px;
+	height: 180px;
 }
 #header-block1{  /*藍色色塊*/
 	position: absolute;
 	bottom: 0px;
 	left:0px;
-	width: 8vw;
-	height: 22.5vh;
+	width: 150px;
+	height: 180px;
 	background: #002D5A;
 	transition:  width 1.5s, height 1s;
 	-webkit-transition:  width 1.5s, height 1s;

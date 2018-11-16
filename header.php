@@ -81,6 +81,13 @@
         echo '<link rel="stylesheet" href="';bloginfo('template_url');
         echo'/mobile-css/admissions-mobile.css" type="text/css" media="screen and (max-width: 700px)" />';
     }
+    else if(is_page('contact')){/*聯絡我們*/
+        echo '<link rel="stylesheet" href="';bloginfo('template_url');
+        echo'/css/intro.css" type="text/css" media="screen and (min-width: 701px)" />';
+
+        echo '<link rel="stylesheet" href="';bloginfo('template_url');
+        echo'/mobile-css/intro-mobile.css" type="text/css" media="screen and (max-width: 700px)" />';
+    }
 
 
     ?>
@@ -125,6 +132,7 @@
                             <a href="<?php echo site_url(); ?>/research_achievements"><div id="mysidetext5" class="menu_block" style="transition:2.4s;"><div class="header-icon header-icon4"><div class="menutext">研究發展</div></div></div></a>
                             <a href="<?php echo site_url(); ?>/exchange_student"><div id="mysidetext6" class="menu_block" style="transition:2.8s;"><div class="header-icon header-icon5"><div class="menutext">國際交流合作</div></div></div></a>
                             <a href="<?php echo site_url(); ?>/regulations_and_forms"><div id="mysidetext7" class="menu_block" style="transition:3.2s;"><div class="header-icon header-icon6"><div class="menutext">下載專區</div></div></div></a>
+                            <a href="<?php echo site_url(); ?>/contact"><div id="mysidetext2" class="menu_block" style="transition:1.2s;"><div class="header-icon header-icon1"><div class="menutext">聯絡我們</div></div></div></a>
 
 
             <div class="mobile-foot"> <!--AnnieDisplayNone-->
@@ -150,12 +158,12 @@
                 <div class="mobile-header formobile">交通</br>大學</div> <!--AnnieDisplayNone-->
                 <div class="mobile-header-line"></div>
                 <!-- add in dropdown btn-->
-                <div id="header-block2">理</div>
-                <div id="header-block3">學</div>
+                <div id="header-block2">生</div>
+                <div id="header-block3">科</div>
                 <div id="header-block4">院</div>
                 <div id="header-block5">國立交通大學</div>
                 <div id="header-block6">The College of Science</div>
-                <div id="header-block7">The<br>College<br>of<br>Science</div>
+                <div id="header-block7">Ph.D in<br>Industrial<br>Development<br>of<br>CBST</div>
 		<a href="<?php echo site_url(); ?>"><div class="header-block-link"></div></a>
 </div>
 
@@ -169,12 +177,12 @@
                 <div class="mobile-header formobile">交通</br>大學</div> <!--AnnieDisplayNone-->
                 <div class="mobile-header-line"></div>
                 <!-- add in dropdown btn-->
-                <div id="header-block2">理</div>
-                <div id="header-block3">學</div>
+                <div id="header-block2">生</div>
+                <div id="header-block3">科</div>
                 <div id="header-block4">院</div>
                 <div id="header-block5">國立交通大學</div>
                 <div id="header-block6">The College of Science</div>
-                <div id="header-block7">The<br>College<br>of<br>Science</div>
+                <div id="header-block7">Ph.D in<br>Industrial<br>Development<br>of<br>CBST</div>
 
             </div>
             <a href="<?php echo site_url(); ?>"><div id="header-block-link"></div></a>
@@ -197,6 +205,9 @@
             </a>
             <a href="<?php echo site_url(); ?>/regulations_and_forms">
                 <div class="header-icon header-icon6"><div class="header-text">下載專區</div></div>
+            </a>
+            <a href="<?php echo site_url(); ?>/contact">
+                <div class="header-icon header-icon1"><div class="header-text">聯絡我們</div></div>
             </a>
             </div>
 	</div>

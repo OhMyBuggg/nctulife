@@ -5,7 +5,7 @@
 ?>
 <?php get_header(); ?>
 <div class="hp">
-    <div class="hp-nav">
+    <!--<div class="hp-nav">
         <ul>
             <li style="background-color:#646464"></li>
             <li></li>
@@ -14,7 +14,7 @@
             <li></li>
             </div>
         </ul>
-    </div>
+    </div>-->
     <div class="hp-p01_next hp-p01_1" style="display:none;"></div>
     <div class="hp-p01 hp-p01_0">
         <div class="language-opt">
@@ -29,11 +29,11 @@
    	    </a>
         </div>
     </div>
-    <div class="hp-p02">
+    <!--<div class="hp-p02">
 	<div class="bgcontainer"></div>
         <div class="container" style="overflow-y: hidden">
 		<div class="hp-container">
-                    <div class="hp-news hp-news0"> <!-- news1 -->
+                    <div class="hp-news hp-news0"> <!-- news1 
 			<div class="icon_down"><div class="right_icon"></div></div>
                         <div class="hp-newsheader">
                             <div id="hp-news-icon1" class="hp-news-icon"></div>
@@ -54,7 +54,7 @@
                                     $the_query->the_post();
                                     if($is_multiple):
                             ?>
-                                <!--<hr class="news_line">-->
+                                <!--<hr class="news_line">
                             <?php endif; ?>
                             <div class="hp-news_item_date"><?php the_time('Y.m.j'); ?></div>
                             <a class="hp-news_item_title" href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
@@ -70,7 +70,7 @@
                             ?>
                         </div>
                     </div>
-                    <div class="hp-news hp-news1"> <!-- news2 -->
+                    <div class="hp-news hp-news1"> <!-- news2 
                         <div class="icon_up"><div class="left_icon"></div></div>
                         <div class="icon_down"><div class="right_icon"></div></div>
                         <div class="hp-newsheader">
@@ -100,7 +100,7 @@
                                     $the_query->the_post();
                                     if($is_multiple):
                             ?>
-                                <!--<hr class="news_line">-->
+                                <!--<hr class="news_line">
                             <?php endif; ?>
                             <div class="hp-news_item_date"><?php the_time('Y.m.j'); ?></div>
                             <a class="hp-news_item_title" href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
@@ -116,7 +116,7 @@
                             ?>
                         </div>
                     </div>
-                    <div class="hp-news hp-news2"> <!-- news3 -->
+                    <div class="hp-news hp-news2"> <!-- news3 
                         <div class="icon_up"><div class="left_icon"></div></div>
                         <div class="icon_down"><div class="right_icon"></div></div>
                         <div class="hp-newsheader">
@@ -138,7 +138,7 @@
                                     $the_query->the_post();
                                     if($is_multiple):
                             ?>
-                                <!--<hr class="news_line">-->
+                                <!--<hr class="news_line">
                             <?php endif; ?>
                             <div class="hp-news_item_date"><?php the_time('Y.m.j'); ?></div>
                             <a class="hp-news_item_title" href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
@@ -154,7 +154,7 @@
                             ?>
                         </div>
                     </div>
-                    <div class="hp-news hp-news3"> <!-- news4 -->
+                    <div class="hp-news hp-news3"> <!-- news4 
                         <div class="icon_up"><div class="left_icon"></div></div>    
                         <div class="hp-newsheader">
                             <div id="hp-news-icon4" class="hp-news-icon"></div>
@@ -175,7 +175,7 @@
                                     $the_query->the_post();
                                     if($is_multiple):
                             ?>
-                                <!--<hr class="news_line">-->
+                                <!--<hr class="news_line">
                             <?php endif; ?>
                             <div class="hp-news_item_date"><?php the_time('Y.m.j'); ?></div>
                             <a class="hp-news_item_title" href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
@@ -204,10 +204,10 @@
 		<p class="foot-font-bottom formobile">300 新竹市東區大學路1001號基礎科學教學研究大樓一樓101室</p>
 		</div>
             </div>
--->
+
         </div>
-    </div>
-    <div class="hp-p03">
+    </div>-->
+    <!--<div class="hp-p03">
         <div class="container">
         	<div id="hp-field-pic1" class="hp-field-before"></div>
             <div id="hp-field-pic2" class="hp-field-before"></div>
@@ -231,8 +231,8 @@
                 </div>
             </a>
         </div>
-    </div>
-    <div class="hp-p04">
+    </div>-->
+    <!--<div class="hp-p04">
         <div class="container">
             <div id="hp-gallery">
                 <div class="hp-img_wrapper">
@@ -268,8 +268,8 @@
                 </a>
             </div>
         </div>
-    </div>
-    <div class="hp-p05">
+    </div>-->
+    <!--<div class="hp-p05">
         <div class="container">
             <div id="p5-left"></div>
             <div id="p5-right"></div>
@@ -314,7 +314,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div>-->
     </div>
 </div>
 <script>
@@ -322,7 +322,7 @@
     var frequency = 5000;
     var now_news = 0;
     
-    function showNext(){
+    /*function showNext(){
         old_bg = now_bg;
         now_bg = (now_bg+1)%9;
         next_bg = (now_bg+1)%9;
@@ -335,7 +335,7 @@
   	$('.hp-newsbody').perfectScrollbar();
         timer = setTimeout(showNext, frequency);
         $(".hp-news0").show();
-    });
+    });*/
 
     $(".hp-nextnews").click(function(){
         $(".hp-news"+now_news).fadeOut(1000);
