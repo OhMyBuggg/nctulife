@@ -81,9 +81,30 @@
         echo '<link rel="stylesheet" href="';bloginfo('template_url');
         echo'/mobile-css/admissions-mobile.css" type="text/css" media="screen and (max-width: 700px)" />';
     }
+    else if( is_page('learning_info') ){/*修業資訊*/
+        echo '<link rel="stylesheet" href="';bloginfo('template_url'); 
+        echo'/css/learning_info.css" type="text/css" media="screen and (min-width: 701px)" />';
+        
+        echo '<link rel="stylesheet" href="';bloginfo('template_url');
+        echo'/mobile-css/admissions-mobile.css" type="text/css" media="screen and (max-width: 700px)" />';
+    }
+    else if( is_page('cooperation') ){/*產學合作*/
+        echo '<link rel="stylesheet" href="';bloginfo('template_url'); 
+        echo'/css/cooperation.css" type="text/css" media="screen and (min-width: 701px)" />';
+        
+        echo '<link rel="stylesheet" href="';bloginfo('template_url');
+        echo'/mobile-css/admissions-mobile.css" type="text/css" media="screen and (max-width: 700px)" />';
+    }
+    else if( is_page('enroll_info') ){/*招生資訊*/
+        echo '<link rel="stylesheet" href="';bloginfo('template_url'); 
+        echo'/css/enroll_info.css" type="text/css" media="screen and (min-width: 701px)" />';
+        
+        echo '<link rel="stylesheet" href="';bloginfo('template_url');
+        echo'/mobile-css/admissions-mobile.css" type="text/css" media="screen and (max-width: 700px)" />';
+    }
     else if(is_page('contact')){/*聯絡我們*/
         echo '<link rel="stylesheet" href="';bloginfo('template_url');
-        echo'/css/intro.css" type="text/css" media="screen and (min-width: 701px)" />';
+        echo'/css/contact.css" type="text/css" media="screen and (min-width: 701px)" />';
 
         echo '<link rel="stylesheet" href="';bloginfo('template_url');
         echo'/mobile-css/intro-mobile.css" type="text/css" media="screen and (max-width: 700px)" />';
@@ -129,9 +150,12 @@
                             <a href="<?php echo site_url(); ?>/intro"><div id="mysidetext2" class="menu_block" style="transition:1.2s;"><div class="header-icon header-icon1"><div class="menutext">系所簡介</div></div></div></a>
                             <a href="<?php echo site_url(); ?>/academics"><div id="mysidetext3" class="menu_block"  style="transition:1.6s;"><div class="header-icon header-icon2"><div class="menutext">學術單位</div></div></div></a>
                             <a href="<?php echo site_url(); ?>/research_achievements"><div id="mysidetext5" class="menu_block" style="transition:2.4s;"><div class="header-icon header-icon4"><div class="menutext">研究發展</div></div></div></a>
-                            <a href="<?php echo site_url(); ?>/admissions"><div id="mysidetext4" class="menu_block"  style="transition:2s;"><div class="header-icon header-icon3"><div class="menutext">招生資訊</div></div></div></a>
-                            <a href="<?php echo site_url(); ?>/exchange_student"><div id="mysidetext6" class="menu_block" style="transition:2.8s;"><div class="header-icon header-icon5"><div class="menutext">國際交流合作</div></div></div></a>
-                            <a href="<?php echo site_url(); ?>/regulations_and_forms"><div id="mysidetext7" class="menu_block" style="transition:3.2s;"><div class="header-icon header-icon6"><div class="menutext">下載專區</div></div></div></a>
+                            <!--<a href="<?php echo site_url(); ?>/admissions"><div id="mysidetext4" class="menu_block"  style="transition:2s;"><div class="header-icon header-icon3"><div class="menutext">招生資訊</div></div></div></a>-->
+                            <a href="<?php echo site_url(); ?>/learning_info"><div id="mysidetext4" class="menu_block"  style="transition:2s;"><div class="header-icon header-icon3"><div class="menutext">修業資訊</div></div></div></a>
+                            <!--<a href="<?php echo site_url(); ?>/exchange_student"><div id="mysidetext6" class="menu_block" style="transition:2.8s;"><div class="header-icon header-icon5"><div class="menutext">國際交流合作</div></div></div></a>-->
+                            <a href="<?php echo site_url(); ?>/cooperation"><div id="mysidetext6" class="menu_block" style="transition:2.8s;"><div class="header-icon header-icon5"><div class="menutext">產學合作</div></div></div></a>
+                            <!--<a href="<?php echo site_url(); ?>/regulations_and_forms"><div id="mysidetext7" class="menu_block" style="transition:3.2s;"><div class="header-icon header-icon6"><div class="menutext">下載專區</div></div></div></a>-->
+                            <a href="<?php echo site_url(); ?>/enroll_info"><div id="mysidetext7" class="menu_block" style="transition:3.2s;"><div class="header-icon header-icon6"><div class="menutext">招生資訊</div></div></div></a>
                             <a href="<?php echo site_url(); ?>/contact"><div id="mysidetext2" class="menu_block" style="transition:1.2s;"><div class="header-icon header-icon1"><div class="menutext">聯絡我們</div></div></div></a>
 
 
@@ -197,14 +221,23 @@
                 <div class="header-icon header-icon4"><div class="header-text">研究發展</div></div>
             </a>
             </a>
-            <a href="<?php echo site_url(); ?>/admissions">
+            <!--<a href="<?php echo site_url(); ?>/admissions">
                 <div class="header-icon header-icon3"><div class="header-text">招生資訊</div></div>
-            </a>
-            <a href="<?php echo site_url(); ?>/exchange_student">
+            </a>-->
+            <a href="<?php echo site_url(); ?>/learning_info">
+                <div class="header-icon header-icon3"><div class="header-text">修業資訊</div></div>
+            </a>    
+            <!--<a href="<?php echo site_url(); ?>/exchange_student">
                 <div class="header-icon header-icon5"><div class="header-text">國際交流合作</div></div>
+            </a>-->
+            <a href="<?php echo site_url(); ?>/cooperation">
+                <div class="header-icon header-icon5"><div class="header-text">產學合作</div></div>
             </a>
-            <a href="<?php echo site_url(); ?>/regulations_and_forms">
+            <!--<a href="<?php echo site_url(); ?>/regulations_and_forms">
                 <div class="header-icon header-icon6"><div class="header-text">下載專區</div></div>
+            </a>-->
+            <a href="<?php echo site_url(); ?>/enroll_info">
+                <div class="header-icon header-icon6"><div class="header-text">招生資訊</div></div>
             </a>
             <a href="<?php echo site_url(); ?>/contact">
                 <div class="header-icon header-icon1"><div class="header-text">聯絡我們</div></div>
