@@ -6,11 +6,11 @@
 <?php get_header(); ?>
 <div class="page-research_achievements">
     <div class="container">    
+	    <p class="subtitled ra-title1 formobile">重點研究</p>
         <div class="ra-color_block"></div>
         <div class="ra-block">
-	    <p class="subtitled ra-title1 formobile">重點研究</p>
-            <p class="subtitled ra-title1 mobilehidden">01 重點研究</p>
-            <p class="subtitle ra-title2">各領域重點研究</p>
+            <p class="subtitled ra-title1_1 mobilehidden">研究發展</p>
+            <p class="subtitle ra-title2">各領域研究</p>
             <!--
             <div class="ra-btn ra-btn1"></div>
  	        <div class="ra-line formobile"></div>
@@ -18,15 +18,16 @@
             -->
             <div class="ra-circle_block mobilehidden">
                 <div class="ra-circle_b subtitled mobilehidden">跨領域基礎學科</div>
-                <a href="<?php echo site_url(); ?>/research_highlights#pyhsics">
-                    <div class="ra-circle_l ra-c1 subtitled mobilehidden">物理領域</div>
-                </a>
-                <a href="<?php echo site_url(); ?>/research_highlights#mathmetics">
-                    <div class="ra-circle_l ra-c2 subtitled mobilehidden">數統領域</div>
-                </a>
-                <a href="<?php echo site_url(); ?>/research_highlights#chemistry">
-                    <div class="ra-circle_l ra-c3 subtitled mobilehidden">化學領域</div>
-                </a>
+                <!--<a href="<?php echo site_url(); ?>/research_highlights#pyhsics">-->
+                    <div class="ra-circle_l ra-c1 subtitled mobilehidden">生物資訊</div>
+                <!--</a>-->
+                <!--<a href="<?php echo site_url(); ?>/research_highlights#mathmetics">-->
+                    <div class="ra-circle_2 ra-c2 subtitled mobilehidden">細胞與腫瘤</div>
+                <!--</a>-->
+                <!--<a href="<?php echo site_url(); ?>/research_highlights#chemistry">-->
+                    <div class="ra-circle_3 ra-c3 subtitled mobilehidden">蛋白質<br>及生質能源</div>
+                <!--</a>-->
+                    <div class="ra-circle_4 ra-c4 subtitled mobilehidden">&nbsp;&nbsp;&nbsp;生物物理<br>&nbsp;&nbsp;&nbsp;奈米檢測<br>與神經科學</div>
             </div>
             <div class="ra-circle_block formobile">
                 <div class="ra-c1_mobile text formobile">物</div>
@@ -34,7 +35,7 @@
                 <div class="ra-c3_mobile text formobile">化</div>
             </div>
 
-            <div class="ra-text_block ra-block2">
+            <!--<div class="ra-text_block ra-block2">
                 <div class="subtitle ra-subtitle ra-title3 mobilehidden">數統領域</div>
                 <hr class="ra-hr">
                 <div class="ra-subtitled ra-text">數據科學組合數學</div>
@@ -60,7 +61,7 @@
                 <div class="ra-subtitled ra-text">高等有機化學無機化學</div>
                 <div class="ra-subtitled ra-text">綠色能源</div>
                 <div class="ra-subtitled ra-text">分子科學理論化學</div>
-            </div>
+            </div>-->
 
         </div>
     </div>
