@@ -113,8 +113,9 @@ hr.intro-title{
     line-height: 31pt;
     color: #000000;
     position: relative;
-    top: 60px;
-    width: 540px;
+    top: 90px;
+    width: 650px;
+    letter-spacing: 2px;
 }
 
 /*

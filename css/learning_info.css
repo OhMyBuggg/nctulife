@@ -110,11 +110,12 @@ hr.intro-title{
     /*font-family: ‘Noto Sans TC’, ‘微軟正黑體’, sans-serif;*/
     font-weight: regular;
     font-size: 18px;
-    line-height: 31pt;
+    line-height: 25pt;
     color: #000000;
     position: relative;
-    top: 60px;
-    width: 540px;
+    top: 80px;
+    left: 60px;
+    width: 420px;
 }
 
 /*
