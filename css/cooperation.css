@@ -9,8 +9,8 @@
     position: absolute;
     top: 130px; /*18%*/
     left: 350px; /*20%*/
-    width: 540px; /*850px*/
-    height: 400px;/*500px*/
+    width: 820px; /*850px*/
+    height: 630px;/*500px*/
     overflow-x: hidden;
     overflow-y: hidden;
     border: solid 0px black;
@@ -26,8 +26,8 @@
 }
 .intro-subpage, .intro-subpage-1{
     float: left;
-    width: 70vw;
-    height: 68vh;
+    width: 820px;
+    height: 630px;
     white-space: normal;
     background-repeat: no-repeat;
 }
@@ -116,7 +116,152 @@ hr.intro-title{
     top: 60px;
     width: 540px;
 }
-
+.ra-circle_block{
+    position: relative;
+    top:65px;
+    height: 370px;
+    width: 930px;
+    margin-top: 0vh;
+    border: solid 0px green;
+}
+.ra-circle_first{
+    position: relative;
+    height: 170px;
+    width: 930px;
+}
+.ra-circle_second{
+    position: relative;
+    height: 170px;
+    width: 930px;
+    top:30px;
+}
+.ra-circle_l{
+    background-image: url(../image/icon/bgcolor.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position:absolute;
+    text-align: center;
+    font-family: ‘Noto Sans TC’, ‘微軟正黑體’, sans-serif;
+    /*font-weight: bold ;*/
+    font-size: 17px;
+    border-radius: 999em;
+    width:170px;
+    /*background-color: black;*/
+    height:170px;
+    color: #FFFFFF;
+    left:55px;
+    /*padding: 15px;
+    /*left: 99vmin;*/
+    /*top: 1vmin;*/
+    /*display: flex;
+    align-items: flex-start;*/
+}
+.ra-circle_2{
+    background-image: url(../image/icon/bgcolor.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position:absolute;
+    text-align: center;
+    font-family: ‘Noto Sans TC’, ‘微軟正黑體’, sans-serif;
+    /*font-weight: bold ;*/
+    font-size: 17px;
+    border-radius: 999em;
+    width:170px;
+    /*background-color: black;*/
+    height:170px;
+    color: #FFFFFF;
+    left:290px;
+    /*padding: 15px;
+    /*left: 99vmin;*/
+    /*top: 1vmin;*/
+    /*display: flex;
+    align-items: flex-start;*/
+}
+.ra-circle_3{
+    background-image: url(../image/icon/bgcolor.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position:absolute;
+    text-align: center;
+    font-family: ‘Noto Sans TC’, ‘微軟正黑體’, sans-serif;
+    /*font-weight: bold ;*/
+    font-size: 17px;
+    border-radius: 999em;
+    width:170px;
+    /*background-color: black;*/
+    height:170px;
+    color: #FFFFFF;
+    left:525px;
+    /*padding: 15px;
+    /*left: 99vmin;*/
+    /*top: 1vmin;*/
+    /*display: flex;
+    align-items: flex-start;*/
+}
+.ra-circle_4{
+    background-image: url(../image/icon/bgcolor.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position:absolute;
+    text-align: center;
+    font-family: ‘Noto Sans TC’, ‘微軟正黑體’, sans-serif;
+    /*font-weight: bold ;*/
+    font-size: 17px;
+    border-radius: 999em;
+    width:170px;
+    /*background-color: black;*/
+    height:170px;
+    color: #FFFFFF;
+    left:180px;
+    /*padding: 15px;
+    /*left: 99vmin;*/
+    /*top: 1vmin;*/
+    /*display: flex;
+    align-items: flex-start;*/
+}
+.ra-circle_5{
+    background-image: url(../image/icon/bgcolor.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position:absolute;
+    text-align: center;
+    font-family: ‘Noto Sans TC’, ‘微軟正黑體’, sans-serif;
+    /*font-weight: bold ;*/
+    font-size: 17px;
+    border-radius: 999em;
+    width:170px;
+    /*background-color: black;*/
+    height:170px;
+    color: #FFFFFF;
+    left:415px;
+    /*padding: 15px;
+    /*left: 99vmin;*/
+    /*top: 1vmin;*/
+    /*display: flex;
+    align-items: flex-start;*/
+}
+.ra-circle_6{
+    background-image: url(../image/icon/bgcolor.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position:absolute;
+    text-align: center;
+    font-family: ‘Noto Sans TC’, ‘微軟正黑體’, sans-serif;
+    /*font-weight: bold ;*/
+    font-size: 17px;
+    border-radius: 999em;
+    width:170px;
+    
+    /*background-color: black;*/
+    height:170px;
+    color: #FFFFFF;
+    left:650px;
+    /*padding: 15px;
+    /*left: 99vmin;*/
+    /*top: 1vmin;*/
+    /*display: flex;
+    align-items: flex-start;*/
+}
 /*
 @media (min-width: 550px) and (max-width: 900px){
     .intro-first-page-text{
