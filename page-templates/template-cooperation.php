@@ -16,24 +16,54 @@
                     <div class="ra-circle_block">
                         <div class="ra-circle_first">
                             <div class="ra-circle_l">
-                                
+                                <div class="circle_p1_1">
+                                    台達電子工業
+                                </div>
+                                <div class="circle_p2">
+                                    股份有限公司       
+                                </div>
                             </div>
                             <div class="ra-circle_2">
-                                
+                                <div class="circle_p1_1">
+                                    宣捷生物科技
+                                </div>
+                                <div class="circle_p2">
+                                    股份有限公司
+                                </div>
                             </div>
                             <div class="ra-circle_3">
-                                
+                                <div class="circle_p1_1">
+                                    康健基因科技
+                                </div>
+                                <div class="circle_p2">
+                                    股份有限公司
+                                </div>
                             </div>
                         </div>
                         <div class="ra-circle_second">
                             <div class="ra-circle_4">
-                                
+                                <div class="circle_p1_1">
+                                    康鶴生醫科技
+                                </div>
+                                <div class="circle_p2">
+                                    股份有限公司
+                                </div>
                             </div>
                             <div class="ra-circle_5">
-                                
+                                <div class="circle_p1_2">
+                                    琦芯科技
+                                </div>
+                                <div class="circle_p2">
+                                    股份有限公司
+                                </div>
                             </div>
                             <div class="ra-circle_6">
-                                666
+                                <div class="circle_p1_2">
+                                    瀚源生醫
+                                </div>
+                                <div class="circle_p2">
+                                    股份有限公司
+                                </div>
                             </div>
                         </div>
                     </div>

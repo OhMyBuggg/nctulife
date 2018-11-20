@@ -134,6 +134,40 @@ hr.intro-title{
     height: 170px;
     width: 930px;
     top:30px;
+
+}
+.circle_p1_1{
+    width: 100%;
+    position: relative;
+    top:45%;
+    font-family: ‘Noto Sans TC’, ‘微軟正黑體’, sans-serif;
+    font-weight: bold;
+    font-size: 23.7px;
+    line-height: 15.79pt;
+    color: #ffffff;
+}
+.circle_p1_2{
+    width: 100%;
+    position: relative;
+    top:45%;
+    left: 13%;
+    font-family: ‘Noto Sans TC’, ‘微軟正黑體’, sans-serif;
+    font-weight: bold;
+    font-size: 23.7px;
+    line-height: 15.79pt;
+    color: #ffffff;
+}
+.circle_p2{
+    width: 100%;
+    position: relative;
+    opacity: 0.5;
+    top:48%;
+    left:14%;
+    font-family: ‘Noto Sans TC’, ‘微軟正黑體’, sans-serif;
+    font-weight: light;
+    font-size: 15.04px;
+    line-height: 15.79px;
+    color: #ffffff;
 }
 .ra-circle_l{
     background-image: url(../image/icon/bgcolor.png);
@@ -150,6 +184,7 @@ hr.intro-title{
     height:170px;
     color: #FFFFFF;
     left:55px;
+
     /*padding: 15px;
     /*left: 99vmin;*/
     /*top: 1vmin;*/
@@ -171,6 +206,7 @@ hr.intro-title{
     height:170px;
     color: #FFFFFF;
     left:290px;
+
     /*padding: 15px;
     /*left: 99vmin;*/
     /*top: 1vmin;*/
@@ -192,6 +228,7 @@ hr.intro-title{
     height:170px;
     color: #FFFFFF;
     left:525px;
+  
     /*padding: 15px;
     /*left: 99vmin;*/
     /*top: 1vmin;*/
@@ -213,6 +250,7 @@ hr.intro-title{
     height:170px;
     color: #FFFFFF;
     left:180px;
+  
     /*padding: 15px;
     /*left: 99vmin;*/
     /*top: 1vmin;*/
@@ -234,6 +272,7 @@ hr.intro-title{
     height:170px;
     color: #FFFFFF;
     left:415px;
+   
     /*padding: 15px;
     /*left: 99vmin;*/
     /*top: 1vmin;*/
@@ -256,12 +295,19 @@ hr.intro-title{
     height:170px;
     color: #FFFFFF;
     left:650px;
+   
     /*padding: 15px;
     /*left: 99vmin;*/
     /*top: 1vmin;*/
     /*display: flex;
     align-items: flex-start;*/
 }
+.ra-circle_l:hover{ background:rgba(0,6,121,0.6); }
+.ra-circle_2:hover{ background:rgba(0,6,121,0.6); }
+.ra-circle_3:hover{ background:rgba(0,6,121,0.6); }
+.ra-circle_4:hover{ background:rgba(0,6,121,0.6); }
+.ra-circle_5:hover{ background:rgba(0,6,121,0.6); }
+.ra-circle_6:hover{ background:rgba(0,6,121,0.6); }
 /*
 @media (min-width: 550px) and (max-width: 900px){
     .intro-first-page-text{
