@@ -13,7 +13,30 @@
                 <div class="intro-subpage-1">    <!--first page-->
                     <div class="intro-bigTitle_1">產學合作</div>
                     <!--下半部分-->
-                    <p class="intro-first-page-text_1">本博士班成立目標為培育具有生物科技產業前瞻視野，開發產業界所需之創新技術，且具備生物科技產品研發能力的博士人才。主要發展為「精準生醫研創平台.跨領域產學整合」 ，以學術研究為基準，進而解決臨床及產業應用問題為主要方向。期望整合本院師資及跨領域專長技術，配合本校雄厚之資通訊半導體研發能量，帶領台灣生物科技產業跨入創新產業技術領域，藉此促進產業升級，建立國內生物科技產業界與學術界合利互利共生之典範。</p>
+                    <div class="ra-circle_block">
+                        <div class="ra-circle_first">
+                            <div class="ra-circle_l">
+                                
+                            </div>
+                            <div class="ra-circle_2">
+                                
+                            </div>
+                            <div class="ra-circle_3">
+                                
+                            </div>
+                        </div>
+                        <div class="ra-circle_second">
+                            <div class="ra-circle_4">
+                                
+                            </div>
+                            <div class="ra-circle_5">
+                                
+                            </div>
+                            <div class="ra-circle_6">
+                                666
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
