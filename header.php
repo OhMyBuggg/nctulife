@@ -156,7 +156,7 @@
                             <a href="<?php echo site_url(); ?>/cooperation"><div id="mysidetext6" class="menu_block" style="transition:2.8s;"><div class="header-icon header-icon5"><div class="menutext">產學合作</div></div></div></a>
                             <!--<a href="<?php echo site_url(); ?>/regulations_and_forms"><div id="mysidetext7" class="menu_block" style="transition:3.2s;"><div class="header-icon header-icon6"><div class="menutext">下載專區</div></div></div></a>-->
                             <a href="<?php echo site_url(); ?>/enroll_info"><div id="mysidetext7" class="menu_block" style="transition:3.2s;"><div class="header-icon header-icon6"><div class="menutext">招生資訊</div></div></div></a>
-                            <a href="<?php echo site_url(); ?>/contact"><div id="mysidetext2" class="menu_block" style="transition:1.2s;"><div class="header-icon header-icon1"><div class="menutext">聯絡我們</div></div></div></a>
+                            <a href="<?php echo site_url(); ?>/contact"><div id="mysidetext2" class="menu_block" style="transition:1.2s;"><div class="header-icon header-icon7"><div class="menutext">聯絡我們</div></div></div></a>
 
 
             <div class="mobile-foot"> <!--AnnieDisplayNone-->
@@ -185,8 +185,9 @@
                 <div id="header-block2">生</div>
                 <div id="header-block3">科</div>
                 <div id="header-block4">院</div>
+                <div id="header-block8">產業博士班</div>
                 <div id="header-block5">國立交通大學</div>
-                <div id="header-block6">The College of Science</div>
+                <div id="header-block6">Ph.D in Industrial Development of<br>College of Biological Science and Technology</div>
                 <div id="header-block7">Ph.D in<br>Industrial<br>Development<br>of<br>CBST</div>
 		<a href="<?php echo site_url(); ?>"><div class="header-block-link"></div></a>
 </div>
@@ -204,8 +205,9 @@
                 <div id="header-block2">生</div>
                 <div id="header-block3">科</div>
                 <div id="header-block4">院</div>
+                <div id="header-block8">產業博士班</div>
                 <div id="header-block5">國立交通大學</div>
-                <div id="header-block6">The College of Science</div>
+                <div id="header-block6">Ph.D in Industrial Development of<br>College of Biological Science and Technology</div>
                 <div id="header-block7">Ph.D in<br>Industrial<br>Development<br>of<br>CBST</div>
 
             </div>
@@ -240,7 +242,7 @@
                 <div class="header-icon header-icon6"><div class="header-text">招生資訊</div></div>
             </a>
             <a href="<?php echo site_url(); ?>/contact">
-                <div class="header-icon header-icon1"><div class="header-text">聯絡我們</div></div>
+                <div class="header-icon header-icon7"><div class="header-text">聯絡我們</div></div>
             </a>
             </div>
 	</div>
