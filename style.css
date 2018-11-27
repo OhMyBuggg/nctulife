@@ -114,8 +114,8 @@ a{font-family:'Noto Sans TC', '微軟正黑體', sans-serif; text-decoration:non
 	height: 100%;
 	background-color: rgba(255,255,255,0.45);
 	z-index: 10;
-	transition: width 2s;
-	-webkit-transition: width 2s;
+	transition: width 1.8s;
+	-webkit-transition: width 1.8s;
 }
 #header:hover{
 	width: 22vw;
@@ -126,8 +126,8 @@ a{font-family:'Noto Sans TC', '微軟正黑體', sans-serif; text-decoration:non
 	left:0px;
 	width: 150px;
 	height: 22.5vh;
-	transition: width 2s;
-	-webkit-transition: width 2s;
+	transition: width 1.8s;
+	-webkit-transition: width 1.8s;
     border: solid 0px green;
 }
 #header:hover #header-block-link{
@@ -140,80 +140,103 @@ a{font-family:'Noto Sans TC', '微軟正黑體', sans-serif; text-decoration:non
 	width: 150px;
 	height: 180px;
 }
-#header-block1{  /*藍色色塊*/
+#header-block1{  /*黃色色塊*/
 	position: absolute;
 	bottom: 0px;
 	left:0px;
 	width: 150px;
 	height: 180px;
-	background: #002D5A;
-	transition:  width 1.5s, height 1s;
-	-webkit-transition:  width 1.5s, height 1s;
+	background: #FFBB00;
+	transition:  width 2s, height 1s;
+	-webkit-transition:  width 2s, height 1s;
 }
 #header:hover #header-block1{
-	width: 18vw;
-	height: 3.3vh;
+	width: 320px;
+	height: 5.7vh;
 }
-#header-block2{   /*理*/ 
+#header-block2{   /*生*/ 
 	position:fixed;
-	top: 3.125vh;
+	top: 5vh;
 	line-height: 4vh;
-	left: 1vw;
-	font-size:2em;
+	left: 17px;
+	font-size:30px;
 	color:white;
 	transition: color 2s,top 2s,left 2s,font-size 2.3s ease-out;
 	-webkit-transition: color 2s,top 2s,left 2s,font-size 2s ease-out;
 }
 #header:hover #header-block2{
-	top: 12vh;
+    font-family: ‘Noto Sans TC’, ‘微軟正黑體’, sans-serif;
+	top: 13vh;
 	left: 4vw;
-	font-size: 2.4em;
+	font-size: 30px;
 	color: black;
 	transition: color 2s,top 2s,left 2s,font-size 2.3s ease-in;
 	-webkit-transition: color 2s,top 2s,left 2s,font-size 2s ease-in;
 }
-#header-block3{   /*學*/
+#header-block3{   /*科*/
 	position:fixed;
-	top: 8.125vh;
+	top: 10.5vh;
 	line-height: 4vh;
-	left: 1vw;
-	font-size:2em;
+	left: 17px;
+	font-size:30px;
 	color:white;
 	transition: color 2s,top 2s,left 2s,font-size 2.3s ease-out;
 	-webkit-transition: color 2s,top 2s,left 2s,font-size 2s ease-out;
 }
 #header:hover #header-block3{
-	top: 12vh;
-	left: 9vw;
-	font-size: 2.4em;
+    font-family: ‘Noto Sans TC’, ‘微軟正黑體’, sans-serif;
+	top: 13vh;
+	left: 6.2vw;
+	font-size: 30px;
 	color: black;
 	transition: color 2s,top 2s,left 2s,font-size 2.3s ease-in;
 	-webkit-transition: color 2s,top 2s,left 2s,font-size 2s ease-in;
 }
 #header-block4{   /*院*/
 	position:fixed;
-	top: 13.125vh;
+	top: 16vh;
 	line-height: 4vh;
-	left: 1vw;
-	font-size:2em;
+	left: 17px;
+	font-size:30px;
 	color:white;
 	transition: color 2s,top 2s,left 2s,font-size 2.3s ease-out;
 	-webkit-transition: color 2s,top 2s,left 2s,font-size 2s ease-out;
 }
 #header:hover #header-block4{
-	top: 12vh;
-	left: 14vw;
-	font-size: 2.4em;
+    font-family: ‘Noto Sans TC’, ‘微軟正黑體’, sans-serif;
+	top: 13vh;
+	left: 8.4vw;
+	font-size: 30px;
 	color: black;
 	transition: color 2s,top 2s,left 2s,font-size 2.3s ease-in;
 	-webkit-transition: color 2s,top 2s,left 2s,font-size 2s ease-in;
+}
+#header-block8{   /*產業博士班*/
+    position:fixed;
+    top: 17vh;
+    line-height: 4vh;
+    left: -30vw;
+    font-size:30px;
+    color:white;
+}
+#header:hover #header-block8{
+    font-family: ‘Noto Sans TC’, ‘微軟正黑體’, sans-serif;
+    top: 13vh;
+    left: 10.6vw;
+    letter-spacing: 4px;
+    font-size: 30px;
+    color: black;
+    transition: color 2s,left 0s;
+    transition-delay: 1s;
+    -webkit-transition: color 2s,left 0s;
+    -webkit-transition-delay: 1s;
 }
 #header-block5{   /*國立交通大學*/
 	position:fixed;
 	top: 8vh;
     line-height: 2vh;
 	left: -30vw;
-	font-size:1.2em;
+	font-size:1em;
 	letter-spacing: 0.2em; 
 	color: rgba(0,0,0,0);
 }
@@ -227,27 +250,27 @@ a{font-family:'Noto Sans TC', '微軟正黑體', sans-serif; text-decoration:non
 }
 #header-block6{   /*The College of Science*/
 	position:fixed;
-	top: 19vh;
+	top: 147px;
 	left: -30vw;
-	font-size:0.7em;
+	font-size:0.5em;
 	letter-spacing: 0.1em; 
-    line-height: 3.3vh;
+    line-height: 2vh;
 	color: #002D5A;
 }
 #header:hover #header-block6{
 	color: white;
 	left: 4vw;
-	transition: color 2s,left 0s;
-	transition-delay: 1s;
-	-webkit-transition: color 2s,left 0s;
-	-webkit-transition-delay: 0.8s;
+	transition: color 1.8s,left 1.2s;
+	transition-delay: 0.5s;
+	-webkit-transition: color 1.8s,left 1.2s;
+	-webkit-transition-delay: 0.5s;
 }
 #header-block7{   /*The College of Science(直)*/ 
 	position:fixed;
-	top: 3.125vh;
-	left: 4vw;
-	font-size:0.8em;
-	line-height: 4vh;
+	top: 5vh;
+	left: 53px;
+	font-size:0.7em;
+	line-height: 22px;
 	color:white;
 	transition: left 0s;
 	transition-delay: 1.5s;
@@ -268,12 +291,12 @@ a{font-family:'Noto Sans TC', '微軟正黑體', sans-serif; text-decoration:non
 
 .header-icon{
 	position: relative;
-    margin-top: 3vh;
+    margin-top: 30px;
 	/*margin-top: 25px;
 	margin-bottom: 35px;*/
-	left: 2.5vw;
+	left: 3vw;
 	vertical-align: middle;
-	height: 3vw;
+	height: 40px;
 	opacity: 0.5;
 	transition: left 2s,opacity 2s;
 	-webkit-transition: left 2s,opacity 2s;
@@ -286,17 +309,18 @@ a{font-family:'Noto Sans TC', '微軟正黑體', sans-serif; text-decoration:non
 	opacity: 1;
 	left: 4vw;
 }
-.header-icon1{background-image:url(image/icon/icon_01.png);}
-.header-icon2{background-image:url(image/icon/icon_02-01.png);}
-.header-icon3{background-image:url(image/icon/icon_03-01.png);}
-.header-icon4{background-image:url(image/icon/icon_04-01.png);}
-.header-icon5{background-image:url(image/icon/icon_05-01.png);}
-.header-icon6{background-image:url(image/icon/icon_06-01.png);}
+.header-icon1{background-image:url(image/icon/icon_1.png);}
+.header-icon2{background-image:url(image/icon/icon_2.png);}
+.header-icon3{background-image:url(image/icon/icon_3.png);}
+.header-icon4{background-image:url(image/icon/icon_4.png);}
+.header-icon5{background-image:url(image/icon/icon_5.png);}
+.header-icon6{background-image:url(image/icon/icon_6.png);}
+.header-icon7{background-image:url(image/icon/icon_7.png);}
 .header-text{
 	position: relative;
-	left:-30vw;
+	left:45px;
 	font-family: 'Noto Sans TC', '微軟正黑體', sans-serif;
-	font-weight: 250;
+	font-weight: regular;
 	font-size: 1.45em;
 	letter-spacing: 0.075em;
 	line-height: 3vw;
