@@ -27,15 +27,15 @@
 .ra-title1_1{
     font-family: ‘Noto Sans TC’, ‘微軟正黑體’, sans-serif;
     font-weight: regular ;
-    font-size: 38px;
+    font-size: 5.5vh;
     color: #000000;
     line-height: 45.6pt;
     background-image:url(../image/icon/underline.png);
     background-size:220px 12px; 
     background-repeat: no-repeat;
     background-position: right bottom;
-    height: 56px;
-    width: 258px;
+    height: 8vh;
+    width: 16.9vw;
     display: flex;
     align-items: flex-start;
 }
