@@ -156,7 +156,7 @@ hr.ft-hr{
 .hp-p01_3{ background-image:url(../image/bg/index_bg08.jpg); }
 .hp-p01_1{ background-image:url(../image/bg/index_bg09.jpg); }
 .hp-p01_2{ background-image:url(../image/bg/index_bg12.jpg); }
-.hp-p01_0{ background-image:url(../image/bg/index_bg03_1.png); }
+.hp-p01_0{ background-image:url(../image/bg/index_bg03.jpg); }
 .hp-p02{
     background-image:url(../image/bg/02.png),url(../image/p4.png);
     background-size:cover,auto;
@@ -192,7 +192,7 @@ hr.ft-hr{
     /*page1*/
     .language-opt{
         position:absolute;
-        top: 13vmin;
+        top: 8vmin;
         right:8vmin;
     }
     .lang-left{

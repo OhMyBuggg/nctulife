@@ -33,7 +33,7 @@
     <div class="bgcontainer"></div>
         <div class="container" style="overflow-y: hidden">
         <div class="hp-container">
-                    <div class="hp-news hp-news0">  news1 
+                    <div class="hp-news hp-news0"> <!-- news1 -->
             <div class="icon_down"><div class="right_icon"></div></div>
                         <div class="hp-newsheader">
                             <div id="hp-news-icon1" class="hp-news-icon"></div>
@@ -54,7 +54,7 @@
                                     $the_query->the_post();
                                     if($is_multiple):
                             ?>
-                                <hr class="news_line">
+                                <!--<hr class="news_line">-->
                             <?php endif; ?>
                             <div class="hp-news_item_date"><?php the_time('Y.m.j'); ?></div>
                             <a class="hp-news_item_title" href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
@@ -70,7 +70,7 @@
                             ?>
                         </div>
                     </div>
-                    <div class="hp-news hp-news1">  news2 
+                    <div class="hp-news hp-news1"> <!-- news2 -->
                         <div class="icon_up"><div class="left_icon"></div></div>
                         <div class="icon_down"><div class="right_icon"></div></div>
                         <div class="hp-newsheader">
@@ -100,7 +100,7 @@
                                     $the_query->the_post();
                                     if($is_multiple):
                             ?>
-                                <hr class="news_line">
+                                <!--<hr class="news_line">-->
                             <?php endif; ?>
                             <div class="hp-news_item_date"><?php the_time('Y.m.j'); ?></div>
                             <a class="hp-news_item_title" href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
@@ -116,7 +116,7 @@
                             ?>
                         </div>
                     </div>
-                    <div class="hp-news hp-news2"> news3 
+                    <div class="hp-news hp-news2"> <!-- news3 -->
                         <div class="icon_up"><div class="left_icon"></div></div>
                         <div class="icon_down"><div class="right_icon"></div></div>
                         <div class="hp-newsheader">
@@ -138,7 +138,7 @@
                                     $the_query->the_post();
                                     if($is_multiple):
                             ?>
-                                <hr class="news_line">
+                                <!--<hr class="news_line">-->
                             <?php endif; ?>
                             <div class="hp-news_item_date"><?php the_time('Y.m.j'); ?></div>
                             <a class="hp-news_item_title" href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
@@ -154,7 +154,7 @@
                             ?>
                         </div>
                     </div>
-                    <div class="hp-news hp-news3">  news4 
+                    <div class="hp-news hp-news3"> <!-- news4 -->
                         <div class="icon_up"><div class="left_icon"></div></div>    
                         <div class="hp-newsheader">
                             <div id="hp-news-icon4" class="hp-news-icon"></div>
@@ -175,7 +175,7 @@
                                     $the_query->the_post();
                                     if($is_multiple):
                             ?>
-                                <hr class="news_line">
+                                <!--<hr class="news_line">-->
                             <?php endif; ?>
                             <div class="hp-news_item_date"><?php the_time('Y.m.j'); ?></div>
                             <a class="hp-news_item_title" href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
@@ -192,7 +192,7 @@
                         </div>
             </div>
             </div>
-
+<!--
             <div class="mobile-foot">
                 <div class="foot-top">
                     <p class="foot-font-top formobile">TEL│886-3-572-7077</p>
@@ -204,9 +204,9 @@
         <p class="foot-font-bottom formobile">300 新竹市東區大學路1001號基礎科學教學研究大樓一樓101室</p>
         </div>
             </div>
-
+-->
         </div>
-    </div>-->
+    </div>
     <div class="hp-p03">
         <div class="container">
             <div id="hp-field-pic1" class="hp-field-before"></div>
@@ -231,7 +231,7 @@
                 </div>
             </a>
         </div>
-    </div>-->
+    </div>
     <div class="hp-p04">
         <div class="container">
             <div id="hp-gallery">
@@ -268,7 +268,7 @@
                 </a>
             </div>
         </div>
-    </div>-->
+    </div>
     <div class="hp-p05">
         <div class="container">
             <div id="p5-left"></div>
@@ -314,7 +314,7 @@
                     </div>
                 </div>
             </div>
-        </div>-->
+        </div>
     </div>
 </div>
 <script>
