@@ -122,7 +122,7 @@
         <script src='<?php bloginfo('template_url');?>/js/perfect-scrollbar/js/perfect-scrollbar.jquery.js'></script>
         <script src='<?php bloginfo('template_url');?>/js/lightbox2/dist/js/lightbox.js'></script>
 <?php
-    if(is_page('homepage')){
+    if(is_page('academics')){
         echo '
     <script src="' ; bloginfo('template_url') ; echo '/js/homepage.js" type="text/javascript" media="screen and (min-width:701px)"></script>';
     }else if(is_page_template('template-newslist.php')){

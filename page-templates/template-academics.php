@@ -15,21 +15,7 @@
             </div>
         </ul>
     </div>
-    <div class="hp-p01_next hp-p01_1" style="display:none;"></div>
-    <div class="hp-p01 hp-p01_0">
-        <div class="language-opt">
-            <div class="lang-left lang-choose">
-                中文
-            </div>
-            <a href="<?php echo site_url(); ?>/en-homepage/?lang=en">
-        <!--<a href="http://188.166.179.62/homepage">-->
-        <div class="lang-right lang-normal">
-                English
-            </div>
-        </a>
-        </div>
-    </div>
-    <div class="hp-p02">
+    <div class="hp-p01">
     <div class="bgcontainer"></div>
         <div class="container" style="overflow-y: hidden">
         <div class="hp-container">
@@ -207,6 +193,19 @@
 -->
         </div>
     </div>
+    <div class="hp-p02 hp-p02_0">
+        <div class="language-opt">
+            <div class="lang-left lang-choose">
+                中文
+            </div>
+            <a href="<?php echo site_url(); ?>/en-homepage/?lang=en">
+        <!--<a href="http://188.166.179.62/homepage">-->
+        <div class="lang-right lang-normal">
+                English
+            </div>
+        </a>
+        </div>
+    </div>
     <div class="hp-p03">
         <div class="container">
             <div id="hp-field-pic1" class="hp-field-before"></div>
@@ -326,8 +325,8 @@
         old_bg = now_bg;
         now_bg = (now_bg+1)%9;
         next_bg = (now_bg+1)%9;
-        $(".hp-p01").addClass("hp-p01_"+now_bg).removeClass("hp-p01_"+old_bg);
-        $(".hp-p01_next").addClass("hp-p01_"+next_bg).removeClass("hp-p01_"+now_bg);
+        $(".hp-p02").addClass("hp-p02_"+now_bg).removeClass("hp-p02_"+old_bg);
+        $(".hp-p02_next").addClass("hp-p02_"+next_bg).removeClass("hp-p02_"+now_bg);
         timer = setTimeout(showNext, frequency);
     }
     
