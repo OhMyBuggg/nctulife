@@ -148,7 +148,7 @@
 			<div class="sidenavlink">
 			    <a href="<?php echo site_url(); ?>"><div id="mysidetext1" class="menu_block" style="transition:0.8s;"><div class="header-icon header-icon0"><div class="menutext">首頁</div></div></div></a>
                             <a href="<?php echo site_url(); ?>/intro"><div id="mysidetext2" class="menu_block" style="transition:1.2s;"><div class="header-icon header-icon1"><div class="menutext">系所簡介</div></div></div></a>
-                            <!--<a href="<?php echo site_url(); ?>/academics"><div id="mysidetext3" class="menu_block"  style="transition:1.6s;"><div class="header-icon header-icon2"><div class="menutext">學術單位</div></div></div></a>-->
+                            <a href="<?php echo site_url(); ?>/academics"><div id="mysidetext3" class="menu_block"  style="transition:1.6s;"><div class="header-icon header-icon2"><div class="menutext">學術單位</div></div></div></a>-
                             <a href="<?php echo site_url(); ?>/research_achievements"><div id="mysidetext5" class="menu_block" style="transition:2.4s;"><div class="header-icon header-icon4"><div class="menutext">研究發展</div></div></div></a>
                             <!--<a href="<?php echo site_url(); ?>/admissions"><div id="mysidetext4" class="menu_block"  style="transition:2s;"><div class="header-icon header-icon3"><div class="menutext">招生資訊</div></div></div></a>-->
                             <a href="<?php echo site_url(); ?>/learning_info"><div id="mysidetext4" class="menu_block"  style="transition:2s;"><div class="header-icon header-icon3"><div class="menutext">修業資訊</div></div></div></a>
@@ -217,8 +217,8 @@
             <a href="<?php echo site_url(); ?>/intro">
                 <div class="header-icon header-icon1"><div class="header-text">系所簡介</div></div>
             </a>
-            <!--<a href="<?php echo site_url(); ?>/academics">
-                <div class="header-icon header-icon2"><div class="header-text">學術單位</div></div></a>-->
+            <a href="<?php echo site_url(); ?>/academics">
+                <div class="header-icon header-icon2"><div class="header-text">學術單位</div></div></a>
             <a href="<?php echo site_url(); ?>/research_achievements">
                 <div class="header-icon header-icon4"><div class="header-text">研究發展</div></div>
             </a>
