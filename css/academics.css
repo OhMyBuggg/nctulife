@@ -148,15 +148,15 @@ hr.ft-hr{
     height:100vh;
     transition: all 1.5s ease-in-out;
 }
-.hp-p01_8{ background-image:url(../image/bg/index_bg11.jpg); }
-.hp-p01_7{ background-image:url(../image/bg/index_bg04.jpg); }
-.hp-p01_5{ background-image:url(../image/bg/index_bg05.jpg); }
-.hp-p01_6{ background-image:url(../image/bg/index_bg06.jpg); }
-.hp-p01_4{ background-image:url(../image/bg/index_bg07.jpg); }
-.hp-p01_3{ background-image:url(../image/bg/index_bg08.jpg); }
-.hp-p01_1{ background-image:url(../image/bg/index_bg09.jpg); }
-.hp-p01_2{ background-image:url(../image/bg/index_bg12.jpg); }
-.hp-p01_0{ background-image:url(../image/bg/index_bg03.jpg); }
+.hp-p02_8{ background-image:url(../image/bg/index_bg11.jpg); }
+.hp-p02_7{ background-image:url(../image/bg/index_bg04.jpg); }
+.hp-p02_5{ background-image:url(../image/bg/index_bg05.jpg); }
+.hp-p02_6{ background-image:url(../image/bg/index_bg06.jpg); }
+.hp-p02_4{ background-image:url(../image/bg/index_bg07.jpg); }
+.hp-p02_3{ background-image:url(../image/bg/index_bg08.jpg); }
+.hp-p02_1{ background-image:url(../image/bg/index_bg09.jpg); }
+.hp-p02_2{ background-image:url(../image/bg/index_bg12.jpg); }
+.hp-p02_0{ background-image:url(../image/bg/index_bg03.jpg); }
 .hp-p02{
     background-image:url(../image/bg/02.png),url(../image/p4.png);
     background-size:cover,auto;
