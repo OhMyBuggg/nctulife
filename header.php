@@ -124,7 +124,7 @@
 <?php
     if(is_page('academics')){
         echo '
-    <script src="' ; bloginfo('template_url') ; echo '/js/homepage.js" type="text/javascript" media="screen and (min-width:701px)"></script>';
+    <script src="' ; bloginfo('template_url') ; echo '/js/jumptopage.js" type="text/javascript" media="screen and (min-width:701px)"></script>';
     }else if(is_page_template('template-newslist.php')){
         echo '<script src="' ; bloginfo('template_url') ; echo '/js/jumptopage.js" type="text/javascript"></script>';
     }
