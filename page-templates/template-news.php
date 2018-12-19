@@ -1,6 +1,6 @@
 <?php
 /*
- * Template Name: academics
+ * Template Name: news
  */
     
         get_header();

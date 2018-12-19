@@ -60,9 +60,9 @@
         echo'/mobile-css/studying_abroad-mobile.css" type="text/css" media="screen and (max-width: 700px)" />';
 
     }
-    else if(is_page('academics')||is_page('research_centers')||is_page('academics_test')){/*學術單位*/
+    else if(is_page('news')||is_page('research_centers')||is_page('academics_test')){/*學術單位*/
         echo '<link rel="stylesheet" href="';bloginfo('template_url'); 
-        echo'/css/academics.css" type="text/css" media="screen and (min-width: 701px)" />';
+        echo'/css/news.css" type="text/css" media="screen and (min-width: 701px)" />';
 
         echo '<link rel="stylesheet" href="';bloginfo('template_url');
         echo'/mobile-css/academics-mobile.css" type="text/css" media="screen and (max-width: 700px)" />';
@@ -122,7 +122,7 @@
         <script src='<?php bloginfo('template_url');?>/js/perfect-scrollbar/js/perfect-scrollbar.jquery.js'></script>
         <script src='<?php bloginfo('template_url');?>/js/lightbox2/dist/js/lightbox.js'></script>
 <?php
-    if(is_page('academics')){
+    if(is_page('news')){
         echo '
     <script src="' ; bloginfo('template_url') ; echo '/js/jumptopage.js" type="text/javascript" media="screen and (min-width:701px)"></script>';
     }else if(is_page_template('template-newslist.php')){
@@ -148,7 +148,7 @@
 			<div class="sidenavlink">
 			    <a href="<?php echo site_url(); ?>"><div id="mysidetext1" class="menu_block" style="transition:0.8s;"><div class="header-icon header-icon0"><div class="menutext">首頁</div></div></div></a>
                             <a href="<?php echo site_url(); ?>/intro"><div id="mysidetext2" class="menu_block" style="transition:1.2s;"><div class="header-icon header-icon1"><div class="menutext">系所簡介</div></div></div></a>
-                            <a href="<?php echo site_url(); ?>/academics"><div id="mysidetext3" class="menu_block"  style="transition:1.6s;"><div class="header-icon header-icon2"><div class="menutext">學術單位</div></div></div></a>-
+                            <a href="<?php echo site_url(); ?>/news"><div id="mysidetext3" class="menu_block"  style="transition:1.6s;"><div class="header-icon header-icon2"><div class="menutext">學術單位</div></div></div></a>-
                             <a href="<?php echo site_url(); ?>/research_achievements"><div id="mysidetext5" class="menu_block" style="transition:2.4s;"><div class="header-icon header-icon4"><div class="menutext">研究發展</div></div></div></a>
                             <!--<a href="<?php echo site_url(); ?>/admissions"><div id="mysidetext4" class="menu_block"  style="transition:2s;"><div class="header-icon header-icon3"><div class="menutext">招生資訊</div></div></div></a>-->
                             <a href="<?php echo site_url(); ?>/learning_info"><div id="mysidetext4" class="menu_block"  style="transition:2s;"><div class="header-icon header-icon3"><div class="menutext">修業資訊</div></div></div></a>
@@ -217,7 +217,7 @@
             <a href="<?php echo site_url(); ?>/intro">
                 <div class="header-icon header-icon1"><div class="header-text">系所簡介</div></div>
             </a>
-            <a href="<?php echo site_url(); ?>/academics">
+            <a href="<?php echo site_url(); ?>/news">
                 <div class="header-icon header-icon2"><div class="header-text">學術單位</div></div></a>
             <a href="<?php echo site_url(); ?>/research_achievements">
                 <div class="header-icon header-icon4"><div class="header-text">研究發展</div></div>
