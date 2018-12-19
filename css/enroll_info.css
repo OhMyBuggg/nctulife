@@ -46,11 +46,14 @@
     margin-top: 0.5vmin;
 }
 .intro-bigTitle_1{
+    position: absolute;
+    top:21vh;
+    left:28vw;
     background-image:url(../image/icon/underline.png);
     background-size:220px 12px; 
     background-repeat: no-repeat;
     background-position: right bottom;
-    /*font-family: ‘Noto Sans TC’, ‘微軟正黑體’, sans-serif;*/
+    font-family: ‘Noto Sans TC’, ‘微軟正黑體’, sans-serif;*/
     font-weight: regular;
     font-size: 5.5vh;
     line-height: 45.6pt;
@@ -107,14 +110,14 @@ hr.intro-title{
     border: solid 0px red;
 }
 .intro-first-page-text_1{
-    /*font-family: ‘Noto Sans TC’, ‘微軟正黑體’, sans-serif;*/
+    font-family: ‘Noto Sans TC’, ‘微軟正黑體’, sans-serif;*/
     font-weight: regular;
     font-size: 18px;
     line-height: 31pt;
     color: #000000;
     position: relative;
-    top: 90px;
-    width: 650px;
+    top: 38vh;
+    left: 28vw;
     letter-spacing: 2px;
 }
 
