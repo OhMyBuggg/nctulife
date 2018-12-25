@@ -9,13 +9,13 @@
 <div class="page-intro">
     <div class="container intro-mobile-container">
         <!--<div id="intro-container">-->
-            <div id="intro-wrapper">
+            <!--<div id="intro-wrapper">-->
                 <div class="intro-subpage-1">    <!--first page-->
                     <div class="intro-bigTitle_1">修業資訊</div>
                     <!--下半部分-->
                     <p class="intro-first-page-text_1">本博士班的特點是學生的學習與研究對於產業產生應用貢獻價值，由產學雙方緊密合作、規劃並執行具有前瞻性及產業競爭力的研發主題。學生之畢業論文主題由指導教授與合作企業協定，並由合作企業定期或不定期審查論文進度，研發所得，依學校與企業所訂之產學契約辦理。</p>
               </div>
-            </div>
+            <!--</div>-->
         <!--</div>-->
     </div>
                 <a class="icon_down" href="<?php echo site_url(); ?>/dean" style="opacity:1; transform: matrix(1,0,0,1,0,0);"><div class="right_icon"></div></a>

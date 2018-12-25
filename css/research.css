@@ -15,8 +15,8 @@
 }
 .ra-block{
     position:absolute;
-    top: 22.5vh;
-    left: 26vw;
+    top: 21vh;
+    left: 28vw;
     width: 913px;
     height: 700px;
 }
@@ -27,7 +27,7 @@
 .ra-title1_1{
     font-family: ‘Noto Sans TC’, ‘微軟正黑體’, sans-serif;
     font-weight: regular ;
-    font-size: 5.5vh;
+    font-size: 5vh;
     color: #000000;
     line-height: 45.6pt;
     background-image:url(../image/icon/underline.png);
