@@ -19,15 +19,23 @@
             <div class="ra-circle_block mobilehidden">
                 <div class="ra-circle_b subtitled mobilehidden">跨領域基礎學科</div>
                 <!--<a href="<?php echo site_url(); ?>/research_highlights#pyhsics">-->
+                <a href="https://cbt.nctu.edu.tw/research_highlights/#bioinfo">
                     <div class="ra-circle_l ra-c1 subtitled mobilehidden">生物資訊</div>
+                </a>
                 <!--</a>-->
                 <!--<a href="<?php echo site_url(); ?>/research_highlights#mathmetics">-->
+                <a href="https://cbt.nctu.edu.tw/research_highlights/#cell">
                     <div class="ra-circle_2 ra-c2 subtitled mobilehidden">細胞與腫瘤</div>
+                </a>
                 <!--</a>-->
                 <!--<a href="<?php echo site_url(); ?>/research_highlights#chemistry">-->
+                <a href="https://cbt.nctu.edu.tw/research_highlights/#protein">
                     <div class="ra-circle_3 ra-c3 subtitled mobilehidden">蛋白質<br>及生質能源</div>
+                </a>
                 <!--</a>-->
+                <a href="https://cbt.nctu.edu.tw/research_highlights/#biophysics">
                     <div class="ra-circle_4 ra-c4 subtitled mobilehidden">&nbsp;&nbsp;&nbsp;生物物理<br>&nbsp;&nbsp;&nbsp;奈米檢測<br>與神經科學</div>
+                </a>
             </div>
             <div class="ra-circle_block formobile">
                 <div class="ra-c1_mobile text formobile">物</div>
