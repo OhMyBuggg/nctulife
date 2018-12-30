@@ -7,7 +7,7 @@
 <?php get_header(); ?>
 
 <div class="page-intro">
-    <div class="container intro-mobile-container">
+    <!--<div class="container intro-mobile-container">-->
         <!--<div id="intro-container">-->
             <!--<div id="intro-wrapper">-->
                 <div class="intro-subpage-1">    <!--first page-->
@@ -17,7 +17,7 @@
 	            </div>
             <!--</div>-->
         <!--</div>-->
-    </div>
+    <!--</div>-->
                 <a class="icon_down" href="<?php echo site_url(); ?>/dean" style="opacity:1; transform: matrix(1,0,0,1,0,0);"><div class="right_icon"></div></a>
 <!--
 	<div id="icon_down_wrapper" class="icon_down_slide"></div>
