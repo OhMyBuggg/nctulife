@@ -26,8 +26,8 @@
 }
 .intro-subpage, .intro-subpage-1{
     float: left;
-    width: 70vw;
-    height: 68vh;
+    width: 100vw;
+    height: 100vh;
     white-space: normal;
     background-repeat: no-repeat;
 }
@@ -116,9 +116,20 @@ hr.intro-title{
     line-height: 31pt;
     color: #000000;
     position: relative;
+    width: 42vw;
     top: 38vh;
     left: 28vw;
     letter-spacing: 2px;
+}
+.more-information{
+    background-image: url(../image/bg/暸解更多.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    width:5em;
+    height: 1.2em;
+    top: 59vh;
+    left: 63vw;
 }
 
 /*

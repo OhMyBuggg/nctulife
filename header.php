@@ -8,8 +8,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title><?php bloginfo('name'); ?><?php wp_title(); ?></title>
         <!--<link rel="stylesheet" href="<?php bloginfo('template_url');?>/reset.css" type="text/css" media="screen" />-->
-        <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen and (min-width: 701px)"/>
-	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/style-mobile.css" type="text/css" media="screen and (max-width:700px)"/>
+        <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen and (min-width: 0px)"/>
+	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/style-mobile.css" type="text/css" media="screen and (max-width:0px)"/>
 	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/js/perfect-scrollbar/css/perfect-scrollbar.css" type="text/css" media="screen"/>
     <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/js/lightbox2/dist/css/lightbox.css">
 	<?php
@@ -17,10 +17,10 @@
 
     if(is_page('homepage') || is_page_template('page-templates/template-newslist.php') || is_single() || is_page('videolist') || is_page('search')){ /*首頁*/
         echo '<link rel="stylesheet" href="';bloginfo('template_url');
-        echo'/css/homepage.css" type="text/css" media="screen and (min-width: 701px)" />';
+        echo'/css/homepage.css" type="text/css" media="screen and (min-width: 0px)" />';
 
         echo '<link rel="stylesheet" href="';bloginfo('template_url');
-        echo'/mobile-css/homepage-mobile.css" type="text/css" media="screen and (max-width: 700px)" />';
+        echo'/mobile-css/homepage-mobile.css" type="text/css" media="screen and (max-width: 0px)" />';
 
 
         echo '<link rel="stylesheet" href="';bloginfo('template_url'); 
@@ -28,10 +28,10 @@
     }
     else if(is_page('intro')||is_page('dean')||is_page('vice_dean')||is_page('staff') || is_page('history_of_the_deans')){/*學院簡介*/
         echo '<link rel="stylesheet" href="';bloginfo('template_url');
-        echo'/css/intro.css" type="text/css" media="screen and (min-width: 701px)" />';
+        echo'/css/intro.css" type="text/css" media="screen and (min-width: 0px)" />';
 
         echo '<link rel="stylesheet" href="';bloginfo('template_url');
-        echo'/mobile-css/intro-mobile.css" type="text/css" media="screen and (max-width: 700px)" />';
+        echo'/mobile-css/intro-mobile.css" type="text/css" media="screen and (max-width: 0px)" />';
     }
     else if(is_page('regulations_and_forms')||is_page('conference_room')){/*下載專區*/
         echo '<link rel="stylesheet" href="';bloginfo('template_url');
@@ -62,52 +62,52 @@
     }
     else if(is_page('news')||is_page('research_centers')||is_page('academics_test')){/*學術單位*/
         echo '<link rel="stylesheet" href="';bloginfo('template_url'); 
-        echo'/css/news.css" type="text/css" media="screen and (min-width: 701px)" />';
+        echo'/css/news.css" type="text/css" media="screen and (min-width: 0px)" />';
 
         echo '<link rel="stylesheet" href="';bloginfo('template_url');
-        echo'/mobile-css/academics-mobile.css" type="text/css" media="screen and (max-width: 700px)" />';
+        echo'/mobile-css/academics-mobile.css" type="text/css" media="screen and (max-width: 0px)" />';
     }
     else if(is_page('research_achievements') || is_page('most_subsided_projects') || is_page('research_highlights') || is_page('national_labs')){/*研究發展*/
         echo '<link rel="stylesheet" href="';bloginfo('template_url');
-        echo'/css/research.css" type="text/css" media="screen and (min-width: 701px)" />';
+        echo'/css/research.css" type="text/css" media="screen and (min-width: 0px)" />';
 
         echo '<link rel="stylesheet" href="';bloginfo('template_url'); 
-        echo'/mobile-css/research-mobile.css" type="text/css" media="screen and (max-width: 700px)" />';
+        echo'/mobile-css/research-mobile.css" type="text/css" media="screen and (max-width: 0px)" />';
     }
     else if( is_page('admissions')||is_page('mainland_overseas_chinese') || is_page('international_admissions') ){/*招生資訊*/
         echo '<link rel="stylesheet" href="';bloginfo('template_url'); 
-        echo'/css/admissions.css" type="text/css" media="screen and (min-width: 701px)" />';
+        echo'/css/admissions.css" type="text/css" media="screen and (min-width: 0px)" />';
         
         echo '<link rel="stylesheet" href="';bloginfo('template_url');
-        echo'/mobile-css/admissions-mobile.css" type="text/css" media="screen and (max-width: 700px)" />';
+        echo'/mobile-css/admissions-mobile.css" type="text/css" media="screen and (max-width: 0px)" />';
     }
     else if( is_page('learning_info') ){/*修業資訊*/
         echo '<link rel="stylesheet" href="';bloginfo('template_url'); 
-        echo'/css/learning_info.css" type="text/css" media="screen and (min-width: 701px)" />';
+        echo'/css/learning_info.css" type="text/css" media="screen and (min-width: 0px)" />';
         
         echo '<link rel="stylesheet" href="';bloginfo('template_url');
-        echo'/mobile-css/admissions-mobile.css" type="text/css" media="screen and (max-width: 700px)" />';
+        echo'/mobile-css/admissions-mobile.css" type="text/css" media="screen and (max-width: 0px)" />';
     }
     else if( is_page('cooperation') ){/*產學合作*/
         echo '<link rel="stylesheet" href="';bloginfo('template_url'); 
-        echo'/css/cooperation.css" type="text/css" media="screen and (min-width: 701px)" />';
+        echo'/css/cooperation.css" type="text/css" media="screen and (min-width: 0px)" />';
         
         echo '<link rel="stylesheet" href="';bloginfo('template_url');
-        echo'/mobile-css/admissions-mobile.css" type="text/css" media="screen and (max-width: 700px)" />';
+        echo'/mobile-css/admissions-mobile.css" type="text/css" media="screen and (max-width: 0px)" />';
     }
     else if( is_page('enroll_info') ){/*招生資訊*/
         echo '<link rel="stylesheet" href="';bloginfo('template_url'); 
-        echo'/css/enroll_info.css" type="text/css" media="screen and (min-width: 701px)" />';
+        echo'/css/enroll_info.css" type="text/css" media="screen and (min-width: 0px)" />';
         
         echo '<link rel="stylesheet" href="';bloginfo('template_url');
-        echo'/mobile-css/admissions-mobile.css" type="text/css" media="screen and (max-width: 700px)" />';
+        echo'/mobile-css/admissions-mobile.css" type="text/css" media="screen and (max-width: 0px)" />';
     }
     else if(is_page('contact')){/*聯絡我們*/
         echo '<link rel="stylesheet" href="';bloginfo('template_url');
-        echo'/css/contact.css" type="text/css" media="screen and (min-width: 701px)" />';
+        echo'/css/contact.css" type="text/css" media="screen and (min-width: 0px)" />';
 
         echo '<link rel="stylesheet" href="';bloginfo('template_url');
-        echo'/mobile-css/intro-mobile.css" type="text/css" media="screen and (max-width: 700px)" />';
+        echo'/mobile-css/intro-mobile.css" type="text/css" media="screen and (max-width: 0px)" />';
     }
 
 
@@ -148,7 +148,7 @@
 			<div class="sidenavlink">
 			    <a href="<?php echo site_url(); ?>"><div id="mysidetext1" class="menu_block" style="transition:0.8s;"><div class="header-icon header-icon0"><div class="menutext">首頁</div></div></div></a>
                             <a href="<?php echo site_url(); ?>/intro"><div id="mysidetext2" class="menu_block" style="transition:1.2s;"><div class="header-icon header-icon1"><div class="menutext">系所簡介</div></div></div></a>
-                            <a href="<?php echo site_url(); ?>/news"><div id="mysidetext3" class="menu_block"  style="transition:1.6s;"><div class="header-icon header-icon2"><div class="menutext">學術單位</div></div></div></a>-
+                            <a href="<?php echo site_url(); ?>/news"><div id="mysidetext3" class="menu_block"  style="transition:1.6s;"><div class="header-icon header-icon2"><div class="menutext">最新消息</div></div></div></a>-
                             <a href="<?php echo site_url(); ?>/research_achievements"><div id="mysidetext5" class="menu_block" style="transition:2.4s;"><div class="header-icon header-icon4"><div class="menutext">研究發展</div></div></div></a>
                             <!--<a href="<?php echo site_url(); ?>/admissions"><div id="mysidetext4" class="menu_block"  style="transition:2s;"><div class="header-icon header-icon3"><div class="menutext">招生資訊</div></div></div></a>-->
                             <a href="<?php echo site_url(); ?>/learning_info"><div id="mysidetext4" class="menu_block"  style="transition:2s;"><div class="header-icon header-icon3"><div class="menutext">修業資訊</div></div></div></a>
@@ -218,7 +218,7 @@
                 <div class="header-icon header-icon1"><div class="header-text">系所簡介</div></div>
             </a>
             <a href="<?php echo site_url(); ?>/news">
-                <div class="header-icon header-icon2"><div class="header-text">學術單位</div></div></a>
+                <div class="header-icon header-icon2"><div class="header-text">最新消息</div></div></a>
             <a href="<?php echo site_url(); ?>/research_achievements">
                 <div class="header-icon header-icon4"><div class="header-text">研究發展</div></div>
             </a>
