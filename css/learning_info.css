@@ -57,7 +57,7 @@
     font-family: ‘Noto Sans TC’, ‘微軟正黑體’, sans-serif;*/
     font-weight: regular;
     font-size: 5vh;
-    line-height: 45.6pt;
+    line-height: 9.5vh;
     color: #000000;
     height: 8vh;
     width: 16.9vw;
@@ -117,7 +117,7 @@ hr.intro-title{
     line-height: 2em;
     color: #000000;
     position: relative;
-    top: 38vh;
+    top: 31vh;
     left: 28vw;
     width: 42vw;
 }
@@ -137,10 +137,11 @@ hr.intro-title{
     background-repeat: no-repeat;
     background-size: contain;
     position: relative;
-    width:4em;
-    height: 0.8em;
-    top: 40vh;
+    width:4.5em;
+    height: 1em;
+    top: 39.5vh;
     left: 47vw;
+    border-radius: 5%;
 }
 
 /*
