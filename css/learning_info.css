@@ -111,15 +111,36 @@ hr.intro-title{
     border: solid 0px red;
 }
 .intro-first-page-text_1{
-    /*font-family: ‘Noto Sans TC’, ‘微軟正黑體’, sans-serif;*/
+    font-family: ‘Noto Sans TC’, ‘微軟正黑體’, sans-serif;
     font-weight: regular;
-    font-size: 18px;
-    line-height: 31pt;
+    font-size: 1em;
+    line-height: 2em;
     color: #000000;
     position: relative;
     top: 38vh;
     left: 28vw;
     width: 42vw;
+}
+.download-information{
+    font-family: ‘Noto Sans TC’, ‘微軟正黑體’, sans-serif;
+    font-weight: regular;
+    font-size: 1em;
+    line-height: 2em;
+    color: #000000;
+    position: relative;
+    top: 43vh;
+    left: 28vw;
+    width: 42vw;
+}
+.download{
+    background-image: url(../image/bg/產博修業＿切版-02.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    width:4em;
+    height: 0.8em;
+    top: 40vh;
+    left: 47vw;
 }
 
 /*

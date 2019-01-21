@@ -79,21 +79,21 @@
         echo'/css/admissions.css" type="text/css" media="screen and (min-width: 0px)" />';
         
         echo '<link rel="stylesheet" href="';bloginfo('template_url');
-        echo'/mobile-css/admissions-mobile.css" type="text/css" media="screen and (max-width: 700px)" />';
+        echo'/mobile-css/admissions-mobile.css" type="text/css" media="screen and (max-width: 0px)" />';
     }
     else if( is_page('learning_info') ){/*修業資訊*/
         echo '<link rel="stylesheet" href="';bloginfo('template_url'); 
         echo'/css/learning_info.css" type="text/css" media="screen and (min-width: 0px)" />';
         
         echo '<link rel="stylesheet" href="';bloginfo('template_url');
-        echo'/mobile-css/admissions-mobile.css" type="text/css" media="screen and (max-width: 700px)" />';
+        echo'/mobile-css/admissions-mobile.css" type="text/css" media="screen and (max-width: 0px)" />';
     }
     else if( is_page('cooperation') ){/*產學合作*/
         echo '<link rel="stylesheet" href="';bloginfo('template_url'); 
         echo'/css/cooperation.css" type="text/css" media="screen and (min-width: 0px)" />';
         
         echo '<link rel="stylesheet" href="';bloginfo('template_url');
-        echo'/mobile-css/admissions-mobile.css" type="text/css" media="screen and (max-width: 700px)" />';
+        echo'/mobile-css/admissions-mobile.css" type="text/css" media="screen and (max-width: 0px)" />';
     }
     else if( is_page('enroll_info') ){/*招生資訊*/
         echo '<link rel="stylesheet" href="';bloginfo('template_url'); 
