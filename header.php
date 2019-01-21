@@ -24,7 +24,7 @@
 
 
         echo '<link rel="stylesheet" href="';bloginfo('template_url'); 
-        echo'/css/gallery.css" type="text/css" media="screen and (min-width: 701px)" />';
+        echo'/css/gallery.css" type="text/css" media="screen and (min-width: 0px)" />';
     }
     else if(is_page('intro')||is_page('dean')||is_page('vice_dean')||is_page('staff') || is_page('history_of_the_deans')){/*學院簡介*/
         echo '<link rel="stylesheet" href="';bloginfo('template_url');
@@ -35,14 +35,14 @@
     }
     else if(is_page('regulations_and_forms')||is_page('conference_room')){/*下載專區*/
         echo '<link rel="stylesheet" href="';bloginfo('template_url');
-        echo'/css/downloads.css" type="text/css" media="screen and (min-width: 701px)" />';
+        echo'/css/downloads.css" type="text/css" media="screen and (min-width: 0px)" />';
 
         echo '<link rel="stylesheet" href="';bloginfo('template_url');
         echo'/mobile-css/downloads-mobile.css" type="text/css" media="screen and (max-width: 700px)" />';
     }
     else if(is_page('exchange_student')||is_page('joint_dual_degree')||is_page('academic_exchange')||is_page('activity_record')){/*國際交流合作-國際學術合約*/
         echo '<link rel="stylesheet" href="';bloginfo('template_url'); 
-        echo'/css/inter_contract.css" type="text/css" media="screen and (min-width: 701px)" />';
+        echo'/css/inter_contract.css" type="text/css" media="screen and (min-width: 0px)" />';
 
         echo '<link rel="stylesheet" href="';bloginfo('template_url');
         echo'/mobile-css/inter_contract-mobile.css" type="text/css" media="screen and (max-width: 700px)" />';
@@ -50,11 +50,11 @@
     }
     else if(is_page('gallery')||is_page('gallery_list')){/*國際交流合作-國際學術合約*/
         echo '<link rel="stylesheet" href="';bloginfo('template_url'); 
-        echo'/css/gallery.css" type="text/css" media="screen and (min-width: 701px)" />';
+        echo'/css/gallery.css" type="text/css" media="screen and (min-width: 0px)" />';
     }
     else if(is_page('studying_abroad')){/*國際交流合作-出國計畫*/
         echo '<link rel="stylesheet" href="';bloginfo('template_url'); 
-        echo'/css/studying_abroad.css" type="text/css" media="screen and (min-width:701px)" />';
+        echo'/css/studying_abroad.css" type="text/css" media="screen and (min-width:0px)" />';
 
         echo '<link rel="stylesheet" href="';bloginfo('template_url');
         echo'/mobile-css/studying_abroad-mobile.css" type="text/css" media="screen and (max-width: 700px)" />';
