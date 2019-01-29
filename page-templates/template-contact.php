@@ -10,6 +10,8 @@
     <div class="container intro-mobile-container">
         <div class="intro-bigTitle_1">聯絡我們</div>
         <div class="ra-circle_first">
+            <div class="page-1">
+            <div class="nextpage"></div>
             <div class="ra-circle_first_block_1">
                 <div class="ra-circle_l">
                 </div>
@@ -27,10 +29,11 @@
                     <div class="first_first_line">技士</div>
                     <div class="first_second_line">郭珍佑</div>
                     <div class="middle_line"><hr></div>
-                    <div class="first_third_line">館舍及公儀維修 門禁管理<br>系教評會業務 排課<br>shenq@mail.nctu.edu.tw<br>03-5712121 # 56901</div>
+                    <div class="first_third_line"><p>館舍及公儀維修 門禁管理</p><p>系教評會業務 排課</p><p>shenq@mail.nctu.edu.tw</p><p>03-5712121 # 56901</p></div>
                 </div>
             </div>
-            <div class="ra-circle_first_block_3">
+            </div>
+            <!--<div class="ra-circle_first_block_3">
                 <div class="ra-circle_3">
                 </div>
                 <div class="first_block_context_block">
@@ -39,17 +42,18 @@
                     <div class="middle_line"><hr></div>
                     <div class="first_third_line">院務及研究生相關事務<br>sunny@mail.nctu.edu.tw<br>03-5712121 # 56937</div>
                 </div>
-            </div>
+            </div>-->
         </div>
         <div class="ra-circle_second">
+            <div class="page-1">
             <div class="ra-circle_second_block_1">
+                <div class="ra-circle_4">
+                </div>
                 <div class="second_block_context_block">
                     <div class="second_first_line">行政專員</div>
                     <div class="second_second_line">吳佳文</div>
                     <div class="middle_line"><hr></div>
                     <div class="second_third_line">專題演講 實驗室環安<br>chiawen@mail.nctu.edu.tw<br>03-5712121 # 56943</div>
-                </div>
-                <div class="ra-circle_4">
                 </div>
             </div>
             <div class="ra-circle_second_block_2">
@@ -62,7 +66,9 @@
                 <div class="ra-circle_5">
                 </div>
             </div>
-            <div class="ra-circle_second_block_3">
+            </div>
+            <div class="prepage"></div>
+            <!--<div class="ra-circle_second_block_3">
                 <div class="second_block_context_block">
                     <div class="second_first_line">工友</div>
                     <div class="second_second_line">葉連發</div>
@@ -71,7 +77,7 @@
                 </div>
                 <div class="ra-circle_6">
                 </div>
-            </div>
+            </div>-->
         </div>
                 
     </div>
@@ -86,6 +92,14 @@
 
 
 <script>
+$(document).ready(function(){
+  $(".nextpage").click(function(){
+    $(".page-1").hide();
+  });
+  $(".prepage").click(function(){
+    $(".page-1").show();
+  });
+});
     //just querying the DOM...like a boss!
 
 /*Annie added for mobile*/

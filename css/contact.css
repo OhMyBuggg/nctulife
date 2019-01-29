@@ -627,10 +627,38 @@ hr.vd_hr{
     background-repeat: no-repeat;
     
 }
+.nextpage{
+    background-image: url(../image/bg/職員切版-07.jpg);
+    width: 8vh;
+    height: 8vh;
+    position: absolute;
+    left: 55vw;
+    top: 4vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 999em;
+}
+.nextpage:hover{
+    background-image: url(../image/bg/職員切版-08.jpg);
+}
+.prepage{
+    background-image: url(../image/bg/職員切版-05.jpg);
+    width: 8vh;
+    height: 8vh;
+    position: absolute;
+    background-size: contain;
+    top: 6vh;
+    left: -15vw;
+    background-repeat: no-repeat;
+    border-radius: 999em;
+}
+.prepage:hover{
+    background-image: url(../image/bg/職員切版-06.jpg);
+}
 .ra-circle_first{
     position: relative;
     top:30vh;
-    left:25vw;
+    left:28vw;
     height: 17vh;
     width: 30vw;
     margin-top: 0vh;
@@ -694,7 +722,7 @@ hr.vd_hr{
 .ra-circle_second{
     position: relative;
     top:48vh;
-    left:25vw;
+    left:42vw;
     height: 25vh;
     margin-top: 0vh;
     border: solid 0px green;
@@ -714,7 +742,7 @@ hr.vd_hr{
     width:23vh;
     height:23vh;
     color: #FFFFFF;
-    left:11vw;
+    /*left:11vw;*/
     /*background-color: black;*/
 }
 .ra-circle_second_block_2{
@@ -733,7 +761,7 @@ hr.vd_hr{
     width:23vh;
     height:23vh;
     color: #FFFFFF;
-    left:11vw;
+    /*left:11vw;*/
     /*background-color: black;*/
 }
 .ra-circle_second_block_3{
@@ -781,7 +809,7 @@ hr.vd_hr{
     width:10vw;
     height:23vh;
     /*color: #FFFFFF;*/
-    left:0.5vw;
+    left:24vh;
     top:2.5vh;
     /*background-color: black;*/
 }
