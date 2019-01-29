@@ -73,6 +73,14 @@
     background-size: contain;
     background-repeat: no-repeat;
 }
+.map{
+    position: absolute;
+    top: 24vh;
+    left: 39vw;
+    font-size: 1em;
+    font-style: italic;
+    font-weight: border;
+}
 .intro-prev{
     background-image: url(../image/btn/btn_left.svg);
 }
