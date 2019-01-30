@@ -712,7 +712,7 @@ hr.vd_hr{
 }
 .ra-circle_first_block_3{
     position:absolute;
-    left:46vw;
+    /*left:46vw;*/
     height: 25vh;
     margin-top: 0vh;
     border: solid 0px green;
@@ -776,7 +776,7 @@ hr.vd_hr{
 }
 .ra-circle_second_block_3{
     position:absolute;
-    left:46vw;
+    /*left:46vw;*/
     height: 25vh;
     margin-top: 0vh;
     border: solid 0px green;
@@ -790,7 +790,7 @@ hr.vd_hr{
     width:23vh;
     height:23vh;
     color: #FFFFFF;
-    left:11vw;
+    /*left:11vw;*/
     /*background-color: black;*/
 }
 .first_block_context_block{
