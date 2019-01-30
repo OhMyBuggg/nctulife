@@ -648,6 +648,7 @@ hr.vd_hr{
 }
 .nextpage:hover{
     background-image: url(../image/bg/職員切版-08.jpg);
+    cursor:pointer;
 }
 .prepage{
     background-image: url(../image/bg/職員切版-05.jpg);
@@ -662,6 +663,7 @@ hr.vd_hr{
 }
 .prepage:hover{
     background-image: url(../image/bg/職員切版-06.jpg);
+    cursor:pointer;
 }
 .ra-circle_first{
     position: relative;

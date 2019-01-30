@@ -16,52 +16,124 @@
                     <div class="ra-circle_block">
                         <div class="ra-circle_first">
                             <div class="ra-circle_l">
-                                <div class="circle_p1_1">
+                                <div class="circle_p1_1 textbox textbox0">
                                     台達電子工業
                                 </div>
-                                <div class="circle_p2">
+                                <div class="circle_p1_1 textbox textbox1">
+                                    測試第二第一
+                                </div>
+                                <div class="circle_p1_1 textbox textbox2">
+                                    測試第三第一
+                                </div>
+                                <div class="circle_p2 textbox textbox0">
+                                    股份有限公司       
+                                </div>
+                                <div class="circle_p2 textbox textbox1">
+                                    股份有限公司       
+                                </div>
+                                <div class="circle_p2 textbox textbox2">
                                     股份有限公司       
                                 </div>
                             </div>
                             <div class="ra-circle_2">
-                                <div class="circle_p1_1">
+                                <div class="circle_p1_1 textbox textbox0">
                                     宣捷生物科技
                                 </div>
-                                <div class="circle_p2">
+                                <div class="circle_p1_2 textbox textbox1">
+                                    四字測試
+                                </div>
+                                <div class="circle_p1_1 textbox textbox2">
+                                    炯毅我做好了
+                                </div>
+                                <div class="circle_p2 textbox textbox0">
+                                    股份有限公司
+                                </div>
+                                <div class="circle_p2 textbox textbox1">
+                                    股份有限公司
+                                </div>
+                                <div class="circle_p2 textbox textbox2">
                                     股份有限公司
                                 </div>
                             </div>
                             <div class="ra-circle_3">
-                                <div class="circle_p1_1">
+                                <div class="circle_p1_1 textbox textbox0">
                                     康健基因科技
                                 </div>
-                                <div class="circle_p2">
+                                <div class="circle_p1_1 textbox textbox1">
+                                    康健基因科技
+                                </div>
+                                <div class="circle_p1_1 textbox textbox2">
+                                    康健基因科技
+                                </div>
+                                <div class="circle_p2 textbox textbox0">
+                                    股份有限公司
+                                </div>
+                                <div class="circle_p2 textbox textbox1">
+                                    股份有限公司
+                                </div>
+                                <div class="circle_p2 textbox textbox2">
                                     股份有限公司
                                 </div>
                             </div>
                         </div>
                         <div class="ra-circle_second">
                             <div class="ra-circle_4">
-                                <div class="circle_p1_1">
+                                <div class="circle_p1_1 textbox textbox0">
                                     康鶴生醫科技
                                 </div>
-                                <div class="circle_p2">
+                                <div class="circle_p1_1 textbox textbox1">
+                                    康鶴生醫科技
+                                </div>
+                                <div class="circle_p1_1 textbox textbox2">
+                                    康鶴生醫科技
+                                </div>
+                                <div class="circle_p2 textbox textbox0">
+                                    股份有限公司
+                                </div>
+                                <div class="circle_p2 textbox textbox1">
+                                    股份有限公司
+                                </div>
+                                <div class="circle_p2 textbox textbox2">
                                     股份有限公司
                                 </div>
                             </div>
                             <div class="ra-circle_5">
-                                <div class="circle_p1_2">
+                                <div class="circle_p1_2 textbox textbox0">
                                     琦芯科技
                                 </div>
-                                <div class="circle_p2">
+                                <div class="circle_p1_2 textbox textbox1">
+                                    琦芯科技
+                                </div>
+                                <div class="circle_p1_2 textbox textbox2">
+                                    琦芯科技
+                                </div>
+                                <div class="circle_p2 textbox textbox0">
+                                    股份有限公司
+                                </div>
+                                <div class="circle_p2 textbox textbox1">
+                                    股份有限公司
+                                </div>
+                                <div class="circle_p2 textbox textbox2">
                                     股份有限公司
                                 </div>
                             </div>
                             <div class="ra-circle_6">
-                                <div class="circle_p1_2">
+                                <div class="circle_p1_2 textbox textbox0">
                                     瀚源生醫
                                 </div>
-                                <div class="circle_p2">
+                                <div class="circle_p1_2 textbox textbox1">
+                                    瀚源生醫
+                                </div>
+                                <div class="circle_p1_2 textbox textbox2">
+                                    瀚源生醫
+                                </div>
+                                <div class="circle_p2 textbox textbox0">
+                                    股份有限公司
+                                </div>
+                                <div class="circle_p2 textbox textbox1">
+                                    股份有限公司
+                                </div>
+                                <div class="circle_p2 textbox textbox2">
                                     股份有限公司
                                 </div>
                             </div>
@@ -157,8 +229,22 @@
         return null;
     }
 
+    var now = 0;
+
     $(document).ready(function() {
         $(".nav_menu").on("click",function(){});
+        $('.textbox').hide();
+        $('.textbox'+now).fadeIn(1000,"swing");
+        $('.left').click(function(){
+            now = (now+3-1)%3;
+            $('.textbox').hide();
+            $('.textbox'+now).fadeIn(1000,"swing");
+        });
+        $('.right').click(function(){
+            now = (now+1)%3;
+            $('.textbox').hide();
+            $('.textbox'+now).fadeIn(1000,"swing");
+        })
     });
 </script>
 <?php wp_nav_menu (array('theme_location' => 'Menu2','container_class' => 'nav_menu','container_id' => 'nav_menu_1')); ?>
