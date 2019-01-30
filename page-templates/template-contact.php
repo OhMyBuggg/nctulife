@@ -34,7 +34,7 @@
                 </div>
             </div>
             </div>
-            <!--<div class="ra-circle_first_block_3">
+            <div class="ra-circle_first_block_3 page-2">
                 <div class="ra-circle_3">
                 </div>
                 <div class="first_block_context_block">
@@ -43,7 +43,7 @@
                     <div class="middle_line"><hr></div>
                     <div class="first_third_line">院務及研究生相關事務<br>sunny@mail.nctu.edu.tw<br>03-5712121 # 56937</div>
                 </div>
-            </div>-->
+            </div>
         </div>
         <div class="ra-circle_second">
             <div class="page-1">
@@ -68,8 +68,8 @@
                 </div>
             </div>
             </div>
-            <div class="prepage"></div>
-            <!--<div class="ra-circle_second_block_3">
+            <div class="prepage page-2"></div>
+            <div class="ra-circle_second_block_3 page-2">
                 <div class="second_block_context_block">
                     <div class="second_first_line">工友</div>
                     <div class="second_second_line">葉連發</div>
@@ -78,7 +78,7 @@
                 </div>
                 <div class="ra-circle_6">
                 </div>
-            </div>-->
+            </div>
         </div>
                 
     </div>
@@ -94,11 +94,14 @@
 
 <script>
 $(document).ready(function(){
+  $(".page-2").hide();
   $(".nextpage").click(function(){
     $(".page-1").hide();
+    $(".page-2").show();
   });
   $(".prepage").click(function(){
     $(".page-1").show();
+    $(".page-2").hide();
   });
 });
     //just querying the DOM...like a boss!
