@@ -97,10 +97,10 @@ $(document).ready(function(){
   $(".page-2").hide();
   $(".nextpage").click(function(){
     $(".page-1").hide();
-    $(".page-2").show();
+    $(".page-2").fadeIn(1000,"swing");
   });
   $(".prepage").click(function(){
-    $(".page-1").show();
+    $(".page-1").fadeIn(1000,"swing");
     $(".page-2").hide();
   });
 });

@@ -118,7 +118,7 @@ a{font-family:'Noto Sans TC', '微軟正黑體', sans-serif; text-decoration:non
 	-webkit-transition: width 1.8s;
 }
 #header:hover{
-	width: 22vw;
+	width: 25vw;
 }
 #header-block-link{
 	position: fixed;
@@ -131,7 +131,7 @@ a{font-family:'Noto Sans TC', '微軟正黑體', sans-serif; text-decoration:non
     border: solid 0px green;
 }
 #header:hover #header-block-link{
-	width: 20vw;
+	width: 25vw;
 }
 #header-block0{
 	position: fixed;
@@ -147,11 +147,11 @@ a{font-family:'Noto Sans TC', '微軟正黑體', sans-serif; text-decoration:non
 	width: 10vw;
 	height: 100%;
 	background: #FFBB00;
-	transition:  width 2s, height 1s;
-	-webkit-transition:  width 2s, height 1s;
+	transition:  width 1.8s, height 1s;
+	-webkit-transition:  width 1.8s, height 1s;
 }
 #header:hover #header-block1{
-	width: 20vw;
+	width: 24vw;
 	height: 5.7vh;
 }
 #header-block2{   /*生*/ 
@@ -222,7 +222,7 @@ a{font-family:'Noto Sans TC', '微軟正黑體', sans-serif; text-decoration:non
     top: 17vh;
     line-height: 4vh;
     left: -40vw;
-    font-size:160%;
+    font-size:50%;
     color:white;
 }
 #header:hover #header-block8{
@@ -230,17 +230,17 @@ a{font-family:'Noto Sans TC', '微軟正黑體', sans-serif; text-decoration:non
     font-weight: regular;
     top: 10vh;
     left: 3.6vw;
-    letter-spacing: 3px;
-    font-size: 160%;
+    letter-spacing: 0.2em;
+    font-size: 170%;
     color: black;
-    transition:left 1.2s;
+    transition:left 1.2s, font-size 1.2s;
     transition-delay: 0.5s;
-    -webkit-transition:left 1.2s;
+    -webkit-transition:left 1.2s, font-size 1.2s;
     -webkit-transition-delay: 0.5s;
 }
 #header-block5{   /*國立交通大學*/
 	position:fixed;
-	top: 6vh;
+	top: 5vh;
     line-height: 2vh;
 	left: -40vw;
 	font-size:1em;
@@ -329,7 +329,7 @@ a{font-family:'Noto Sans TC', '微軟正黑體', sans-serif; text-decoration:non
 .header-icon7{background-image:url(image/icon/icon_7.png);}
 .header-text{
 	position: relative;
-	left:45px;
+	left:-12vw;
 	font-family: 'Noto Sans TC', '微軟正黑體', sans-serif;
 	font-weight: regular;
 	font-size: 1.45em;
@@ -342,7 +342,7 @@ a{font-family:'Noto Sans TC', '微軟正黑體', sans-serif; text-decoration:non
 	-webkit-transition-delay: 0s;
 }
 #header:hover .header-text{
-	left:3.6vw;
+	left:5vw;
 	color: #000000;
 	transition: color 1.5s, left 0s;
 	transition-delay: 1s;
