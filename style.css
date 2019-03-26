@@ -110,8 +110,8 @@ a{font-family:'Noto Sans TC', '微軟正黑體', sans-serif; text-decoration:non
 #header{
 	position: fixed;
 	left: 0px;
-	width: 10%;
-	height: 100%;
+	width: 12vw;
+	height: 100vh;
 	background-color: rgba(255,255,255,0.45);
 	z-index: 10;
 	transition: width 1.8s;
@@ -131,21 +131,21 @@ a{font-family:'Noto Sans TC', '微軟正黑體', sans-serif; text-decoration:non
     border: solid 0px green;
 }
 #header:hover #header-block-link{
-	width: 25vw;
+	width: 20vw;
 }
 #header-block0{
 	position: fixed;
 	top: 0px;
 	left:0px;
-	width: 10px;
-	height: 180px;
+	width: 12vw;
+	height: 22.5vh;
 }
 #header-block1{  /*黃色色塊*/
 	position: absolute;
 	bottom: 0px;
 	left:0px;
-	width: 10vw;
-	height: 100%;
+	width: 12vw;
+	height: 22.5vh;
 	background: #FFBB00;
 	transition:  width 1.8s, height 1s;
 	-webkit-transition:  width 1.8s, height 1s;
@@ -155,83 +155,76 @@ a{font-family:'Noto Sans TC', '微軟正黑體', sans-serif; text-decoration:non
 	height: 5.7vh;
 }
 #header-block2{   /*生*/ 
+    font-family: ‘Noto Sans TC’, ‘微軟正黑體’, sans-serif;
+    font-weight: regular;
     position:fixed;
-	top: 5vh;
+	top: 3.125vh;
 	line-height: 4vh;
-	left: 1.1%;
-	font-size:160%;
+	left: 2vw;
+	font-size:2em;
 	color:white;
 	transition: color 2s,top 2s,left 2s,font-size 2.3s ease-out;
 	-webkit-transition: color 2s,top 2s,left 2s,font-size 2s ease-out;
 }
 #header:hover #header-block2{
-    font-family: ‘Noto Sans TC’, ‘微軟正黑體’, sans-serif;
-	font-weight: regular;
-    font-size: 33px;
-    top: 5vh;
 	left: -5vw;
-	font-size: 160%;
 	color: black;
 	transition: color 2s,top 2s,left 2s,font-size 2.3s ease-in;
 	-webkit-transition: color 2s,top 2s,left 2s,font-size 2s ease-in;
 }
 #header-block3{   /*科*/
+    font-family: ‘Noto Sans TC’, ‘微軟正黑體’, sans-serif;
+    font-weight: regular;
 	position:fixed;
-	top: 10.5vh;
+	top: 9.025vh;
 	line-height: 4vh;
-	left: 1.1%;
-	font-size:160%;
+	left: 2vw;
+	font-size:2em;
 	color:white;
 	transition: color 2s,top 2s,left 2s,font-size 2.3s ease-out;
 	-webkit-transition: color 2s,top 2s,left 2s,font-size 2s ease-out;
 }
 #header:hover #header-block3{
-    font-family: ‘Noto Sans TC’, ‘微軟正黑體’, sans-serif;
-    font-weight: regular;
     /*font-size: 33px;*/
-	top: 10.5vh;
 	left: -5vw;
-	font-size: 160%;
 	color: black;
 	transition: color 2s,top 2s,left 2s,font-size 2.3s ease-in;
 	-webkit-transition: color 2s,top 2s,left 2s,font-size 2s ease-in;
 }
 #header-block4{   /*院*/
+    font-family: ‘Noto Sans TC’, ‘微軟正黑體’, sans-serif;
+    font-weight: regular;
 	position:fixed;
-	top: 16vh;
+	top: 14.925vh;
 	line-height: 4vh;
-	left: 1.1%;
-	font-size:160%;
+	left: 2vw;
+	font-size:2em;
 	color:white;
 	transition: color 2s,top 2s,left 2s,font-size 2.3s ease-out;
 	-webkit-transition: color 2s,top 2s,left 2s,font-size 2s ease-out;
 }
 #header:hover #header-block4{
-    font-family: ‘Noto Sans TC’, ‘微軟正黑體’, sans-serif;
-    font-weight: regular;
     /*font-size: 33px;*/
-	top: 16vh;
 	left: -5vw;
-	font-size: 160%;
 	color: black;
 	transition: color 2s,top 2s,left 2s,font-size 2.3s ease-in;
 	-webkit-transition: color 2s,top 2s,left 2s,font-size 2s ease-in;
 }
 #header-block8{   /*產業博士班*/
+    font-family: ‘Noto Sans TC’, ‘微軟正黑體’, sans-serif;
+    font-weight: regular;
     position:fixed;
-    top: 17vh;
-    line-height: 4vh;
+    top: 8vh;
+    line-height: 2vh;
     left: -40vw;
-    font-size:50%;
+    font-size:1.2em;
     color:white;
 }
 #header:hover #header-block8{
-    font-family: ‘Noto Sans TC’, ‘微軟正黑體’, sans-serif;
-    font-weight: regular;
-    top: 10vh;
-    left: 3.6vw;
+    top: 12vh;
+    left: 3.4vw;
     letter-spacing: 0.2em;
-    font-size: 170%;
+    font-size: 1.8em;
     color: black;
     transition:left 1.2s, font-size 1.2s;
     transition-delay: 0.5s;
@@ -240,10 +233,10 @@ a{font-family:'Noto Sans TC', '微軟正黑體', sans-serif; text-decoration:non
 }
 #header-block5{   /*國立交通大學*/
 	position:fixed;
-	top: 5vh;
+	top: 7.5vh;
     line-height: 2vh;
-	left: -40vw;
-	font-size:1em;
+	left: -30vw;
+	font-size:1.2em;
 	letter-spacing: 0.2em; 
 	color: rgba(0,0,0,0);
 }
@@ -260,17 +253,16 @@ a{font-family:'Noto Sans TC', '微軟正黑體', sans-serif; text-decoration:non
 }
 #header-block6{   /*The College of Science*/
 	position:fixed;
-	top: 19%;
+	top: 17.4vh;
 	left: -40vw;
-	font-size:0.5em;
+	font-size:0.1em;
 	letter-spacing: 0.1em; 
-    line-height: 2vh;
+    line-height: 2.5vh;
 	color: #002D5A;
 }
 #header:hover #header-block6{
 	color: white;
-    top:18vh;
-	left: 3.6vw;
+	left: 3.5vw;
 	transition:left 1.2s;
 	transition-delay: 0.5s;
 	-webkit-transition:left 1.2s;
@@ -278,10 +270,10 @@ a{font-family:'Noto Sans TC', '微軟正黑體', sans-serif; text-decoration:non
 }
 #header-block7{   /*The College of Science(直)*/ 
 	position:fixed;
-	top: 5vh;
-	left: 3.2vw;
-	font-size:0.7em;
-	line-height: 22px;
+	top: 2.7vh;
+	left: 5vw;
+	font-size:0.8em;
+	line-height: 3.5vh;
 	color:white;
 	transition: left 0s;
 	transition-delay: 1s;
@@ -302,12 +294,12 @@ a{font-family:'Noto Sans TC', '微軟正黑體', sans-serif; text-decoration:non
 
 .header-icon{
 	position: relative;
-    margin-top: 27%;
+    margin-top: 3vh;
 	/*margin-top: 25px;
 	margin-bottom: 35px;*/
-	left: 3vw;
+	left: 4.1vw;
 	vertical-align: middle;
-	height: 5.5vh;
+	height: 3.5vw;
 	opacity: 0.5;
 	transition: left 2s,opacity 2s;
 	-webkit-transition: left 2s,opacity 2s;
@@ -318,7 +310,7 @@ a{font-family:'Noto Sans TC', '微軟正黑體', sans-serif; text-decoration:non
 }
 #header:hover .header-icon{
 	opacity: 1;
-	left: 3.6vw;
+	left: 4vw;
 }
 .header-icon1{background-image:url(image/icon/icon_1.png);}
 .header-icon2{background-image:url(image/icon/icon_2.png);}
@@ -329,12 +321,12 @@ a{font-family:'Noto Sans TC', '微軟正黑體', sans-serif; text-decoration:non
 .header-icon7{background-image:url(image/icon/icon_7.png);}
 .header-text{
 	position: relative;
-	left:-12vw;
+	left:-30vw;
 	font-family: 'Noto Sans TC', '微軟正黑體', sans-serif;
 	font-weight: regular;
-	font-size: 1.45em;
-	letter-spacing: 0.075em;
-	line-height: 3vw;
+	font-size: 1.6em;
+	letter-spacing: 0.08em;
+	line-height: 3.5vw;
 	color: rgba(0,0,0,0);
 	transition: color 1.5s, left 0s;
 	transition-delay: 0s;
@@ -342,7 +334,7 @@ a{font-family:'Noto Sans TC', '微軟正黑體', sans-serif; text-decoration:non
 	-webkit-transition-delay: 0s;
 }
 #header:hover .header-text{
-	left:5vw;
+	left: 5vw;
 	color: #000000;
 	transition: color 1.5s, left 0s;
 	transition-delay: 1s;
