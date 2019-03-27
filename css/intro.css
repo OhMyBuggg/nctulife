@@ -50,7 +50,7 @@
     font-family: ‘Noto Sans TC’, ‘微軟正黑體’, sans-serif;
     font-weight: regular;
     position: fixed;
-    top:21vh;
+    top:18.5vh;
     left:28vw;
     background-image:url(../image/icon/underline.png);
     background-size:220px 12px; 
@@ -112,11 +112,11 @@ hr.intro-title{
     font-family: ‘Noto Sans TC’, ‘微軟正黑體’, sans-serif;*/
     font-weight: regular;
     position: fixed;
-    top: 38vh;
+    top: 33vh;
     right: 30vw;
     height:30vh;
     width:42vw;
-    font-size: 1.1em;
+    font-size: 1em;
     line-height: 2.6em;
     letter-spacing: 0.1em;
     color: #000000;
