@@ -315,6 +315,42 @@
                 </div>
             </div>
         </div>-->
+        <div id="p5-announce-block">
+            <div id="copy-right-title">著作權聲明</div>
+            <div id="copy-right-text"> 1.交通大學理學院網站(以下簡稱本網站)上刊載之所有內容，除著作權法規定不得為著作權之標的(如法律、命令、公務員撰擬之講稿、新聞稿等--請參考著作權法第9條規定)外，其他包括文字敘述、攝影、圖片、錄音、影像及其他資訊，均受著作權法保護。<br>2.本網站所提供相關連結網站之網頁或資料，均為被連結網站所提供，相關權利為該等網站或合法權利人所有，本網站不擔保其正確性、即時性或完整性。</div>
+        </div>
+        <div id="foot">
+            <div id="foot-left">
+                <p id="foot-font-1">
+                    <?php echo $translate ? 'NCTU' : '國立交通大學' ?>
+                </p>
+                <p id="foot-font-2">生科院</p>
+                <p id="foot-font-3">College of Biological<br>Science and Technology</p>
+            </div>
+            <div id="foot-center">
+                <div class="foot-font-4"><img class="ft-icon" src="<?php bloginfo('template_url')?>/image/icon/icon_info_01.svg"> 886-3-572-9287</div>
+                <div class="foot-font-4"><img class="ft-icon" src="<?php bloginfo('template_url')?>/image/icon/icon_info_02.svg"> 886-3-571-9288</div>
+                <div class="foot-font-4"><img class="ft-icon" src="<?php bloginfo('template_url')?>/image/icon/icon_info_03.svg"> meiling@cc.nctu.edu.tw</div>
+                <div class="foot-font-4"><img class="ft-icon" src="<?php bloginfo('template_url')?>/image/icon/icon_info_04.svg"> 
+                    <?php echo $translate ? 'Room 117, Lab Building 1, 75 Bo-Ai Street, Hsin-Chu, Taiwan 300, ROC' : '300 新竹市博愛街75號 賢齊館325室' ?>
+                </div>
+                <hr class="ft-hr"/>
+                <div class="foot-font-4" style="float:left;">
+                    <a href="http://www.nctu.edu.tw/">
+                        <?php echo $translate ? 'NCTU' : '交通大學' ?>
+                    </a>
+                    <a href="http://www.nctu.edu.tw/">
+                        <?php echo $translate ? '' : ' | 網頁導覽' ?> | 
+                    </a>
+                    <a target=_blank href="<?php bloginfo('template_url')?>/files/Web_Design_Guideline.pdf">
+                        <?php echo $translate ? 'Web Design Guideline' : '設計規範' ?>
+                    </a>
+                    <a id="hp-announce">
+                        <?php echo $translate ? '' : ' | 著作權聲明' ?>
+                    </a> 
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 <script>

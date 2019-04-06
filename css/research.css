@@ -4,10 +4,11 @@
     background-size:cover;
     background-repeat: no-repeat;
     height:100vh;
+    width: 100vw;
 }
 .ra-color_block{
     position:absolute;
-    top: 30vh;
+    top: 28vh;
     left: 10vw;
     width: 100%;
     height: 100%;
@@ -17,8 +18,8 @@
     position:absolute;
     top: 21vh;
     left: 28vw;
-    width: 913px;
-    height: 700px;
+    width: 50vw;
+    height: 70vh;
 }
 .ra-title1{
     line-height: 3vh;
@@ -26,30 +27,32 @@
 }
 .ra-title1_1{
     font-family: ‘Noto Sans TC’, ‘微軟正黑體’, sans-serif;
-    font-weight: regular ;
-    font-size: 5vh;
-    color: #000000;
-    line-height: 45.6pt;
+    font-weight: regular;
+    position: fixed;
+    top:16.5vh;
+    left:28vw;
     background-image:url(../image/icon/underline.png);
     background-size:220px 12px; 
     background-repeat: no-repeat;
     background-position: right bottom;
-    height: 7vh;
+    font-size: 2.4em;
+    color: #000000;
+    height: 9.5vh;
     width: 16.9vw;
     display: flex;
     align-items: flex-start;
-    position: absolute;
-    top: 1vh;
 }
 .ra-title2{
-    position: absolute;
-    top: 9vh;
+    font-family: ‘Noto Sans TC’;
+    font-weight: bold ;
+    font-size: 1.9em;
+    position: fixed;
+    top:30vh;
+    left:28vw;
     line-height: 6vh;
     letter-spacing: 4px;
     margin-top: 0.5vmin;
-    font-family: ‘Noto Sans TC’, ‘微軟正黑體’, sans-serif;
     /*font-weight: bold ;*/
-    font-size: 28px;
     color: #FFFFFF;
     opacity:0.9;
 }

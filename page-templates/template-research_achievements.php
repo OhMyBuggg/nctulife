@@ -5,12 +5,12 @@
 ?>
 <?php get_header(); ?>
 <div class="page-research_achievements">
+    <p class="subtitled ra-title1_1 mobilehidden">研究發展</p>
     <div class="container">    
-	    <p class="subtitled ra-title1 formobile">重點研究</p>
+        <!--<p class="subtitled ra-title1 formobile">重點研究</p>-->
         <div class="ra-color_block"></div>
         <div class="ra-block">
-            <p class="subtitled ra-title1_1 mobilehidden">研究發展</p>
-            <p class="subtitle ra-title2">各領域研究</p>
+        <p class="subtitle ra-title2">各領域研究</p>
             <!--
             <div class="ra-btn ra-btn1"></div>
  	        <div class="ra-line formobile"></div>

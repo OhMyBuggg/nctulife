@@ -46,20 +46,19 @@
     margin-top: 0.5vmin;
 }
 .intro-bigTitle_1{
-    position: absolute;
-    top:22vh;
+    font-family: ‘Noto Sans TC’, ‘微軟正黑體’, sans-serif;
+    font-weight: regular;
+    position: fixed;
+    top:18.5vh;
     left:28vw;
     background-image:url(../image/icon/underline.png);
     background-size:220px 12px; 
     background-repeat: no-repeat;
     background-position: right bottom;
-    font-family: ‘Noto Sans TC’, ‘微軟正黑體’, sans-serif;
-    font-weight: regular;
-    font-size: 5vh;
-    line-height: 9.5vh;
+    font-size: 2.4em;
     color: #000000;
     height: 8vh;
-    width: 16.9vw   ;
+    width: 16.9vw;
     display: flex;
     align-items: flex-start;
 }
@@ -112,15 +111,15 @@ hr.intro-title{
 .intro-first-page-text_1{
     font-family: ‘Noto Sans TC’, ‘微軟正黑體’, sans-serif;*/
     font-weight: regular;
-    font-size: 18px;
-    line-height: 31pt;
+    position: fixed;
+    top: 33vh;
+    right: 30vw;
+    height:30vh;
+    width:42vw;
+    font-size: 1em;
+    line-height: 2.6em;
+    letter-spacing: 0.1em;
     color: #000000;
-    position: relative;
-    width: 42vw;
-    top: 38vh;
-    left: 28vw;
-    letter-spacing: 2px;
-    width: 42vw;
 }
 .more-information{
     background-image: url(../image/bg/暸解更多.png);

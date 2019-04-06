@@ -188,7 +188,7 @@
                 <div id="header-block8">生科院產業博士班</div>
                 <div id="header-block5">國立交通大學</div>
                 <div id="header-block6">Ph.D in Industrial Development of<br>College of Biological Science and Technology</div>
-                <div id="header-block7">Ph.D in<br>Industrial<br>Development<br>of<br>CBST</div>
+                <div id="header-block7">Industrial<br>Development<br>Graduate<br>Program of<br>CBT</div>
 		<a href="<?php echo site_url(); ?>"><div class="header-block-link"></div></a>
 </div>
 
@@ -208,7 +208,7 @@
                 <div id="header-block8">生科院產業博士班</div>
                 <div id="header-block5">國立交通大學</div>
                 <div id="header-block6">Ph.D in Industrial Development of<br>College of Biological Science and Technology</div>
-                <div id="header-block7">Ph.D in<br>Industrial<br>Development<br>of<br>CBST</div>
+                <div id="header-block7">Industrial<br>Development<br>Graduate<br>Program of<br>CBT</div>
 
             </div>
             <a href="<?php echo site_url(); ?>"><div id="header-block-link"></div></a>

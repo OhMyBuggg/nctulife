@@ -9,7 +9,7 @@
 <div class="page-intro">
     <div class="container intro-mobile-container">
         <div class="intro-bigTitle_1">聯絡我們</div>
-        <div class="map"><a href="https://goo.gl/maps/qo5CweUFBWG2">地理位置(On Google Map)</a></div>
+        <!--<div class="map"><a href="https://goo.gl/maps/qo5CweUFBWG2">地理位置(On Google Map)</a></div>-->
         <div class="ra-circle_first">
             <div class="page-1">
             <div class="nextpage"></div>

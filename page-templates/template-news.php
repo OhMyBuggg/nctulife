@@ -11,10 +11,10 @@
 ?>
 <div class="nl-page">
     <div class="container">
-        <div class="nl-container">
             <div class="mobile-nl-header hp-newsheader">
                 <div class="intro-bigTitle_1"><?php echo $page_title;?></div>
             </div>
+        <div class="nl-container">
                             <?php
                             $i=0;
                             $paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;

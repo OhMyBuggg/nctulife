@@ -7,9 +7,9 @@
 <?php get_header(); ?>
 
 <div class="page-intro">
-    <div class="container intro-mobile-container">
+    <!--<div class="container intro-mobile-container">
         <div id="intro-container">
-            <div id="intro-wrapper">
+            <div id="intro-wrapper">-->
                 <div class="intro-subpage-1">    <!--first page-->
                     <div class="intro-bigTitle_1">產學合作</div>
                     <!--下半部分-->
@@ -140,9 +140,9 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            <!--</div>
         </div>
-    </div>
+    </div>-->
    <!-- <div class="left"></div>
     <div class="right"></div> -->
                 <a class="icon_down" href="<?php echo site_url(); ?>/dean" style="opacity:1; transform: matrix(1,0,0,1,0,0);"><div class="right_icon"></div></a>
