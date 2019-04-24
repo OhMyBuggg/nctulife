@@ -342,7 +342,7 @@
                     <a href="http://www.nctu.edu.tw/">
                         <?php echo $translate ? '' : ' | 網頁導覽' ?> | 
                     </a>
-                    <a target=_blank href="<?php bloginfo('template_url')?>/files/Web_Design_Guideline.pdf">
+                    <a target=_blank href="https://pidcbt.nctu.edu.tw/wp-content/uploads/2019/04/Web_Design_Guideline.pdf">
                         <?php echo $translate ? 'Web Design Guideline' : '設計規範' ?>
                     </a>
                     <a id="hp-announce">

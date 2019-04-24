@@ -14,8 +14,7 @@
             <div class="page-1">
             <div class="nextpage"></div>
             <div class="ra-circle_first_block_1">
-                <div class="ra-circle_l">
-                </div>
+                <div class="ra-circle_1"></div>
                 <div class="first_block_context_block">
                     <div class="first_first_line">行政專員</div>
                     <div class="first_second_line">呂聖鈴</div>
@@ -34,9 +33,9 @@
                 </div>
             </div>
             </div>
-            <div class="ra-circle_first_block_3 page-2">
-                <div class="ra-circle_3">
-                </div>
+            <div class="page-2">
+            <div class="ra-circle_first_block_1">
+                <div class="ra-circle_3"></div>
                 <div class="first_block_context_block">
                     <div class="first_first_line">行政專員</div>
                     <div class="first_second_line">郭淑卿</div>
@@ -44,40 +43,60 @@
                     <div class="first_third_line">院務及研究生相關事務<br>sunny@mail.nctu.edu.tw<br>03-5712121 # 56937</div>
                 </div>
             </div>
+            <div class="ra-circle_first_block_2">
+                <div class="ra-circle_7">
+                </div>
+                <div class="first_block_context_block">
+                    <div class="first_first_line">行政專員</div>
+                    <div class="first_second_line">郭貞賢</div>
+                    <div class="middle_line"><hr></div>
+                    <div class="first_third_line"><p>科技部計畫、系所會務、院士事務</p><p>g0431@nctu.edu.tw</p><p>03-5712121 # 56938</p></div>
+                </div>
+            </div>
+            </div>
         </div>
         <div class="ra-circle_second">
             <div class="page-1">
             <div class="ra-circle_second_block_1">
                 <div class="ra-circle_4">
                 </div>
-                <div class="second_block_context_block">
-                    <div class="second_first_line">行政專員</div>
-                    <div class="second_second_line">吳佳文</div>
+                <div class="first_block_context_block">
+                    <div class="first_first_line">行政專員</div>
+                    <div class="first_second_line">吳佳文</div>
                     <div class="middle_line"><hr></div>
-                    <div class="second_third_line">專題演講 實驗室環安<br>chiawen@mail.nctu.edu.tw<br>03-5712121 # 56943</div>
+                    <div class="first_third_line">專題演講 實驗室環安<br>chiawen@mail.nctu.edu.tw<br>03-5712121 # 56943</div>
                 </div>
             </div>
             <div class="ra-circle_second_block_2">
+                <div class="ra-circle_5"></div>
                 <div class="second_block_context_block">
-                    <div class="second_first_line">行政專員</div>
-                    <div class="second_second_line">陳珮筠</div>
+                    <div class="first_first_line">行政專員</div>
+                    <div class="first_second_line">陳珮筠</div>
                     <div class="middle_line"><hr></div>
-                    <div class="second_third_line">大學部及國際處師生<br>教學空間設備相關事務<br>g0630@nctu.edu.tw<br>03-5712121 # 56930</div>
-                </div>
-                <div class="ra-circle_5">
+                    <div class="first_third_line">大學部及國際處師生<br>教學空間設備相關事務<br>g0630@nctu.edu.tw<br>03-5712121 # 56930</div>
                 </div>
             </div>
             </div>
-            <div class="prepage page-2"></div>
-            <div class="ra-circle_second_block_3 page-2">
-                <div class="second_block_context_block">
-                    <div class="second_first_line">工友</div>
-                    <div class="second_second_line">葉連發</div>
+            <div class="page-2">
+            <div class="prepage"></div>
+            <div class="ra-circle_second_block_1">
+                <div class="ra-circle_6"></div>
+                <div class="first_block_context_block">
+                    <div class="first_first_line">工友</div>
+                    <div class="first_second_line">葉連發</div>
                     <div class="middle_line"><hr></div>
-                    <div class="second_third_line">館舍維護 收發信件<br>sunny@mail.nctu.edu.tw<br>03-5712121 # 53008</div>
+                    <div class="first_third_line">館舍維護 收發信件<br>sunny@mail.nctu.edu.tw<br>03-5712121 # 53008</div>
                 </div>
-                <div class="ra-circle_6">
+            </div>
+            <div class="ra-circle_second_block_2">
+                <div class="ra-circle_8"></div>
+                <div class="second_block_context_block">
+                    <div class="first_first_line">行政專員</div>
+                    <div class="first_second_line">賴美伶</div>
+                    <div class="middle_line"><hr></div>
+                    <div class="first_third_line">國際處事務<br>教學空間設備相關事務<br>meiling@mail.nctu.edu.tw<br>03-5712121 # 56983</div>
                 </div>
+            </div>
             </div>
         </div>
                 
