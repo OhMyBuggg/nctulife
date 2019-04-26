@@ -48,19 +48,19 @@
 .intro-bigTitle_1{
     font-family: ‘Noto Sans TC’, ‘微軟正黑體’, sans-serif;
     font-weight: regular;
-    position: fixed;
     top:18.5vh;
     left:28vw;
     background-image:url(../image/icon/underline.png);
-    background-size:220px 12px; 
+    background-size:13vw 1.5vh;/*220px 12px;*/ 
     background-repeat: no-repeat;
     background-position: right bottom;
     font-size: 2.4em;
     color: #000000;
-    height: 8vh;
+    height: 6.7vh;
     width: 16.9vw;
-    display: flex;
-    align-items: flex-start;
+    position: relative;
+    /*display: flex;*/
+    /*align-items: flex-start;*/
 }
 .intro-button{
     float:left;
@@ -635,12 +635,12 @@ hr.vd_hr{
     
 }
 .nextpage{
-    background-image: url(../image/bg/職員切版-07.jpg);
+    background-image: url(../image/bg/職員切版-07.png);
     width: 8vh;
     height: 8vh;
     position: absolute;
     left: 55vw;
-    top: 4vh;
+    top: 3.5vh;
     background-size: contain;
     background-repeat: no-repeat;
     border-radius: 999em;
@@ -650,13 +650,13 @@ hr.vd_hr{
     cursor:pointer;
 }
 .prepage{
-    background-image: url(../image/bg/職員切版-05.jpg);
+    background-image: url(../image/bg/職員切版-05.png);
     width: 8vh;
     height: 8vh;
     position: absolute;
     background-size: contain;
-    top: 6vh;
-    left: -15vw;
+    top: 9vh;
+    left: -11vw;
     background-repeat: no-repeat;
     border-radius: 999em;
 }
@@ -666,34 +666,38 @@ hr.vd_hr{
 }
 .ra-circle_first{
     position: relative;
-    top:30vh;
-    left:28vw;
-    height: 17vh;
-    width: 30vw;
+    top:25vh;
+    left:27vw;
+    height: 23vh;
+    width: 88vw;
     margin-top: 0vh;
     border: solid 0px green;
 }
 .ra-circle_first_block_1{
-    position:absolute;
     margin-top: 0vh;
     border: solid 0px green;
+    float:left;
+    width: 20vw;
+    height:23vh;
 }
-.ra-circle_l{
+.ra-circle_1{
     background-image: url(../image/7_1.png);
     background-size: cover;
     background-repeat: no-repeat;
-    position:absolute;
+    position:relative;
+    float:left;
     border-radius: 999em;
     width:23vh;
     height:23vh;
     color: #FFFFFF;
-    left:0px;
     /*background-color: black;*/
 }
 .ra-circle_first_block_2{
-    position:absolute;
-    left:23vw;
+    position:relative;
+    left:1vw;
+    float:left;
     height: 25vh;
+    width:20vw;
     margin-top: 0vh;
     border: solid 0px green;
 }
@@ -701,12 +705,24 @@ hr.vd_hr{
     background-image: url(../image/7_3.png);
     background-size: cover;
     background-repeat: no-repeat;
-    position:absolute;
+    position:relative;
+    float:left;
     border-radius: 999em;
     width:23vh;
     height:23vh;
     color: #FFFFFF;
-    left:0px;
+    /*background-color: black;*/
+}
+.ra-circle_7{
+    background-image: url(../image/7_7.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position:relative;
+    float:left;
+    border-radius: 999em;
+    width:23vh;
+    height:23vh;
+    color: #FFFFFF;
     /*background-color: black;*/
 }
 .ra-circle_first_block_3{
@@ -720,7 +736,8 @@ hr.vd_hr{
     background-image: url(../image/7_2.png);
     background-size: cover;
     background-repeat: no-repeat;
-    position:absolute;
+    position:relative;
+    float:left;
     border-radius: 999em;
     width:23vh;
     height:23vh;
@@ -730,15 +747,18 @@ hr.vd_hr{
 }
 .ra-circle_second{
     position: relative;
-    top:48vh;
-    left:42vw;
+    top:33vh;
+    left:38vw;
     height: 25vh;
+    width: 70vw;
     margin-top: 0vh;
     border: solid 0px green;
 }
 .ra-circle_second_block_1{
-    position:absolute;
-    height: 25vh;
+    clear:both;
+    float:left;
+    height: 23vh;
+    width: 20vw;
     margin-top: 0vh;
     border: solid 0px green;
 }
@@ -746,7 +766,8 @@ hr.vd_hr{
     background-image: url(../image/7_4.png);
     background-size: cover;
     background-repeat: no-repeat;
-    position:absolute;
+    position:relative;
+    float:left;
     border-radius: 999em;
     width:23vh;
     height:23vh;
@@ -755,8 +776,9 @@ hr.vd_hr{
     /*background-color: black;*/
 }
 .ra-circle_second_block_2{
-    position:absolute;
-    left:23vw;
+    position:relative;
+    float:left;
+    left:1vw;
     height: 25vh;
     margin-top: 0vh;
     border: solid 0px green;
@@ -765,7 +787,21 @@ hr.vd_hr{
     background-image: url(../image/7_5.png);
     background-size: cover;
     background-repeat: no-repeat;
-    position:absolute;
+    position:relative;
+    float:left;
+    border-radius: 999em;
+    width:23vh;
+    height:23vh;
+    color: #FFFFFF;
+    /*left:11vw;*/
+    /*background-color: black;*/
+}
+.ra-circle_8{
+    background-image: url(../image/7_8.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position:relative;
+    float:left;
     border-radius: 999em;
     width:23vh;
     height:23vh;
@@ -784,7 +820,8 @@ hr.vd_hr{
     background-image: url(../image/7_6.png);
     background-size: cover;
     background-repeat: no-repeat;
-    position:absolute;
+    position:relative;
+    float:left;
     border-radius: 999em;
     width:23vh;
     height:23vh;
@@ -796,14 +833,15 @@ hr.vd_hr{
     /*background-image: url(../image/7_1.png);*/
     /*background-size: cover;*/
     /*background-repeat: no-repeat;*/
-    position:absolute;
+    position:relative;
     overflow-x: hidden;
     overflow-y: hidden;
     /*border-radius: 999em;*/
-    width:10vw;
+    width:8vw;
     height:23vh;
+    left:1vw;
     /*color: #FFFFFF;*/
-    left:12.5vw;
+    /*left:12.5vw;*/
     top:2.5vh;
     /*background-color: black;*/
 }
@@ -811,14 +849,14 @@ hr.vd_hr{
     /*background-image: url(../image/7_1.png);*/
     /*background-size: cover;*/
     /*background-repeat: no-repeat;*/
-    position:absolute;
+    position:relative;
     overflow-x: hidden;
     overflow-y: hidden;
     /*border-radius: 999em;*/
-    width:10vw;
+    width:8vw;
     height:23vh;
     /*color: #FFFFFF;*/
-    left:24vh;
+    left:1vw;
     top:2.5vh;
     /*background-color: black;*/
 }
@@ -851,33 +889,4 @@ hr.vd_hr{
     width:100vh;
     height:1px;
     background:#E0E0E0;
-}
-.second_first_line{
-    position: absolute;
-    top:0px;
-    right:0px;
-    font-family: ‘Noto Sans TC’, ‘微軟正黑體’, sans-serif;
-    font-weight: regular;
-    font-size: 15.5px;
-    color: #000000;
-}
-.second_second_line{
-    position: absolute;
-    right:0px;
-    top:24.582px;
-    font-family: ‘Noto Sans TC’, ‘微軟正黑體’, sans-serif;
-    font-weight: regular;
-    font-size: 39px;
-    color: #000000;
-}
-.second_third_line{
-    position: absolute;
-    right:0px;
-    top:86.353px;
-    font-family: ‘Noto Sans TC’, ‘微軟正黑體’, sans-serif;
-    font-weight: regular;
-    font-size: 12px;
-    text-align:right;
-    line-height: 18px;
-    color: #000000;
 }

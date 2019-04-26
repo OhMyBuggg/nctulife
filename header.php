@@ -146,9 +146,12 @@
  			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><div class="close_btn"></div></a>
             <div class="lang_switch"><a href="<?php echo site_url(); ?>/homepage/?lang=zh" style="letter-spacing:0.4em;">中文</a>&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;<a href="<?php echo site_url(); ?>/en-homepage/?lang=en">English</a></div>
 			<div class="sidenavlink">
-			    <a href="<?php echo site_url(); ?>"><div id="mysidetext1" class="menu_block" style="transition:0.8s;"><div class="header-icon header-icon0"><div class="menutext">首頁</div></div></div></a>
+			         <a href="<?php echo site_url(); ?>"><div id="mysidetext1" class="menu_block" style="transition:0.8s;"><div class="header-icon header-icon0"><div class="menutext">首頁</div></div></div></a>
+
                             <a href="<?php echo site_url(); ?>/intro"><div id="mysidetext2" class="menu_block" style="transition:1.2s;"><div class="header-icon header-icon1"><div class="menutext">系所簡介</div></div></div></a>
+
                             <a href="<?php echo site_url(); ?>/news"><div id="mysidetext3" class="menu_block"  style="transition:1.6s;"><div class="header-icon header-icon2"><div class="menutext">最新消息</div></div></div></a>-
+
                             <a href="<?php echo site_url(); ?>/research_achievements"><div id="mysidetext5" class="menu_block" style="transition:2.4s;"><div class="header-icon header-icon4"><div class="menutext">研究發展</div></div></div></a>
                             <!--<a href="<?php echo site_url(); ?>/admissions"><div id="mysidetext4" class="menu_block"  style="transition:2s;"><div class="header-icon header-icon3"><div class="menutext">招生資訊</div></div></div></a>-->
                             <a href="<?php echo site_url(); ?>/learning_info"><div id="mysidetext4" class="menu_block"  style="transition:2s;"><div class="header-icon header-icon3"><div class="menutext">修業資訊</div></div></div></a>
@@ -187,7 +190,7 @@
                 <div id="header-block4">院</div>
                 <div id="header-block8">生科院產業博士班</div>
                 <div id="header-block5">國立交通大學</div>
-                <div id="header-block6">Ph.D in Industrial Development of<br>College of Biological Science and Technology</div>
+                <div id="header-block6">Industrial Development Graduate Program of CBT</div>
                 <div id="header-block7">Industrial<br>Development<br>Graduate<br>Program of<br>CBT</div>
 		<a href="<?php echo site_url(); ?>"><div class="header-block-link"></div></a>
 </div>
@@ -207,7 +210,7 @@
                 <div id="header-block4">院</div>
                 <div id="header-block8">生科院產業博士班</div>
                 <div id="header-block5">國立交通大學</div>
-                <div id="header-block6">Ph.D in Industrial Development of<br>College of Biological Science and Technology</div>
+                <div id="header-block6">Industrial Development Graduate Program of CBT</div>
                 <div id="header-block7">Industrial<br>Development<br>Graduate<br>Program of<br>CBT</div>
 
             </div>
