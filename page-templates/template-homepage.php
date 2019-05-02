@@ -12,6 +12,9 @@
             <li></li>
             <li></li>
             <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
             </div>
         </ul>
     </div>-->
@@ -358,10 +361,10 @@
     var frequency = 5000;
     var now_news = 0;
     
-    /*function showNext(){
+    function showNext(){
         old_bg = now_bg;
-        now_bg = (now_bg+1)%9;
-        next_bg = (now_bg+1)%9;
+        now_bg = (now_bg+1)%8;
+        next_bg = (now_bg+1)%8;
         $(".hp-p01").addClass("hp-p01_"+now_bg).removeClass("hp-p01_"+old_bg);
         $(".hp-p01_next").addClass("hp-p01_"+next_bg).removeClass("hp-p01_"+now_bg);
         timer = setTimeout(showNext, frequency);
@@ -371,7 +374,7 @@
   	$('.hp-newsbody').perfectScrollbar();
         timer = setTimeout(showNext, frequency);
         $(".hp-news0").show();
-    });*/
+    });
 
     $(".hp-nextnews").click(function(){
         $(".hp-news"+now_news).fadeOut(1000);
