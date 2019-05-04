@@ -120,14 +120,14 @@ hr.ft-hr{
     transition: all 1.5s ease-in-out;
 }
 .hp-p01_8{ background-image:url(../image/bg/index_bg11.jpg); }
-.hp-p01_7{ background-image:url(../image/bg/index_bg04.jpg); }
-.hp-p01_5{ background-image:url(../image/bg/index_bg05.jpg); }
-.hp-p01_6{ background-image:url(../image/bg/index_bg06.jpg); }
-.hp-p01_4{ background-image:url(../image/bg/index_bg07.jpg); }
-.hp-p01_3{ background-image:url(../image/bg/index_bg08.jpg); }
-.hp-p01_1{ background-image:url(../image/bg/index_bg09.jpg); }
-.hp-p01_2{ background-image:url(../image/bg/index_bg12.jpg); }
-.hp-p01_0{ background-image:url(../image/bg/index_bg03_1.png); }
+.hp-p01_7{ background-image:url(../image/bg/home-08.png); }
+.hp-p01_5{ background-image:url(../image/bg/home-06.png); }
+.hp-p01_6{ background-image:url(../image/bg/home-07.png); }
+.hp-p01_4{ background-image:url(../image/bg/home-05.png); }
+.hp-p01_3{ background-image:url(../image/bg/home-04.png); }
+.hp-p01_1{ background-image:url(../image/bg/home-02.png); }
+.hp-p01_2{ background-image:url(../image/bg/home-03.png); }
+.hp-p01_0{ background-image:url(../image/bg/home-01.png); }
 .hp-p02{
     background-image:url(../image/bg/02.png),url(../image/p4.png);
     background-size:cover,auto;
@@ -726,7 +726,7 @@ hr.ft-hr{
 .hp-nav{
     position: fixed;
     z-index: 10;
-    top:50%;
+    top:35%;
     right:10px;  /*0*/
     width:40px;
     cursor:pointer;

@@ -151,7 +151,8 @@ a{font-family:'Noto Sans TC', '微軟正黑體', sans-serif; text-decoration:non
 	-webkit-transition:  width 1.8s, height 1s;
 }
 #header:hover #header-block1{
-	width: 25vw;
+
+    width: 25vw;
 	height: 3vh;
 }
 #header-block2{   /*生*/ 
@@ -253,11 +254,11 @@ a{font-family:'Noto Sans TC', '微軟正黑體', sans-serif; text-decoration:non
 }
 #header-block6{   /*The College of Science*/
 	position:fixed;
-	top: 19.8vh;
+	top: 20.3vh;
 	left: -40vw;
 	font-size:0.1em;
 	letter-spacing: 0.1em; 
-    line-height: 2.5vh;
+    line-height: 1.5vh;
 	color: #002D5A;
 }
 #header:hover #header-block6{
