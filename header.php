@@ -109,6 +109,10 @@
         echo '<link rel="stylesheet" href="';bloginfo('template_url');
         echo'/mobile-css/intro-mobile.css" type="text/css" media="screen and (max-width: 0px)" />';
     }
+    else if(is_page('test')){/*聯絡我們*/
+        echo '<link rel="stylesheet" href="';bloginfo('template_url');
+        echo'/css/test.css" type="text/css" media="screen and (min-width: 0px)" />';
+    }
 
 
     ?>
