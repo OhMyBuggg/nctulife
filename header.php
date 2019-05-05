@@ -210,7 +210,7 @@
                 <div id="header-block4">院</div>
                 <div id="header-block8">生科院產業博士班</div>
                 <div id="header-block5">國立交通大學</div>
-                <div id="header-block6">Industrial Development Graduate Program of CBT</div>
+                <div id="header-block6">Industrial Development Graduate Program of<br>College of Biological Science and Technology</div>
                 <div id="header-block7">Industrial<br>Development<br>Graduate<br>Program of<br>CBT</div>
 
             </div>
