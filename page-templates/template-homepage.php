@@ -363,8 +363,8 @@
     
     function showNext(){
         old_bg = now_bg;
-        now_bg = (now_bg+1)%8;
-        next_bg = (now_bg+1)%8;
+        now_bg = (now_bg+1)%4;
+        next_bg = (now_bg+1)%4;
         $(".hp-p01").addClass("hp-p01_"+now_bg).removeClass("hp-p01_"+old_bg);
         $(".hp-p01_next").addClass("hp-p01_"+next_bg).removeClass("hp-p01_"+now_bg);
         timer = setTimeout(showNext, frequency);

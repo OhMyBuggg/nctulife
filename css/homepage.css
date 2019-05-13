@@ -114,20 +114,20 @@ hr.ft-hr{
     display: none;
 }
 .hp-p01{
-    background-size:cover;
+    background-size:cover,auto;
     background-repeat: no-repeat;
     height:100vh;
     transition: all 1.5s ease-in-out;
 }
-.hp-p01_8{ background-image:url(../image/bg/index_bg11.jpg); }
+/*.hp-p01_8{ background-image:url(../image/bg/index_bg11.jpg); }
 .hp-p01_7{ background-image:url(../image/bg/home-08.png); }
 .hp-p01_5{ background-image:url(../image/bg/home-06.png); }
 .hp-p01_6{ background-image:url(../image/bg/home-07.png); }
-.hp-p01_4{ background-image:url(../image/bg/home-05.png); }
-.hp-p01_3{ background-image:url(../image/bg/home-04.png); }
-.hp-p01_1{ background-image:url(../image/bg/home-02.png); }
-.hp-p01_2{ background-image:url(../image/bg/home-03.png); }
-.hp-p01_0{ background-image:url(../image/bg/home-01.png); }
+.hp-p01_4{ background-image:url(../image/bg/home-05.png); }*/
+.hp-p01_3{ background-image:url(../image/bg/home-04.jpg); }
+.hp-p01_1{ background-image:url(../image/bg/home-02.jpg); }
+.hp-p01_2{ background-image:url(../image/bg/home-03.jpg); }
+.hp-p01_0{ background-image:url(../image/bg/home-01.jpg); }
 .hp-p02{
     background-image:url(../image/bg/02.png),url(../image/p4.png);
     background-size:cover,auto;
