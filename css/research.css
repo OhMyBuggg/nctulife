@@ -151,10 +151,10 @@
     color: #FFFFFF;
     padding: 15px;
 }
-.ra-circle_l:hover{ background:rgba(255,255,255,0.6); color:rgba(215, 140, 60, 0.8); }
-.ra-circle_2:hover{ background:rgba(255,255,255,0.6); color:rgba(215, 140, 60, 0.8); }
-.ra-circle_3:hover{ background:rgba(255,255,255,0.6); color:rgba(215, 140, 60, 0.8); }
-.ra-circle_4:hover{ background:rgba(255,255,255,0.6); color:rgba(215, 140, 60, 0.8); }
+.ra-circle_l:hover{ background:rgba(255,255,255,0.6); color:#024E66; }
+.ra-circle_2:hover{ background:rgba(255,255,255,0.6); color:#024E66; }
+.ra-circle_3:hover{ background:rgba(255,255,255,0.6); color:#024E66; }
+.ra-circle_4:hover{ background:rgba(255,255,255,0.6); color:#024E66; }
 
 .ra-c1{
     left: 99vmin;
