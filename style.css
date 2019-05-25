@@ -152,9 +152,8 @@ a{font-family:'Noto Sans TC', '微軟正黑體', sans-serif; text-decoration:non
     font-size: 0em;
 }
 #header:hover #header-block1{
-
     width: 27vw;
-	height: 5vh;
+	height: 6vh;
 }
 #header-block2{   /*生*/ 
     font-family: ‘Noto Sans TC’, ‘微軟正黑體’, sans-serif;
@@ -264,14 +263,13 @@ a{font-family:'Noto Sans TC', '微軟正黑體', sans-serif; text-decoration:non
 	color: #002D5A;
 }
 #header:hover #header-block6{
-	display: flex;
-    justify-content: center;
+    display: flex;
     align-items: center;
+    justify-content: center;
     width: 25vw;
-    height: 5vh;
+    height: 6vh;
     color: white;
-	left: -1vw;
-    bottom:0px;
+	left: 0vw;
 	transition:left 1.2s;
 	transition-delay: 0.5s;
 	-webkit-transition:left 1.2s;
@@ -332,7 +330,7 @@ a{font-family:'Noto Sans TC', '微軟正黑體', sans-serif; text-decoration:non
 	position: relative;
 	left:-30vw;
 	font-family: 'Noto Sans TC', '微軟正黑體', sans-serif;
-	font-weight: regular;
+	font-weight: 300;
 	font-size: 1.6em;
 	letter-spacing: 0.08em;
 	line-height: 3.5vw;
