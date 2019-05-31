@@ -269,6 +269,7 @@ a{font-family:'Noto Sans TC', '微軟正黑體', sans-serif; text-decoration:non
     width: 25vw;
     height: 6vh;
     color: white;
+	line-height: 2.2vh;
 	left: 0vw;
 	transition:left 1.2s;
 	transition-delay: 0.5s;
