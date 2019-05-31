@@ -796,7 +796,7 @@ hr.ft-hr{
 }
 .dash{
     background-image:url(../image/icon/news_01.png);
-    background-size: contain;
+    background-size: auto;
     background-repeat: no-repeat;
     float: left;
     width:3vw;
@@ -804,9 +804,11 @@ hr.ft-hr{
 }
 .nl-page{
     background-image:url(../image/bg/index_bg04_1.png);
-    background-size:cover auto;
+    background-size:cover;
     background-repeat: no-repeat;
+    background-position:left,top;
     height:100vh;
+    width: 100vw;
 }
 .nl-container{
     position: fixed;
