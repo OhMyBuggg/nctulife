@@ -3,6 +3,7 @@
 }
 /************footer***********/
 /*
+
 .mobile-foot{
         z-index: 11;
         position: absolute;
@@ -56,8 +57,16 @@
 	border: 0px orange solid;
 }
 */
+#foot{
+    display: none;
+}
+
 .icon{
 	display: none;
+}
+
+#p5-announce-block{
+    display: none;
 }
 
 /************homepage***********/
@@ -72,6 +81,10 @@
     display: none;
 }
 .hp{
+    background-image: url(../image/Mobile_500x600/產博_手機版-06);
+    background-size:cover,auto;
+    background-repeat: no-repeat;
+    height:100vh;
     width: 100vw;
     overflow-x: hidden;
 }

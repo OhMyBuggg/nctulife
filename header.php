@@ -8,8 +8,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title><?php bloginfo('name'); ?><?php wp_title(); ?></title>
         <!--<link rel="stylesheet" href="<?php bloginfo('template_url');?>/reset.css" type="text/css" media="screen" />-->
-        <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen and (min-width: 0px)"/>
-	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/style-mobile.css" type="text/css" media="screen and (max-width:0px)"/>
+        <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen and (min-width: 700px)"/>
+	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/style-mobile.css" type="text/css" media="screen and (max-width:700px)"/>
 	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/js/perfect-scrollbar/css/perfect-scrollbar.css" type="text/css" media="screen"/>
     <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/js/lightbox2/dist/css/lightbox.css">
 	<?php
@@ -17,10 +17,10 @@
 
     if(is_page('homepage') || is_page_template('page-templates/template-newslist.php') || is_single() || is_page('videolist') || is_page('search')){ /*首頁*/
         echo '<link rel="stylesheet" href="';bloginfo('template_url');
-        echo'/css/homepage.css" type="text/css" media="screen and (min-width: 0px)" />';
+        echo'/css/homepage.css" type="text/css" media="screen and (min-width: 700px)" />';
 
         echo '<link rel="stylesheet" href="';bloginfo('template_url');
-        echo'/mobile-css/homepage-mobile.css" type="text/css" media="screen and (max-width: 0px)" />';
+        echo'/mobile-css/homepage-mobile.css" type="text/css" media="screen and (max-width: 700px)" />';
 
 
         echo '<link rel="stylesheet" href="';bloginfo('template_url'); 
@@ -28,10 +28,10 @@
     }
     else if(is_page('intro')||is_page('dean')||is_page('vice_dean')||is_page('staff') || is_page('history_of_the_deans')){/*學院簡介*/
         echo '<link rel="stylesheet" href="';bloginfo('template_url');
-        echo'/css/intro.css" type="text/css" media="screen and (min-width: 0px)" />';
+        echo'/css/intro.css" type="text/css" media="screen and (min-width: 700px)" />';
 
         echo '<link rel="stylesheet" href="';bloginfo('template_url');
-        echo'/mobile-css/intro-mobile.css" type="text/css" media="screen and (max-width: 0px)" />';
+        echo'/mobile-css/intro-mobile.css" type="text/css" media="screen and (max-width: 700px)" />';
     }
     else if(is_page('regulations_and_forms')||is_page('conference_room')){/*下載專區*/
         echo '<link rel="stylesheet" href="';bloginfo('template_url');
@@ -62,10 +62,10 @@
     }
     else if(is_page('news')||is_page('research_centers')||is_page('academics_test')){/*學術單位*/
         echo '<link rel="stylesheet" href="';bloginfo('template_url'); 
-        echo'/css/news.css" type="text/css" media="screen and (min-width: 0px)" />';
+        echo'/css/news.css" type="text/css" media="screen and (min-width: 700px)" />';
 
         echo '<link rel="stylesheet" href="';bloginfo('template_url');
-        echo'/mobile-css/academics-mobile.css" type="text/css" media="screen and (max-width: 0px)" />';
+        echo'/mobile-css/news-mobile.css" type="text/css" media="screen and (max-width: 700px)" />';
     }
     else if(is_page('research_achievements') || is_page('most_subsided_projects') || is_page('research_highlights') || is_page('national_labs')){/*研究發展*/
         echo '<link rel="stylesheet" href="';bloginfo('template_url');
@@ -76,17 +76,17 @@
     }
     else if( is_page('admissions')||is_page('mainland_overseas_chinese') || is_page('international_admissions') ){/*招生資訊*/
         echo '<link rel="stylesheet" href="';bloginfo('template_url'); 
-        echo'/css/admissions.css" type="text/css" media="screen and (min-width: 0px)" />';
+        echo'/css/admissions.css" type="text/css" media="screen and (min-width: 700px)" />';
         
         echo '<link rel="stylesheet" href="';bloginfo('template_url');
-        echo'/mobile-css/admissions-mobile.css" type="text/css" media="screen and (max-width: 0px)" />';
+        echo'/mobile-css/admissions-mobile.css" type="text/css" media="screen and (max-width: 700px)" />';
     }
     else if( is_page('learning_info') ){/*修業資訊*/
         echo '<link rel="stylesheet" href="';bloginfo('template_url'); 
-        echo'/css/learning_info.css" type="text/css" media="screen and (min-width: 0px)" />';
+        echo'/css/learning_info.css" type="text/css" media="screen and (min-width: 700px)" />';
         
         echo '<link rel="stylesheet" href="';bloginfo('template_url');
-        echo'/mobile-css/admissions-mobile.css" type="text/css" media="screen and (max-width: 0px)" />';
+        echo'/mobile-css/learning_info-mobile.css" type="text/css" media="screen and (max-width: 700px)" />';
     }
     else if( is_page('cooperation') ){/*產學合作*/
         echo '<link rel="stylesheet" href="';bloginfo('template_url'); 
@@ -97,10 +97,10 @@
     }
     else if( is_page('enroll_info') ){/*招生資訊*/
         echo '<link rel="stylesheet" href="';bloginfo('template_url'); 
-        echo'/css/enroll_info.css" type="text/css" media="screen and (min-width: 0px)" />';
+        echo'/css/enroll_info.css" type="text/css" media="screen and (min-width: 700px)" />';
         
         echo '<link rel="stylesheet" href="';bloginfo('template_url');
-        echo'/mobile-css/admissions-mobile.css" type="text/css" media="screen and (max-width: 0px)" />';
+        echo'/mobile-css/enroll_info-mobile.css" type="text/css" media="screen and (max-width: 700px)" />';
     }
     else if(is_page('contact')){/*聯絡我們*/
         echo '<link rel="stylesheet" href="';bloginfo('template_url');
@@ -138,7 +138,7 @@
 <body>
 
 <div class="mobile_header formobile">
-                    <div class="bottom-dropbtn">
+                    <div onclick="openNav()" class="bottom-dropbtn">
                         <div id="menucontainer" class="menubuttoncontainer">
                                 <div class="bar1"></div>
                                 <div class="bar2"></div>
@@ -148,33 +148,42 @@
 
 		<div id="mySidenav" class="sidenav">
  			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><div class="close_btn"></div></a>
+
             <div class="lang_switch"><a href="<?php echo site_url(); ?>/homepage/?lang=zh" style="letter-spacing:0.4em;">中文</a>&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;<a href="<?php echo site_url(); ?>/en-homepage/?lang=en">English</a></div>
+
 			<div class="sidenavlink">
-			         <a href="<?php echo site_url(); ?>"><div id="mysidetext1" class="menu_block" style="transition:0.8s;"><div class="header-icon header-icon0"><div class="menutext">首頁</div></div></div></a>
+			                 <a href="<?php echo site_url(); ?>"><div id="mysidetext1" class="menu_block" style="transition:0.8s;"><div class="header-icon header-icon0"><div class="menutext">首頁</div></div></div></a>
 
                             <a href="<?php echo site_url(); ?>/intro"><div id="mysidetext2" class="menu_block" style="transition:1.2s;"><div class="header-icon header-icon1"><div class="menutext">系所簡介</div></div></div></a>
 
-                            <a href="<?php echo site_url(); ?>/news"><div id="mysidetext3" class="menu_block"  style="transition:1.6s;"><div class="header-icon header-icon2"><div class="menutext">最新消息</div></div></div></a>-
+                            <a href="<?php echo site_url(); ?>/news"><div id="mysidetext3" class="menu_block"  style="transition:1.6s;"><div class="header-icon header-icon2"><div class="menutext">最新消息</div></div></div></a>
 
-                            <a href="<?php echo site_url(); ?>/research_achievements"><div id="mysidetext5" class="menu_block" style="transition:2.4s;"><div class="header-icon header-icon4"><div class="menutext">研究發展</div></div></div></a>
+                            <a href="<?php echo site_url(); ?>/research_achievements"><div id="mysidetext4" class="menu_block" style="transition:2.4s;"><div class="header-icon header-icon4"><div class="menutext">研究發展</div></div></div></a>
+
                             <!--<a href="<?php echo site_url(); ?>/admissions"><div id="mysidetext4" class="menu_block"  style="transition:2s;"><div class="header-icon header-icon3"><div class="menutext">招生資訊</div></div></div></a>-->
-                            <a href="<?php echo site_url(); ?>/learning_info"><div id="mysidetext4" class="menu_block"  style="transition:2s;"><div class="header-icon header-icon3"><div class="menutext">修業資訊</div></div></div></a>
+
+                            <a href="<?php echo site_url(); ?>/learning_info"><div id="mysidetext5" class="menu_block"  style="transition:2s;"><div class="header-icon header-icon3"><div class="menutext">修業資訊</div></div></div></a>
+
                             <!--<a href="<?php echo site_url(); ?>/exchange_student"><div id="mysidetext6" class="menu_block" style="transition:2.8s;"><div class="header-icon header-icon5"><div class="menutext">國際交流合作</div></div></div></a>-->
+
                             <a href="<?php echo site_url(); ?>/cooperation"><div id="mysidetext6" class="menu_block" style="transition:2.8s;"><div class="header-icon header-icon5"><div class="menutext">產學合作</div></div></div></a>
+
                             <!--<a href="<?php echo site_url(); ?>/regulations_and_forms"><div id="mysidetext7" class="menu_block" style="transition:3.2s;"><div class="header-icon header-icon6"><div class="menutext">下載專區</div></div></div></a>-->
+
                             <a href="<?php echo site_url(); ?>/enroll_info"><div id="mysidetext7" class="menu_block" style="transition:3.2s;"><div class="header-icon header-icon6"><div class="menutext">招生資訊</div></div></div></a>
-                            <a href="<?php echo site_url(); ?>/contact"><div id="mysidetext2" class="menu_block" style="transition:1.2s;"><div class="header-icon header-icon7"><div class="menutext">聯絡我們</div></div></div></a>
+
+                            <a href="<?php echo site_url(); ?>/contact"><div id="mysidetext8" class="menu_block" style="transition:1.2s;"><div class="header-icon header-icon7"><div class="menutext">聯絡我們</div></div></div></a>
 
 
             <div class="mobile-foot"> <!--AnnieDisplayNone-->
 		<div class="foot-line"></div>
                 <div class="foot-top">
-                    <p class="foot-font-top formobile">TEL│886-3-572-7077</p>
-                    <p class="foot-font-top formobile">FAX│886-3-571-9507</p>
-                    <p class="foot-font-top formobile">E-MAIL│science@cc.nctu.edu.tw</p>
+                    <p class="foot-font-top formobile">TEL│886-3-572-9287</p>
+                    <p class="foot-font-top formobile">FAX│886-3-571-9288</p>
+                    <p class="foot-font-top formobile">E-MAIL│meiling@cc.nctu.edu.tw</p>
                 </div>
                 <div class="foot-bottom">
-                <p class="foot-font-bottom formobile">300 新竹市東區大學路1001號<br>基礎科學教學研究大樓101室</p>
+                <p class="foot-font-bottom formobile">300 新竹市博愛街75號 賢齊館325室</p>
                 </div>
             </div>
 
@@ -183,19 +192,19 @@
 		</div>
 
 		<!-- Use any element to open the sidenav -->
-		<span onclick="openNav()" class="dropbtn"></span>
+		<!--<span onclick="openNav()" class="dropbtn"></span>-->
 
 		<!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
                 <div class="mobile-header formobile">交通</br>大學</div> <!--AnnieDisplayNone-->
                 <div class="mobile-header-line"></div>
                 <!-- add in dropdown btn-->
-                <div id="header-block2">生</div>
+                <!--<div id="header-block2">生</div>
                 <div id="header-block3">科</div>
-                <div id="header-block4">院</div>
+                <div id="header-block4">院</div>-->
                 <div id="header-block8">生科院產業博士班</div>
                 <div id="header-block5">國立交通大學</div>
-                <div id="header-block6">Industrial Development Graduate Program of CBT</div>
-                <div id="header-block7">Industrial<br>Development<br>Graduate<br>Program of<br>CBT</div>
+                <div id="header-block6">Ph.D. in Industrial Development of CBST</div>
+                <!--<div id="header-block7">Industrial<br>Development<br>Graduate<br>Program of<br>CBT</div>-->
 		<a href="<?php echo site_url(); ?>"><div class="header-block-link"></div></a>
 </div>
 
@@ -267,6 +276,7 @@ function openNav() {
     document.getElementById("mysidetext5").style.height = menutextheight;
     document.getElementById("mysidetext6").style.height = menutextheight;
     document.getElementById("mysidetext7").style.height = menutextheight;
+    document.getElementById("mysidetext8").style.height = menutextheight;
 }
 
 /* Set the width of the side navigation to 0 */

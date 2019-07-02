@@ -13,13 +13,13 @@
                 <div class="intro-subpage-1">    <!--first page-->
                     <div class="intro-bigTitle_1">招生資訊</div>
                     <!--下半部分-->
-                    <p class="intro-first-page-text_1">本博士班依教育部「補助大學校院產學合作培育博士級研發人<br>才計畫」成立，透過「甄試入學」及「考試入學」管道招生。</p>
+                    <p class="intro-first-page-text_1">本博士班依教育部「補助大學校院產學合作培育博士級研發人才計畫」成立，透過「甄試入學」及「考試入學」管道招生。</p>
                     <a href="http://exam.nctu.edu.tw/"><div class="more-information"></div></a>
               </div>
             <!--</div>-->
         <!--</div>-->
     <!--</div>-->
-                <a class="icon_down" href="<?php echo site_url(); ?>/dean" style="opacity:1; transform: matrix(1,0,0,1,0,0);"><div class="right_icon"></div></a>
+                <!--<a class="icon_down" href="<?php echo site_url(); ?>/dean" style="opacity:1; transform: matrix(1,0,0,1,0,0);"><div class="right_icon"></div></a>-->
 <!--
   <div id="icon_down_wrapper" class="icon_down_slide"></div>
   <a href="<?php echo site_url(); ?>/dean" style="opacity:1; transform: matrix(1,0,0,1,0,0);">
@@ -107,6 +107,6 @@
         $(".nav_menu").on("click",function(){});
     });
 </script>
-<?php wp_nav_menu (array('theme_location' => 'Menu2','container_class' => 'nav_menu','container_id' => 'nav_menu_1')); ?>
-<?php //get_sidebar(); ?>
+<!--<?php wp_nav_menu (array('theme_location' => 'Menu2','container_class' => 'nav_menu','container_id' => 'nav_menu_1')); ?>
+<?php //get_sidebar(); ?>-->
 <?php get_footer(); ?>
