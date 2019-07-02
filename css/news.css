@@ -796,14 +796,15 @@ hr.ft-hr{
 }
 .dash{
     background-image:url(../image/icon/news_01.png);
-    background-size: auto;
+    background-size: contain;
     background-repeat: no-repeat;
+    margin-top: 1vh; 
     float: left;
     width:3vw;
-    height: 3vh;
+    height: 1vh;
 }
 .nl-page{
-    background-image:url(../image/bg/index_bg04_1.png);
+    background-image:url(../image/bg/產博公告-20.png);
     background-size:cover;
     background-repeat: no-repeat;
     background-position:left,top;
@@ -819,7 +820,7 @@ hr.ft-hr{
 }
 .nl-list_item{
     /*height: 30px;*/
-    width: 100%;
+    width: 100vw;
     margin-top: 5vh;
     margin-bottom: 1.5vh;
     height: 12vh;
@@ -835,9 +836,9 @@ hr.ft-hr{
 }
 .nl-news_item_title{
     float: left;
-    width: 80%;
+    width: 40vw;
     line-height: 3vh;
-    margin-left: 1.5vw;
+    margin-left: 0vw;
     font-family: 'Noto Sans TC', '微軟正黑體', sans-serif;
     font-weight: 500;
     font-size: 1.2em;
@@ -864,10 +865,10 @@ hr.newlist_line{
     width: 4.2vmin;
     height:4.2vmin;
     margin: 1.4vmin;
-    background-image: url(../image/btn/btn_leftest.svg);
+    background-image: url(../image/icon/產博公告-21.png);
     background-size: cover;
 }
-.nl-first_page:hover{ background-image: url(../image/btn/btn_leftest_rv.svg); }
+.nl-first_page:hover{ background-image: url(../image/icon/產博公告-23.png); }
 .nl-prev_page{
     float:left;
     width: 4.2vmin;
@@ -875,10 +876,10 @@ hr.newlist_line{
     margin: 1.4vmin;
     margin-left: 1vmin;
     margin-right: 1vmin;
-    background-image: url(../image/btn/btn_left.svg);
+    background-image: url(../image/icon/產博公告-22.png);
     background-size: cover;
 }
-.nl-prev_page:hover{  background-image: url(../image/btn/btn_left_rv.svg); }
+.nl-prev_page:hover{  background-image: url(../image/icon/產博公告-24.png); }
 .nl-next_page{
     float:left;
     width: 4.2vmin;
@@ -906,10 +907,10 @@ hr.newlist_line{
     width: 4.2vmin;
     height:4.2vmin;
     margin: 1.4vmin;
-    margin-left: 1vmin;
+    margin-left: 0.2vmin;
     margin-right: 1vmin;
     border-radius: 50%;
-    background: #323232;
+    /*background: #323232;*/
     color: white;
     text-align: center;
     line-height: 4.2vmin;
@@ -920,14 +921,28 @@ hr.newlist_line{
     width: 4.2vmin;
     height:4.2vmin;
     margin: 1.4vmin;
-    margin-left: 1vmin;
-    margin-right: 1vmin;
+    margin-left: 1.2vmin;
+    margin-right: 0vmin;
     border-radius: 50%;
-    background: #969696;
+    /*background: #969696;*/
     color: white;
     text-align: center;
     line-height: 4.2vmin;
     font-size: 0.8em;
+}
+.spot{
+    float: left;
+    background-image: url(../image/icon/產博_手機版-14.png);
+    height: 4vmin;
+    width: 13vmin;
+    background-repeat: no-repeat;
+    background-position: center,bottom;
+    background-size: contain;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1.4vmin;
 }
 hr.nl-vertical_line{
     float: left;
@@ -939,25 +954,32 @@ hr.nl-vertical_line{
     background: #505050;
 }
 #jump_to{
-    float: left;
-    border: solid 1px #323232;
-    border-radius: 0.5vmin;
+    position: absolute;
+    bottom:7vh;
+    left:13.5vw;
+    border: solid 0px #323232;
+    border-radius: 0vmin;
     margin: 1.4vmin;
     margin-left: 1vmin;
     margin-right: 1vmin
     padding-left: 5px;
-    width: 10vmin;
-    height: 4vmin;
+    width: 12vmin;
+    height: 3vmin;
     background: rgba(1,1,1,0);
+    background-image: url(../image/icon/產博公告-25.png);
+    background-size: contain;
+    background-repeat: no-repeat; 
 }
 .nl-go{
-    float: left;
+    position: absolute;
+    bottom:8.8vh;
+    left:22.8vw;
     margin-top: 2.1vmin;
     margin-left: -5vmin;
-    width: 2.8vmin;
-    height:2.8vmin;
-    background-image: url(../image/btn/btn_ok.svg);
-    background-size: cover;
+    width: 2.2vmin;
+    height:2.2vmin;
+    /*background-image: url(../image/btn/btn_ok.svg);
+    background-size: cover;*/
 }
 .nl-go:hover{  background-image: url(../image/btn/btn_ok_rv.svg); }
 
