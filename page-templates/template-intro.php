@@ -18,7 +18,7 @@
             <!--</div>-->
         <!--</div>-->
     <!--</div>-->
-                <a class="icon_down" href="<?php echo site_url(); ?>/dean" style="opacity:1; transform: matrix(1,0,0,1,0,0);"><div class="right_icon"></div></a>
+                <!--<a class="icon_down" href="<?php echo site_url(); ?>/dean" style="opacity:1; transform: matrix(1,0,0,1,0,0);"><div class="right_icon"></div></a>-->
 <!--
 	<div id="icon_down_wrapper" class="icon_down_slide"></div>
 	<a href="<?php echo site_url(); ?>/dean" style="opacity:1; transform: matrix(1,0,0,1,0,0);">
@@ -106,6 +106,6 @@
         $(".nav_menu").on("click",function(){});
     });
 </script>
-<?php wp_nav_menu (array('theme_location' => 'Menu2','container_class' => 'nav_menu','container_id' => 'nav_menu_1')); ?>
-<?php //get_sidebar(); ?>
+<!--<?php wp_nav_menu (array('theme_location' => 'Menu2','container_class' => 'nav_menu','container_id' => 'nav_menu_1')); ?>
+<?php //get_sidebar(); ?>-->
 <?php get_footer(); ?>

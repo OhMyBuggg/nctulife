@@ -28,9 +28,8 @@
                             if($the_query->have_posts()):
                                 while($the_query->have_posts()):
                                     $the_query->the_post();
-                                    if($i % 4 == 0):
                             ?>
-                            <?php endif; ?>
+                            
             <div class="nl-list_item">
                             <div class="nl-news_item_date"><?php the_time('Y.m.d'); ?></div>
                             <br>
@@ -52,24 +51,52 @@
                                     //next_posts_link( 'Newer Posts', $the_query->max_num_pages );
                             ?>
         </div>
+
+        <!--下面頁數-->
         <div class="newslist_nav">
+            
+            <!--回到第一頁-->
             <a href="<?php echo site_url()."/${cat_name}/page/1"; ?>"><div class="nl-first_page"></div></a>
+                
+                <!--上一頁如果已在第一頁就不動-->
                 <?php if( $paged == 1 ) :?>
+            
             <a href="<?php echo site_url()."/${cat_name}/page/1"; ?>"><div class="nl-prev_page"></div></a>
+                
                 <?php else: ?>
+            
             <a href="<?php echo site_url()."/${cat_name}/page/".($paged-1); ?>"><div class="nl-prev_page"></div></a>
+                
                 <?php endif; ?>
-            <div class="nl-page_num"><?php echo $paged; ?></div>
-            <hr class="nl-vertical_line">
+
+            <div class="spot">
+                <!--目前在第幾頁-->
+                <div class="nl-page_num"><?php echo $paged; ?></div>
+
+                 <!--最後一頁的頁數-->
             <div class="nl-page_max_num"><?php echo $the_query->max_num_pages ?></div>
+            
+            </div>
+                
+                <!--下一頁如果在最後一頁就不動-->
                 <?php if( $paged == $the_query->max_num_pages ) :?>
+            
             <a href="<?php echo site_url()."/${cat_name}/page/".($the_query->max_num_pages); ?>"><div class="nl-next_page"></div></a>
+                
                 <?php else: ?>
+            
             <a href="<?php echo site_url()."/${cat_name}/page/".($paged+1); ?>"><div class="nl-next_page"></div></a>
+               
                 <?php endif; ?>
+            
+            <!--到最後一頁-->
             <a href="<?php echo site_url()."/${cat_name}/page/".($the_query->max_num_pages); ?>"><div class="nl-last_page"></div></a>
+                
+                <!--下面手機板沒有-->
                 <input type="text" id="jump_to" name="jump_to" max="<?php echo $the_query->max_num_pages ?>">
+            
             <a href="#" class="nl-go"></a>
+        
         </div>
                             <?php  wp_reset_postdata(); ?>
     </div>
@@ -83,6 +110,6 @@
 
 
 </script>
-<?php wp_nav_menu (array('theme_location' => 'Menu1','container_class' => 'nav_menu','container_id'=>'nav_menu_'.$n)); ?>
-<?php //get_sidebar(); ?>
+<!--<?php wp_nav_menu (array('theme_location' => 'Menu1','container_class' => 'nav_menu','container_id'=>'nav_menu_'.$n)); ?>
+<?php //get_sidebar(); ?>-->
 <?php get_footer(); ?>

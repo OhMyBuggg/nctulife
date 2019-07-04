@@ -18,6 +18,7 @@
             </div>
         </ul>
     </div>-->
+    <!--<div class="formobile"></div>-->
     <div class="hp-p01_next hp-p01_1" style="display:none;"></div>
     <div class="hp-p01 hp-p01_0">
         <div class="language-opt">
@@ -342,7 +343,7 @@
                     <a href="http://www.nctu.edu.tw/">
                         <?php echo $translate ? 'NCTU' : '交通大學' ?>
                     </a>
-                    <a href="http://www.nctu.edu.tw/">
+                    <a href="https://pidcbt.nctu.edu.tw/wp-content/uploads/2019/07/產業博士班網站導覽.pdf">
                         <?php echo $translate ? '' : ' | 網頁導覽' ?> | 
                     </a>
                     <a target=_blank href="https://pidcbt.nctu.edu.tw/wp-content/uploads/2019/04/Web_Design_Guideline.pdf">
