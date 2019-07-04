@@ -19,7 +19,7 @@
                     <div class="first_first_line">行政專員</div>
                     <div class="first_second_line">呂聖鈴</div>
                     <div class="middle_line"><hr></div>
-                    <div class="first_third_line">研究計畫及財產等事務<br>shenq@cc.nctu.edu.tw<br>03-5712121 # 56902</div>
+                    <div class="first_third_line">研究計畫及財產等事務<br>shenq@mail.nctu.edu.tw<br>03-5712121 # 56902</div>
                 </div>
             </div>
             <div class="ra-circle_first_block_2">
@@ -29,7 +29,7 @@
                     <div class="first_first_line">技士</div>
                     <div class="first_second_line">郭珍佑</div>
                     <div class="middle_line"><hr></div>
-                    <div class="first_third_line"><p>館舍及公儀維修 門禁管理</p><p>系教評會業務 排課</p><p>shenq@mail.nctu.edu.tw</p><p>03-5712121 # 56901</p></div>
+                    <div class="first_third_line"><p>館舍及公儀維修 門禁管理</p><p>系教評會業務 排課</p><p>cynthia@mail.nctu.edu.tw</p><p>03-5712121 # 56901</p></div>
                 </div>
             </div>
             </div>
@@ -85,7 +85,7 @@
                     <div class="first_first_line">工友</div>
                     <div class="first_second_line">葉連發</div>
                     <div class="middle_line"><hr></div>
-                    <div class="first_third_line">館舍維護 收發信件<br>sunny@mail.nctu.edu.tw<br>03-5712121 # 53008</div>
+                    <div class="first_third_line">館舍維護 收發信件<br>yah@mail.nctu.edu.tw<br>03-5712121 # 53008</div>
                 </div>
             </div>
             <div class="ra-circle_second_block_2">
@@ -109,7 +109,10 @@
     </a>-->
 
 </div>
-
+<!-- mobile down here -->
+<div class="mobile">
+    <div class="intro-bigTitle_1">聯絡我們</div>
+</div>
 
 <script>
 $(document).ready(function(){
@@ -200,6 +203,8 @@ $(document).ready(function(){
         $(".nav_menu").on("click",function(){});
     });
 </script>
+<!--
 <?php wp_nav_menu (array('theme_location' => 'Menu2','container_class' => 'nav_menu','container_id' => 'nav_menu_1')); ?>
 <?php //get_sidebar(); ?>
+-->
 <?php get_footer(); ?>
