@@ -4,7 +4,7 @@
  */
 ?>
 <?php get_header(); ?>
-<div class="page-research_achievements">
+<div class="page-research_achievements webpage">
     <p class="subtitled ra-title1_1 mobilehidden">研究發展</p>
     <div class="container">    
         <!--<p class="subtitled ra-title1 formobile">重點研究</p>-->
@@ -75,6 +75,15 @@
     </div>
     <!--<a class="icon_down icon_ra" href="http://188.166.179.62/most_subsided_projects" style="opacity:1; transform: matrix(1,0,0,1,0,0);"></a>
 -->
+</div>
+<div class="mobile">
+    <div class="intro-bigTitle_1">研究發展</div>
+    <div class="container">
+        <a class="link-1" href="https://cbt.nctu.edu.tw/research_achievements/"></a>
+        <a class="link-2" href="https://cbt.nctu.edu.tw/research_achievements/"></a>
+        <a class="link-3" href="https://cbt.nctu.edu.tw/research_achievements/"></a>
+        <a class="link-4" href="https://cbt.nctu.edu.tw/research_achievements/"></a>
+    </div>
 </div>
 
 <script>

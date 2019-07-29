@@ -514,3 +514,7 @@ hr.rh-line{
 }
 .rnl-item:hover .rnl-item_cht{ color:white; }
 .rnl-item:hover .rnl-item_eng{ color:white; }
+
+.mobile {
+    display: none;
+}

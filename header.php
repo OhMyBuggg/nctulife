@@ -69,10 +69,10 @@
     }
     else if(is_page('research_achievements') || is_page('most_subsided_projects') || is_page('research_highlights') || is_page('national_labs')){/*研究發展*/
         echo '<link rel="stylesheet" href="';bloginfo('template_url');
-        echo'/css/research.css" type="text/css" media="screen and (min-width: 0px)" />';
+        echo'/css/research.css" type="text/css" media="screen and (min-width: 700px)" />';
 
         echo '<link rel="stylesheet" href="';bloginfo('template_url'); 
-        echo'/mobile-css/research-mobile.css" type="text/css" media="screen and (max-width: 0px)" />';
+        echo'/mobile-css/research-mobile.css" type="text/css" media="screen and (max-width: 700px)" />';
     }
     else if( is_page('admissions')||is_page('mainland_overseas_chinese') || is_page('international_admissions') ){/*招生資訊*/
         echo '<link rel="stylesheet" href="';bloginfo('template_url'); 
@@ -152,7 +152,7 @@
             <div class="lang_switch"><a href="<?php echo site_url(); ?>/homepage/?lang=zh" style="letter-spacing:0.4em;">中文</a>&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;<a href="<?php echo site_url(); ?>/en-homepage/?lang=en">English</a></div>
 
 			<div class="sidenavlink">
-			                 <a href="<?php echo site_url(); ?>"><div id="mysidetext1" class="menu_block" style="transition:0.8s;"><div class="header-icon header-icon0"><div class="menutext">首頁</div></div></div></a>
+			                 <a href="<?php echo site_url(); ?>"><div id="mysidetext1" class="menu_block" style="transition:0.8s;"><div class="header-icon0"><div class="menutext">首頁</div></div></div></a>
 
                             <a href="<?php echo site_url(); ?>/intro"><div id="mysidetext2" class="menu_block" style="transition:1.2s;"><div class="header-icon header-icon1"><div class="menutext">系所簡介</div></div></div></a>
 
@@ -172,7 +172,7 @@
 
                             <a href="<?php echo site_url(); ?>/enroll_info"><div id="mysidetext7" class="menu_block" style="transition:3.2s;"><div class="header-icon header-icon6"><div class="menutext">招生資訊</div></div></div></a>
 
-                            <a href="<?php echo site_url(); ?>/contact"><div id="mysidetext8" class="menu_block" style="transition:1.2s;"><div class="header-icon header-icon7"><div class="menutext">聯絡我們</div></div></div></a>
+                            <a href="<?php echo site_url(); ?>/contact"><div id="mysidetext8" class="menu_block" style="transition:3.6s;"><div class="header-icon header-icon7"><div class="menutext">聯絡我們</div></div></div></a>
 
 
             <div class="mobile-foot"> <!--AnnieDisplayNone-->
