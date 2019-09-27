@@ -151,6 +151,3 @@
     });
 </script>
 
-<?php wp_nav_menu (array('theme_location' => 'Menu4','container_class' => 'nav_menu','container_id' => 'nav_menu_1')); ?>
-<?php //get_sidebar(); ?>
-<?php get_footer(); ?>

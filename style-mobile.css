@@ -244,7 +244,7 @@ a{font-family:'Noto Sans TC', '微軟正黑體', sans-serif; text-decoration:non
 	position:fixed;
 	top: 5.5vh;
 	left: 37vw;
-	letter-spacing: 0.2em; 
+	letter-spacing: 0.1em; 
 	font-weight: 350;
 	font-size: 0.66em;
 	color: rgba(50, 50, 50, 1);
@@ -276,6 +276,7 @@ a{font-family:'Noto Sans TC', '微軟正黑體', sans-serif; text-decoration:non
 	border: solid 0px blue;
 	letter-spacing: 0.6em;
 	font-weight: 300;
+    width:100%;
 }
 .header-text{
 	display: none;
