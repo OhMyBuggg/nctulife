@@ -61,12 +61,12 @@
         echo'/mobile-css/studying_abroad-mobile.css" type="text/css" media="screen and (max-width: 700px)" />';
 
     }
-    else if(is_page('en-academics')||is_page('en-research_centers')||is_page('academics_test')){/*學術單位*/
+    else if(is_page('en-news')||is_page('en-research_centers')||is_page('academics_test')){/*學術單位*/
         echo '<link rel="stylesheet" href="';bloginfo('template_url'); 
-        echo'/css/en-academics.css" type="text/css" media="screen and (min-width: 701px)" />';
+        echo'/css/news.css" type="text/css" media="screen and (min-width: 701px)" />';
 
         echo '<link rel="stylesheet" href="';bloginfo('template_url');
-        echo'/mobile-css/en-academics-mobile.css" type="text/css" media="screen and (max-width: 700px)" />';
+        echo'/mobile-css/en-news-mobile.css" type="text/css" media="screen and (max-width: 700px)" />';
     }
     else if(is_page('en-research_achievements') || is_page('en-most_subsided_projects') || is_page('en-research_highlights') || is_page('en-national_labs')){/*研究發展*/
         echo '<link rel="stylesheet" href="';bloginfo('template_url');
@@ -82,6 +82,34 @@
         echo '<link rel="stylesheet" href="';bloginfo('template_url');
         echo'/mobile-css/en-admissions-mobile.css" type="text/css" media="screen and (max-width: 700px)" />';
     }
+    else if( is_page('en-learning_info') ){/*修業資訊*/
+        echo '<link rel="stylesheet" href="';bloginfo('template_url'); 
+        echo'/css/en-learning_info.css" type="text/css" media="screen and (min-width: 700px)" />';
+        
+        echo '<link rel="stylesheet" href="';bloginfo('template_url');
+        echo'/mobile-css/en-learning_info-mobile.css" type="text/css" media="screen and (max-width: 700px)" />';
+    }
+    else if( is_page('en-cooperation') ){/*產學合作*/
+        echo '<link rel="stylesheet" href="';bloginfo('template_url'); 
+        echo'/css/en-cooperation.css" type="text/css" media="screen and (min-width: 700px)" />';
+        
+        echo '<link rel="stylesheet" href="';bloginfo('template_url');
+        echo'/mobile-css/en-cooperation-mobile.css" type="text/css" media="screen and (max-width: 700px)" />';
+    }
+    else if( is_page('en-enroll_info') ){/*招生資訊*/
+        echo '<link rel="stylesheet" href="';bloginfo('template_url'); 
+        echo'/css/en-enroll_info.css" type="text/css" media="screen and (min-width: 700px)" />';
+        
+        echo '<link rel="stylesheet" href="';bloginfo('template_url');
+        echo'/mobile-css/en-enroll_info-mobile.css" type="text/css" media="screen and (max-width: 700px)" />';
+    }
+    else if(is_page('en-contact')){/*聯絡我們*/
+        echo '<link rel="stylesheet" href="';bloginfo('template_url');
+        echo'/css/en-contact.css" type="text/css" media="screen and (min-width: 700px)" />';
+
+        echo '<link rel="stylesheet" href="';bloginfo('template_url');
+        echo'/mobile-css/en-contact-mobile.css" type="text/css" media="screen and (max-width: 700px)" />';
+    }
 
     ?>
 	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="<?php bloginfo('rss2_url'); ?>" />
@@ -94,9 +122,9 @@
         <script src='<?php bloginfo('template_url');?>/js/perfect-scrollbar/js/perfect-scrollbar.jquery.js'></script>
         <script src='<?php bloginfo('template_url');?>/js/lightbox2/dist/js/lightbox.js'></script>
 <?php
-    if(is_page('en-homepage')){
+    if(is_page('en-news')){
         echo '
-    <script src="' ; bloginfo('template_url') ; echo '/js/homepage.js" type="text/javascript" media="screen and (min-width:701px)"></script>';
+    <script src="' ; bloginfo('template_url') ; echo '/js/jumptopage.js" type="text/javascript" media="screen and (min-width:701px)"></script>';
     }else if(is_page_template('template-newslist.php')){
         echo '<script src="' ; bloginfo('template_url') ; echo '/js/jumptopage.js" type="text/javascript"></script>';
     }
@@ -106,7 +134,7 @@
 <body>
 
 <div class="mobile_header formobile">
-                    <div class="bottom-dropbtn">
+                    <div onclick="openNav()" class="bottom-dropbtn">
                         <div id="menucontainer" class="menubuttoncontainer">
                                 <div class="bar1"></div>
                                 <div class="bar2"></div>
@@ -114,93 +142,121 @@
                         </div>
                     </div>
 
-		<div id="mySidenav" class="sidenav">
- 			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><div class="close_btn"></div></a>
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><div class="close_btn"></div></a>
+
             <div class="lang_switch"><a href="<?php echo site_url(); ?>/homepage/?lang=zh" style="letter-spacing:0.4em;">中文</a>&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;<a href="<?php echo site_url(); ?>/en-homepage/?lang=en">English</a></div>
-			<div class="sidenavlink">
-			    <a href="<?php echo site_url(); ?>/en-homepage"><div id="mysidetext1" class="menu_block" style="transition:0.8s;"><div class="header-icon header-icon0"><div class="menutext">Home</div></div></div></a>
-                            <a href="<?php echo site_url(); ?>/en-intro"><div id="mysidetext2" class="menu_block" style="transition:1.2s;"><div class="header-icon header-icon1"><div class="menutext">About</div></div></div></a>
-                            <a href="<?php echo site_url(); ?>/en-academics"><div id="mysidetext3" class="menu_block"  style="transition:1.6s;"><div class="header-icon header-icon2"><div class="menutext">Academics</div></div></div></a>
-                            <a href="<?php echo site_url(); ?>/en-admissions"><div id="mysidetext4" class="menu_block"  style="transition:2s;"><div class="header-icon header-icon3"><div class="menutext">Admissions</div></div></div></a>
-                            <a href="<?php echo site_url(); ?>/en-research_achievements"><div id="mysidetext5" class="menu_block" style="transition:2.4s;"><div class="header-icon header-icon4"><div class="menutext">Research</div></div></div></a>
-                            <a href="<?php echo site_url(); ?>/en-exchange_student"><div id="mysidetext6" class="menu_block" style="transition:2.8s;"><div class="header-icon header-icon5"><div class="menutext">International</div></div></div></a>
-                            <a href="<?php echo site_url(); ?>/en-regulations_and_forms"><div id="mysidetext7" class="menu_block" style="transition:3.2s;"><div class="header-icon header-icon6"><div class="menutext">Downloads</div></div></div></a>
+
+            <div class="sidenavlink">
+                             <a href="<?php echo site_url(); ?>/en-homepage"><div id="mysidetext1" class="menu_block" style="transition:0.8s;"><div class="header-icon0"><div class="menutext">首頁</div></div></div></a>
+
+                            <a href="<?php echo site_url(); ?>/en-intro"><div id="mysidetext2" class="menu_block" style="transition:1.2s;"><div class="header-icon header-icon1"><div class="menutext">系所簡介</div></div></div></a>
+
+                            <a href="<?php echo site_url(); ?>/en-news"><div id="mysidetext3" class="menu_block"  style="transition:1.6s;"><div class="header-icon header-icon2"><div class="menutext">最新消息</div></div></div></a>
+
+                            <a href="<?php echo site_url(); ?>/en-research_achievements"><div id="mysidetext4" class="menu_block" style="transition:2.4s;"><div class="header-icon header-icon4"><div class="menutext">研究發展</div></div></div></a>
+
+                            <!--<a href="<?php echo site_url(); ?>/admissions"><div id="mysidetext4" class="menu_block"  style="transition:2s;"><div class="header-icon header-icon3"><div class="menutext">招生資訊</div></div></div></a>-->
+
+                            <a href="<?php echo site_url(); ?>/en-learning_info"><div id="mysidetext5" class="menu_block"  style="transition:2s;"><div class="header-icon header-icon3"><div class="menutext">修業資訊</div></div></div></a>
+
+                            <!--<a href="<?php echo site_url(); ?>/exchange_student"><div id="mysidetext6" class="menu_block" style="transition:2.8s;"><div class="header-icon header-icon5"><div class="menutext">國際交流合作</div></div></div></a>-->
+
+                            <a href="<?php echo site_url(); ?>/en-cooperation"><div id="mysidetext6" class="menu_block" style="transition:2.8s;"><div class="header-icon header-icon5"><div class="menutext">產學合作</div></div></div></a>
+
+                            <!--<a href="<?php echo site_url(); ?>/regulations_and_forms"><div id="mysidetext7" class="menu_block" style="transition:3.2s;"><div class="header-icon header-icon6"><div class="menutext">下載專區</div></div></div></a>-->
+
+                            <a href="<?php echo site_url(); ?>/en-enroll_info"><div id="mysidetext7" class="menu_block" style="transition:3.2s;"><div class="header-icon header-icon6"><div class="menutext">招生資訊</div></div></div></a>
+
+                            <a href="<?php echo site_url(); ?>/en-contact"><div id="mysidetext8" class="menu_block" style="transition:3.6s;"><div class="header-icon header-icon7"><div class="menutext">聯絡我們</div></div></div></a>
 
 
             <div class="mobile-foot"> <!--AnnieDisplayNone-->
-		<div class="foot-line"></div>
+        <div class="foot-line"></div>
                 <div class="foot-top">
-                    <p class="foot-font-top formobile">TEL│886-3-572-7077</p>
-                    <p class="foot-font-top formobile">FAX│886-3-571-9507</p>
-                    <p class="foot-font-top formobile">E-MAIL│science@cc.nctu.edu.tw</p>
+                    <p class="foot-font-top formobile">TEL│886-3-572-9287</p>
+                    <p class="foot-font-top formobile">FAX│886-3-571-9288</p>
+                    <p class="foot-font-top formobile">E-MAIL│meiling@cc.nctu.edu.tw</p>
                 </div>
                 <div class="foot-bottom">
-                <p class="foot-font-bottom formobile">Rm. 101, Science Building 3,</br>1001 University Road, Hsinchu, Taiwan 300, ROC</p>
+                <p class="foot-font-bottom formobile">300 新竹市博愛街75號 賢齊館325室</p>
                 </div>
             </div>
 
 
-			</div>
-		</div>
+            </div>
+        </div>
 
-		<!-- Use any element to open the sidenav -->
-		<span onclick="openNav()" class="dropbtn"></span>
+        <!-- Use any element to open the sidenav -->
+        <!--<span onclick="openNav()" class="dropbtn"></span>-->
 
-		<!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
-                <div class="mobile-header formobile">NCTU</div> <!--AnnieDisplayNone-->
+        <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
+                <div class="mobile-header formobile">交通</br>大學</div> <!--AnnieDisplayNone-->
                 <div class="mobile-header-line"></div>
                 <!-- add in dropdown btn-->
-<!--
-                <div id="header-block2">理</div>
-                <div id="header-block3">學</div>
-                <div id="header-block4">院</div>
+                <!--<div id="header-block2">生</div>
+                <div id="header-block3">科</div>
+                <div id="header-block4">院</div>-->
+                <div id="header-block8">生科院產業博士班</div>
                 <div id="header-block5">國立交通大學</div>
--->
-                <div id="header-block6">The College of Science</div>
-                <div id="header-block7">The<br>College<br>of<br>Science</div>
-		<a href="<?php echo site_url(); ?>/en-homepage"><div class="header-block-link"></div></a>
+                <div id="header-block6">Ph.D. in Industrial Development of CBST</div>
+                <!--<div id="header-block7">Industrial<br>Development<br>Graduate<br>Program of<br>CBT</div>-->
+        <a href="<?php echo site_url(); ?>"><div class="header-block-link"></div></a>
 </div>
 
 <div id="header">
-	<div class="box mobilehidden">
-	    <div id="header-block0">
-	        <div id="header-block1"></div>
-        	<a href="<?php echo site_url(); ?>/en-homepage" class="header__icon" id="header__icon"></a>
-        	<!-- add in dropdown btn-->
+    <div class="box mobilehidden">
+        <div id="header-block0">
+            <div id="header-block1"></div>
+            <a href="<?php echo site_url(); ?>/en-homepage" class="header__icon" id="header__icon"></a>
+            <!-- add in dropdown btn-->
 
                 <div class="mobile-header formobile">交通</br>大學</div> <!--AnnieDisplayNone-->
                 <div class="mobile-header-line"></div>
-                <div id="header-block2">College</div>
-                <div id="header-block4">of</div>
-                <div id="header-block5">Science</div>
-                <div id="header-block6">NCTU</div>
-                <!--<div id="header-block7">The<br>College<br>of<br>Science</div>-->
+                <!-- add in dropdown btn-->
+                <div id="header-block2">英</div>
+                <div id="header-block3">文</div>
+                <div id="header-block4">版</div>
+                <div id="header-block8">生科院產業博士班</div>
+                <div id="header-block5">國立交通大學</div>
+                <div id="header-block6">Industrial Development Graduate Program of<br>College of Biological Science and Technology</div>
+                <div id="header-block7">Industrial<br>Development<br>Graduate<br>Program of<br>CBT</div>
 
             </div>
             <a href="<?php echo site_url(); ?>/en-homepage"><div id="header-block-link"></div></a>
             <div id="header-foot"></div>
             <div id="header-icon0">
             <a href="<?php echo site_url(); ?>/en-intro">
-                <div class="header-icon header-icon1"><div class="header-text">About</div></div>
+                <div class="header-icon header-icon1"><div class="header-text">系所簡介</div></div>
             </a>
-            <a href="<?php echo site_url(); ?>/en-academics">
-                <div class="header-icon header-icon2"><div class="header-text">Academics</div></div>
-            </a>
-            <a href="<?php echo site_url(); ?>/en-admissions">
-                <div class="header-icon header-icon3"><div class="header-text">Admissions</div></div>
-            </a>
+            <a href="<?php echo site_url(); ?>/en-news">
+                <div class="header-icon header-icon2"><div class="header-text">最新消息</div></div></a>
             <a href="<?php echo site_url(); ?>/en-research_achievements">
-                <div class="header-icon header-icon4"><div class="header-text">Research</div></div>
+                <div class="header-icon header-icon4"><div class="header-text">研究發展</div></div>
             </a>
-            <a href="<?php echo site_url(); ?>/en-exchange_student">
-                <div class="header-icon header-icon5"><div class="header-text">International</div></div>
+            <!--<a href="<?php echo site_url(); ?>/admissions">
+                <div class="header-icon header-icon3"><div class="header-text">招生資訊</div></div>
+            </a>-->
+            <a href="<?php echo site_url(); ?>/en-learning_info">
+                <div class="header-icon header-icon3"><div class="header-text">修業資訊</div></div>
+            </a>    
+            <!--<a href="<?php echo site_url(); ?>/exchange_student">
+                <div class="header-icon header-icon5"><div class="header-text">國際交流合作</div></div>
+            </a>-->
+            <a href="<?php echo site_url(); ?>/en-cooperation">
+                <div class="header-icon header-icon5"><div class="header-text">產學合作</div></div>
             </a>
-            <a href="<?php echo site_url(); ?>/en-regulations_and_forms">
-                <div class="header-icon header-icon6"><div class="header-text">Downloads</div></div>
+            <!--<a href="<?php echo site_url(); ?>/regulations_and_forms">
+                <div class="header-icon header-icon6"><div class="header-text">下載專區</div></div>
+            </a>-->
+            <a href="<?php echo site_url(); ?>/en-enroll_info">
+                <div class="header-icon header-icon6"><div class="header-text">招生資訊</div></div>
             </a>
-        </div>
-	</div>
-
+            <a href="<?php echo site_url(); ?>/en-contact">
+                <div class="header-icon header-icon7"><div class="header-text">聯絡我們</div></div>
+            </a>
+            </div>
+    </div>
 </div>
 
 <script>
@@ -216,6 +272,7 @@ function openNav() {
     document.getElementById("mysidetext5").style.height = menutextheight;
     document.getElementById("mysidetext6").style.height = menutextheight;
     document.getElementById("mysidetext7").style.height = menutextheight;
+    document.getElementById("mysidetext8").style.height = menutextheight;
 }
 
 /* Set the width of the side navigation to 0 */
@@ -232,3 +289,35 @@ function closeNav() {
 
 }
 </script>
+<!--small screen header-->
+<!--
+<script>
+    function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+    }
+
+// Close the dropdown menu if the user clicks outside of it
+    window.onclick = function(event) {
+      if (!event.target.matches('.dropbtn')) {
+        var dropdowns = document.getElementsByClassName("dropdown-content");
+        var i;
+        for (i = 0; i < dropdowns.length; i++) {
+            var openDropdown = dropdowns[i];
+            if (openDropdown.classList.contains('show')) {
+              openDropdown.classList.remove('show');}
+        }
+      }
+    }
+</script>
+-->
+
+<!--menu list-->
+<!--<script type="text/javascript">
+$(document).ready(function() {
+    $(".toggle").click(function() {
+        $(this).toggleClass("active");
+        $(".nav").slideToggle();
+    });
+    $(".nav > ul > li:has(ul) > a").append('<div class="arrow-bottom"></div>');
+});
+</script>-->
