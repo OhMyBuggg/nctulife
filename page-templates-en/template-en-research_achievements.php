@@ -4,119 +4,97 @@
  */
 ?>
 <?php get_header('en_header'); ?>
-<div class="page-research_achievements">
+<div class="page-research_achievements webpage">
+    <p class="subtitled ra-title1_1 mobilehidden">研究發展 英文版</p>
     <div class="container">    
+        <!--<p class="subtitled ra-title1 formobile">重點研究</p>-->
         <div class="ra-color_block"></div>
         <div class="ra-block">
-	    <p class="subtitled ra-title1 formobile">Fields of Research</p>
-            <p class="subtitled ra-title1 mobilehidden">01 Fields of Research</p>
-            <p class="subtitle ra-title2">Research Areas</p>
+        <p class="subtitle ra-title2">各領域研究</p>
             <!--
             <div class="ra-btn ra-btn1"></div>
- 	        <div class="ra-line formobile"></div>
+            <div class="ra-line formobile"></div>
             <a href="<?php echo site_url(); ?>/most_subsided_projects"><div class="ra-btn ra-btn2"></div></a>
             -->
             <div class="ra-circle_block mobilehidden">
-                <a href="<?php echo site_url(); ?>/en-research_highlights#pyhsics">
-                    <div class="ra-circle_l ra-c1 subtitled mobilehidden">Physics</div>
+                <div class="ra-circle_b subtitled mobilehidden">跨領域基礎學科</div>
+                <!--<a href="<?php echo site_url(); ?>/research_highlights#pyhsics">-->
+                <a href="https://cbt.nctu.edu.tw/research_highlights/#bioinfo">
+                    <div class="ra-circle_l ra-c1 subtitled mobilehidden">生物資訊</div>
                 </a>
-                <a href="<?php echo site_url(); ?>/en-research_highlights#mathmetics">
-                    <div class="ra-circle_l ra-c2 subtitled mobilehidden">Mathematics & Statistics</div>
+                <!--</a>-->
+                <!--<a href="<?php echo site_url(); ?>/research_highlights#mathmetics">-->
+                <a href="https://cbt.nctu.edu.tw/research_highlights/#cell">
+                    <div class="ra-circle_2 ra-c2 subtitled mobilehidden">細胞與腫瘤</div>
                 </a>
-                <a href="<?php echo site_url(); ?>/en-research_highlights#chemistry">
-                    <div class="ra-circle_l ra-c3 subtitled mobilehidden">Chemistry</div>
+                <!--</a>-->
+                <!--<a href="<?php echo site_url(); ?>/research_highlights#chemistry">-->
+                <a href="https://cbt.nctu.edu.tw/research_highlights/#protein">
+                    <div class="ra-circle_3 ra-c3 subtitled mobilehidden">蛋白質<br>及生質能源</div>
+                </a>
+                <!--</a>-->
+                <a href="https://cbt.nctu.edu.tw/research_highlights/#biophysics">
+                    <div class="ra-circle_4 ra-c4 subtitled mobilehidden">&nbsp;&nbsp;&nbsp;生物物理<br>&nbsp;&nbsp;&nbsp;奈米檢測<br>與神經科學</div>
                 </a>
             </div>
             <div class="ra-circle_block formobile">
-                <div class="ra-c1_mobile formobile"><div class=ra-icon-p></div></div>
-                <div class="ra-c2_mobile formobile"><div class=ra-icon-m></div></div>
-                <div class="ra-c3_mobile formobile"><div class=ra-icon-c></div></div>
+                <div class="ra-c1_mobile text formobile">物</div>
+                <div class="ra-c2_mobile text formobile">數</div>
+                <div class="ra-c3_mobile text formobile">化</div>
             </div>
 
-            <div class="formobile ra-block2">
-                <div class="ra-text-M formobile">
-                        <div class="ra-subtitled ra-text">Data Science & Combinatorics</div>
-                        <div class="ra-subtitled ra-text">Mathematical Modeling & Scientific Computing</div>
-                        <div class="ra-subtitled ra-text">Differential Equations & Dynamical Systems</div>
-                        <div class="ra-subtitled ra-text">Applied Statistics & Financial Engineering</div>
-                        <div class="ra-subtitled ra-text">Number Theory & Geometry Analysis</div>
-                </div>
+            <!--<div class="ra-text_block ra-block2">
+                <div class="subtitle ra-subtitle ra-title3 mobilehidden">數統領域</div>
+                <hr class="ra-hr">
+                <div class="ra-subtitled ra-text">數據科學組合數學</div>
+                <div class="ra-subtitled ra-text">數學建模科學計算</div>
+                <div class="ra-subtitled ra-text">微分方程動態系統</div>
+                <div class="ra-subtitled ra-text">統計應用財務工程</div>
+                <div class="ra-subtitled ra-text">數論幾何與分析</div>
             </div>
-            <div class="formobile ra-block1">
-                <div class="ra-text-P formobile">
-                        <div class="ra-subtitled ra-text">Electro- Optical Science</div>
-                        <div class="ra-subtitled ra-text">Theoretical & Computational Physics</div>
-                        <div class="ra-subtitled ra-text">Nanoscience & Nanotechnology</div>
-                        <div class="ra-subtitled ra-text">Condensed Matter & Low Temperature Physics</div>
-                        <div class="ra-subtitled ra-text">Semiconductor Physics & Devices</div>
-                </div>
+            <div class="ra-text_block ra-block1">
+                <div class="subtitle ra-subtitle ra-title3 mobilehidden">物理領域</div>
+                <hr class="ra-hr">
+                <div class="ra-subtitled ra-text">光電科學</div>
+                <div class="ra-subtitled ra-text">理論物理計算物理</div>
+                <div class="ra-subtitled ra-text">奈米科技</div>
+                <div class="ra-subtitled ra-text">凝態物理低溫物理</div>
+                <div class="ra-subtitled ra-text">半導體物理與元件</div>
             </div>
-            <div class="formobile ra-block3">
-                <div class="ra-text-C formobile">
-                        <div class="ra-subtitled ra-text">Biochemistry & Bioanalysis</div>
-                        <div class="ra-subtitled ra-text">Polymer Chemistry & Photoelectric Material</div>
-                        <div class="ra-subtitled ra-text">Advanced Organic & Inorganic Chemistry</div>
-                        <div class="ra-subtitled ra-text">Green Energy</div>
-                        <div class="ra-subtitled ra-text">Molecular Science & Theoretical Chemistry</div>
-                </div>
-            </div>
-
-            <div class="ra-text_block ra-block2 mobilehidden">
-                <div class="subtitle ra-subtitle ra-title3-M mobilehidden">Mathematics<br>&<br>Statistics</div>
-                <div class="ra-text-M">
-			<div class="ra-subtitled ra-text">Data Science & Combinatorics</div>
-                	<div class="ra-subtitled ra-text">Mathematical Modeling & Scientific Computing</div>
-                	<div class="ra-subtitled ra-text">Differential Equations & Dynamical Systems</div>
-                	<div class="ra-subtitled ra-text">Applied Statistics & Financial Engineering</div>
-                	<div class="ra-subtitled ra-text">Number Theory & Geometry Analysis</div>
-		</div>
-            </div>
-            <div class="ra-text_block ra-block1 mobilehidden">
-                <div class="subtitle ra-subtitle ra-title3-P mobilehidden">Physics</div>
-                <div class="ra-text-P">
-			<div class="ra-subtitled ra-text">Electro- Optical Science</div>
-                	<div class="ra-subtitled ra-text">Theoretical & Computational Physics</div>
-                	<div class="ra-subtitled ra-text">Nanoscience & Nanotechnology</div>
-                	<div class="ra-subtitled ra-text">Condensed Matter & Low Temperature Physics</div>
-                	<div class="ra-subtitled ra-text">Semiconductor Physics & Devices</div>
-		</div>
-            </div>
-            <div class="ra-text_block ra-block3 mobilehidden">
-                <div class="subtitle ra-subtitle ra-title3-C mobilehidden">Chemistry</div>
-                <div class="ra-text-C">
-			<div class="ra-subtitled ra-text">Biochemistry & Bioanalysis</div>
-                	<div class="ra-subtitled ra-text">Polymer Chemistry & Photoelectric Material</div>
-                	<div class="ra-subtitled ra-text">Advanced Organic & Inorganic Chemistry</div>
-               		<div class="ra-subtitled ra-text">Green Energy</div>
-                	<div class="ra-subtitled ra-text">Molecular Science & Theoretical Chemistry</div>
-		</div>
-            </div>
+            <div class="ra-text_block ra-block3">
+                <div class="subtitle ra-subtitle ra-title3 mobilehidden">化學領域</div>
+                <hr class="ra-hr">
+                <div class="ra-subtitled ra-text">化學生物生物分析</div>
+                <div class="ra-subtitled ra-text">高分子化學光電材料</div>
+                <div class="ra-subtitled ra-text">高等有機化學無機化學</div>
+                <div class="ra-subtitled ra-text">綠色能源</div>
+                <div class="ra-subtitled ra-text">分子科學理論化學</div>
+            </div>-->
 
         </div>
     </div>
     <!--<a class="icon_down icon_ra" href="http://188.166.179.62/most_subsided_projects" style="opacity:1; transform: matrix(1,0,0,1,0,0);"></a>
 -->
 </div>
+<div class="mobile">
+    <div class="intro-bigTitle_1">研究發展</div>
+    <div class="container">
+        <a class="link-1" href="https://cbt.nctu.edu.tw/research_achievements/"></a>
+        <a class="link-2" href="https://cbt.nctu.edu.tw/research_achievements/"></a>
+        <a class="link-3" href="https://cbt.nctu.edu.tw/research_achievements/"></a>
+        <a class="link-4" href="https://cbt.nctu.edu.tw/research_achievements/"></a>
+    </div>
+</div>
 
 <script>
-    /*default setting*/
-    $(".ra-title3-P").css("margin-left","0vw");
-    $(".ra-text-P").css("margin-top","0vh");
+
 
     $(".ra-c1").hover(
         function(){
-            $(".ra-title3-M").css("margin-left","-22vw");
-            $(".ra-text-M").css("margin-top","-40vh");
-            $(".ra-title3-C").css("margin-left","-22vw");
-            $(".ra-text-C").css("margin-top","-40vh");
-            $(".ra-title3-P").css("margin-left","0vw");
-	    $(".ra-text-P").css("margin-top","0vh");
-        }/*,function(){
-	    $(".ra-title3-M").css("margin-left","-22vw");
-	    $(".ra-text-M").css("margin-top","-40vh");
-            $(".ra-title3-C").css("margin-left","-22vw");
-            $(".ra-text-C").css("margin-top","-40vh");
-	}*/
+            $(".ra-block1").fadeIn(500,"swing");
+        },function(){
+            $(".ra-block1").fadeOut(500,"swing");
+        }
     );
     $(".ra-c1_mobile").hover(
         function(){
@@ -124,24 +102,17 @@
             $(".ra-c1_mobile").css("border","1px solid rgba(230, 50, 30, 1)");
             $(".ra-c1_mobile").css("color","rgba(230, 50, 30, 1)");
             $(".ra-block1").css("display","block");
-            $(".ra-block2").css("display","none");
-            $(".ra-block3").css("display","none");
+        },function(){
+            $(".ra-block1").fadeOut(500,"swing");
         }
     );
     $(".ra-c2").hover(
         function(){
-            $(".ra-title3-P").css("margin-left","-22vw");
-            $(".ra-text-P").css("margin-top","-40vh");
-            $(".ra-title3-C").css("margin-left","-22vw");
-            $(".ra-text-C").css("margin-top","-40vh");
-            $(".ra-title3-M").css("margin-left","0vw");
-            $(".ra-text-M").css("margin-top","0vh");
-        }/*,function(){
-            $(".ra-title3-P").css("margin-left","-22vw");
-            $(".ra-text-P").css("margin-top","-40vh");
-            $(".ra-title3-C").css("margin-left","-22vw");
-            $(".ra-text-C").css("margin-top","-40vh");
-        }*/
+            $(".ra-block2").fadeIn(500,"swing");
+        $(".ra-block1").fadeOut(500,"swing");
+        },function(){
+            $(".ra-block2").fadeOut(500,"swing");
+        }
     );
     $(".ra-c2_mobile").hover(
         function(){
@@ -149,25 +120,17 @@
             $(".ra-block1").css("display","none");
             $(".ra-c1_mobile").css("border","1px solid rgba(100, 100, 100, 1)");
             $(".ra-c1_mobile").css("color","rgba(100,100,100,1)");
-            $(".ra-block3").css("display","none");
-        }/*,function(){
+        },function(){
             $(".ra-block2").fadeOut(500,"swing");
-        }*/
+        }
     );
     $(".ra-c3").hover(
         function(){
-            $(".ra-title3-P").css("margin-left","-22vw");
-            $(".ra-text-P").css("margin-top","-40vh");
-            $(".ra-title3-M").css("margin-left","-22vw");
-            $(".ra-text-M").css("margin-top","-40vh");
-            $(".ra-title3-C").css("margin-left","0vw");
-            $(".ra-text-C").css("margin-top","0vh");
-        }/*,function(){
-            $(".ra-title3-P").css("margin-left","-22vw");
-            $(".ra-text-P").css("margin-top","-40vh");
-            $(".ra-title3-M").css("margin-left","-22vw");
-            $(".ra-text-M").css("margin-top","-40vh");
-        }*/
+            $(".ra-block3").fadeIn(500,"swing");
+        $(".ra-block1").fadeOut(500,"swing");
+        },function(){
+            $(".ra-block3").fadeOut(500,"swing");
+        }
     );
     $(".ra-c3_mobile").hover(
         function(){
@@ -175,21 +138,15 @@
             $(".ra-block1").css("display","none");
             $(".ra-c1_mobile").css("border","1px solid rgba(100, 100, 100, 1)");
             $(".ra-c1_mobile").css("color","rgba(100,100,100,1)");
-            $(".ra-block2").css("display","none");
-        }/*,function(){
+        },function(){
             $(".ra-block3").fadeOut(500,"swing");
-        }*/
+        }
     );
     
     $(document).ready(function() {
         $(".nav_menu").on("click",function(){});
-	$(".ra-c1_mobile").css("border","1px solid rgba(230, 50, 30, 1)");
-	$(".ra-c1_mobile").css("color","rgba(230, 50, 30, 1)");
-        $(".ra-text_block").css("display","block");
+    $(".ra-c1_mobile").css("border","1px solid rgba(230, 50, 30, 1)");
+    $(".ra-c1_mobile").css("color","rgba(230, 50, 30, 1)");
         $(".ra-block1").css("display","block");
     });
 </script>
-
-<?php wp_nav_menu (array('theme_location' => 'Menu9','container_class' => 'nav_menu','container_id' => 'nav_menu_1')); ?>
-<?php //get_sidebar(); ?>
-<?php get_footer(); ?>
