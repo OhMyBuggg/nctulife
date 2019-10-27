@@ -332,8 +332,7 @@ a{font-family:'Noto Sans TC', '微軟正黑體', sans-serif; text-decoration:non
     left:-30vw;
     font-family: 'Noto Sans TC', '微軟正黑體', sans-serif;
     font-weight: 300;
-    font-size: 1.6em;
-    letter-spacing: 0.08em;
+    font-size: 1.5vw;
     line-height: 3.5vw;
     color: rgba(0,0,0,0);
     transition: color 1.5s, left 0s;
@@ -341,7 +340,28 @@ a{font-family:'Noto Sans TC', '微軟正黑體', sans-serif; text-decoration:non
     -webkit-transition: color 1.5s, left 0s;
     -webkit-transition-delay: 0s;
 }
+.header-text2{
+    position: relative;
+    left:-30vw;
+    font-family: 'Noto Sans TC', '微軟正黑體', sans-serif;
+    font-weight: 300;
+    font-size: 1.5vw;
+    line-height: 1.8vw;
+    color: rgba(0,0,0,0);
+    transition: color 1.5s, left 0s;
+    transition-delay: 0s;
+    -webkit-transition: color 1.5s, left 0s;
+    -webkit-transition-delay: 0s;
+}
 #header:hover .header-text{
+    left: 5vw;
+    color: #000000;
+    transition: color 1.5s, left 0s;
+    transition-delay: 1s;
+    -webkit-transition: color 1.5s, left 0s;
+    -webkit-transition-delay: 1s;
+}
+#header:hover .header-text2{
     left: 5vw;
     color: #000000;
     transition: color 1.5s, left 0s;

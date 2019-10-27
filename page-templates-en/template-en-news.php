@@ -5,7 +5,7 @@
     
         get_header('en_header');
         $cat_name = 'news';
-        $page_title='最新消息 英文版';
+        $page_title='Latest News';
         $n=1;
 
 ?>

@@ -148,27 +148,27 @@
             <div class="lang_switch"><a href="<?php echo site_url(); ?>/homepage/?lang=zh" style="letter-spacing:0.4em;">中文</a>&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;<a href="<?php echo site_url(); ?>/en-homepage/?lang=en">English</a></div>
 
             <div class="sidenavlink">
-                             <a href="<?php echo site_url(); ?>/en-homepage"><div id="mysidetext1" class="menu_block" style="transition:0.8s;"><div class="header-icon0"><div class="menutext">首頁</div></div></div></a>
+                             <a href="<?php echo site_url(); ?>/en-homepage"><div id="mysidetext1" class="menu_block" style="transition:0.8s;"><div class="header-icon0"><div class="menutext">Homepage</div></div></div></a>
 
-                            <a href="<?php echo site_url(); ?>/en-intro"><div id="mysidetext2" class="menu_block" style="transition:1.2s;"><div class="header-icon header-icon1"><div class="menutext">系所簡介</div></div></div></a>
+                            <a href="<?php echo site_url(); ?>/en-intro"><div id="mysidetext2" class="menu_block" style="transition:1.2s;"><div class="header-icon header-icon1"><div class="menutext">About Us</div></div></div></a>
 
-                            <a href="<?php echo site_url(); ?>/en-news"><div id="mysidetext3" class="menu_block"  style="transition:1.6s;"><div class="header-icon header-icon2"><div class="menutext">最新消息</div></div></div></a>
+                            <a href="<?php echo site_url(); ?>/en-news"><div id="mysidetext3" class="menu_block"  style="transition:1.6s;"><div class="header-icon header-icon2"><div class="menutext">Latest News</div></div></div></a>
 
-                            <a href="<?php echo site_url(); ?>/en-research_achievements"><div id="mysidetext4" class="menu_block" style="transition:2.4s;"><div class="header-icon header-icon4"><div class="menutext">研究發展</div></div></div></a>
+                            <a href="<?php echo site_url(); ?>/en-research_achievements"><div id="mysidetext4" class="menu_block" style="transition:2.4s;"><div class="header-icon header-icon4"><div class="menutext">Research & Development</div></div></div></a>
 
                             <!--<a href="<?php echo site_url(); ?>/admissions"><div id="mysidetext4" class="menu_block"  style="transition:2s;"><div class="header-icon header-icon3"><div class="menutext">招生資訊</div></div></div></a>-->
 
-                            <a href="<?php echo site_url(); ?>/en-learning_info"><div id="mysidetext5" class="menu_block"  style="transition:2s;"><div class="header-icon header-icon3"><div class="menutext">修業資訊</div></div></div></a>
+                            <a href="<?php echo site_url(); ?>/en-learning_info"><div id="mysidetext5" class="menu_block"  style="transition:2s;"><div class="header-icon header-icon3"><div class="menutext">Academic Requirements</div></div></div></a>
 
                             <!--<a href="<?php echo site_url(); ?>/exchange_student"><div id="mysidetext6" class="menu_block" style="transition:2.8s;"><div class="header-icon header-icon5"><div class="menutext">國際交流合作</div></div></div></a>-->
 
-                            <a href="<?php echo site_url(); ?>/en-cooperation"><div id="mysidetext6" class="menu_block" style="transition:2.8s;"><div class="header-icon header-icon5"><div class="menutext">產學合作</div></div></div></a>
+                            <a href="<?php echo site_url(); ?>/en-cooperation"><div id="mysidetext6" class="menu_block" style="transition:2.8s;"><div class="header-icon header-icon5"><div class="menutext">Industry-Academia Collaboration</div></div></div></a>
 
                             <!--<a href="<?php echo site_url(); ?>/regulations_and_forms"><div id="mysidetext7" class="menu_block" style="transition:3.2s;"><div class="header-icon header-icon6"><div class="menutext">下載專區</div></div></div></a>-->
 
-                            <a href="<?php echo site_url(); ?>/en-enroll_info"><div id="mysidetext7" class="menu_block" style="transition:3.2s;"><div class="header-icon header-icon6"><div class="menutext">招生資訊</div></div></div></a>
+                            <a href="<?php echo site_url(); ?>/en-enroll_info"><div id="mysidetext7" class="menu_block" style="transition:3.2s;"><div class="header-icon header-icon6"><div class="menutext">Admission</div></div></div></a>
 
-                            <a href="<?php echo site_url(); ?>/en-contact"><div id="mysidetext8" class="menu_block" style="transition:3.6s;"><div class="header-icon header-icon7"><div class="menutext">聯絡我們</div></div></div></a>
+                            <a href="<?php echo site_url(); ?>/en-contact"><div id="mysidetext8" class="menu_block" style="transition:3.6s;"><div class="header-icon header-icon7"><div class="menutext">Contact Us</div></div></div></a>
 
 
             <div class="mobile-foot"> <!--AnnieDisplayNone-->
@@ -214,9 +214,9 @@
                 <div class="mobile-header formobile">交通</br>大學</div> <!--AnnieDisplayNone-->
                 <div class="mobile-header-line"></div>
                 <!-- add in dropdown btn-->
-                <div id="header-block2">英</div>
-                <div id="header-block3">文</div>
-                <div id="header-block4">版</div>
+                <div id="header-block2">生</div>
+                <div id="header-block3">科</div>
+                <div id="header-block4">院</div>
                 <div id="header-block8">生科院產業博士班</div>
                 <div id="header-block5">國立交通大學</div>
                 <div id="header-block6">Industrial Development Graduate Program of<br>College of Biological Science and Technology</div>
@@ -227,33 +227,33 @@
             <div id="header-foot"></div>
             <div id="header-icon0">
             <a href="<?php echo site_url(); ?>/en-intro">
-                <div class="header-icon header-icon1"><div class="header-text">系所簡介</div></div>
+                <div class="header-icon header-icon1"><div class="header-text">About Us</div></div>
             </a>
             <a href="<?php echo site_url(); ?>/en-news">
-                <div class="header-icon header-icon2"><div class="header-text">最新消息</div></div></a>
+                <div class="header-icon header-icon2"><div class="header-text">Latest News</div></div></a>
             <a href="<?php echo site_url(); ?>/en-research_achievements">
-                <div class="header-icon header-icon4"><div class="header-text">研究發展</div></div>
+                <div class="header-icon header-icon4"><div class="header-text">Research & Development</div></div>
             </a>
             <!--<a href="<?php echo site_url(); ?>/admissions">
                 <div class="header-icon header-icon3"><div class="header-text">招生資訊</div></div>
             </a>-->
             <a href="<?php echo site_url(); ?>/en-learning_info">
-                <div class="header-icon header-icon3"><div class="header-text">修業資訊</div></div>
+                <div class="header-icon header-icon3"><div class="header-text">Academic Requirements</div></div>
             </a>    
             <!--<a href="<?php echo site_url(); ?>/exchange_student">
                 <div class="header-icon header-icon5"><div class="header-text">國際交流合作</div></div>
             </a>-->
             <a href="<?php echo site_url(); ?>/en-cooperation">
-                <div class="header-icon header-icon5"><div class="header-text">產學合作</div></div>
+                <div class="header-icon header-icon5"><div class="header-text2">Industry-Academia<br>  Collaboration</div></div>
             </a>
             <!--<a href="<?php echo site_url(); ?>/regulations_and_forms">
                 <div class="header-icon header-icon6"><div class="header-text">下載專區</div></div>
             </a>-->
             <a href="<?php echo site_url(); ?>/en-enroll_info">
-                <div class="header-icon header-icon6"><div class="header-text">招生資訊</div></div>
+                <div class="header-icon header-icon6"><div class="header-text">Admission</div></div>
             </a>
             <a href="<?php echo site_url(); ?>/en-contact">
-                <div class="header-icon header-icon7"><div class="header-text">聯絡我們</div></div>
+                <div class="header-icon header-icon7"><div class="header-text">Contact Us</div></div>
             </a>
             </div>
     </div>

@@ -11,13 +11,13 @@
         <div id="intro-container">
             <div id="intro-wrapper">-->
                 <div class="intro-subpage-1">    <!--first page-->
-                    <div class="intro-bigTitle_1">產學合作 英文版</div>
+                    <div class="intro-bigTitle_1">Industry-Academia Collaboration</div>
                     <!--下半部分-->
                     <div class="ra-circle_block">
                         <div class="ra-circle_first">
                             <div class="ra-circle_l">
                                 <div class="circle_p1_1 textbox textbox0">
-                                    台達電子工業
+                                    Delta Electronics, Inc.
                                 </div>
                                 <div class="circle_p1_1 textbox textbox1">
                                     測試第二第一
@@ -26,7 +26,7 @@
                                     測試第三第一
                                 </div>
                                 <div class="circle_p2 textbox textbox0">
-                                    股份有限公司       
+                                    <!--股份有限公司-->       
                                 </div>
                                 <div class="circle_p2 textbox textbox1">
                                     股份有限公司       
@@ -37,7 +37,7 @@
                             </div>
                             <div class="ra-circle_2">
                                 <div class="circle_p1_1 textbox textbox0">
-                                    宣捷生物科技
+                                    Meridigen Biotechnology
                                 </div>
                                 <div class="circle_p1_2 textbox textbox1">
                                     四字測試
@@ -46,7 +46,7 @@
                                     炯毅我做好了
                                 </div>
                                 <div class="circle_p2 textbox textbox0">
-                                    股份有限公司
+                                    <!--股份有限公司-->
                                 </div>
                                 <div class="circle_p2 textbox textbox1">
                                     股份有限公司
@@ -57,7 +57,7 @@
                             </div>
                             <div class="ra-circle_3">
                                 <div class="circle_p1_1 textbox textbox0">
-                                    康健基因科技
+                                    The Health GeneTech Corporation
                                 </div>
                                 <div class="circle_p1_1 textbox textbox1">
                                     康健基因科技
@@ -66,7 +66,7 @@
                                     康健基因科技
                                 </div>
                                 <div class="circle_p2 textbox textbox0">
-                                    股份有限公司
+                                    <!--股份有限公司-->
                                 </div>
                                 <div class="circle_p2 textbox textbox1">
                                     股份有限公司
@@ -99,7 +99,7 @@
                             </div>
                             <div class="ra-circle_5">
                                 <div class="circle_p1_2 textbox textbox0">
-                                    琦芯科技
+                                    CheeShin Technology, Inc.
                                 </div>
                                 <div class="circle_p1_2 textbox textbox1">
                                     琦芯科技
@@ -108,7 +108,7 @@
                                     琦芯科技
                                 </div>
                                 <div class="circle_p2 textbox textbox0">
-                                    股份有限公司
+                                    <!--股份有限公司-->
                                 </div>
                                 <div class="circle_p2 textbox textbox1">
                                     股份有限公司
@@ -119,7 +119,7 @@
                             </div>
                             <div class="ra-circle_6">
                                 <div class="circle_p1_2 textbox textbox0">
-                                    瀚源生醫
+                                    Helios Bioelectronics Inc.
                                 </div>
                                 <div class="circle_p1_2 textbox textbox1">
                                     瀚源生醫
@@ -128,7 +128,7 @@
                                     瀚源生醫
                                 </div>
                                 <div class="circle_p2 textbox textbox0">
-                                    股份有限公司
+                                    <!--股份有限公司-->
                                 </div>
                                 <div class="circle_p2 textbox textbox1">
                                     股份有限公司

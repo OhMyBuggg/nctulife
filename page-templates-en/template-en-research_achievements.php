@@ -5,36 +5,36 @@
 ?>
 <?php get_header('en_header'); ?>
 <div class="page-research_achievements webpage">
-    <p class="subtitled ra-title1_1 mobilehidden">研究發展 英文版</p>
+    <p class="subtitled ra-title1_1 mobilehidden">Research & Development</p>
     <div class="container">    
         <!--<p class="subtitled ra-title1 formobile">重點研究</p>-->
         <div class="ra-color_block"></div>
         <div class="ra-block">
-        <p class="subtitle ra-title2">各領域研究</p>
+        <p class="subtitle ra-title2">Research Focuses by Field</p>
             <!--
             <div class="ra-btn ra-btn1"></div>
             <div class="ra-line formobile"></div>
             <a href="<?php echo site_url(); ?>/most_subsided_projects"><div class="ra-btn ra-btn2"></div></a>
             -->
             <div class="ra-circle_block mobilehidden">
-                <div class="ra-circle_b subtitled mobilehidden">跨領域基礎學科</div>
+                <div class="ra-circle_b subtitled mobilehidden">Basic Interdisciplinary Subjects</div>
                 <!--<a href="<?php echo site_url(); ?>/research_highlights#pyhsics">-->
                 <a href="https://cbt.nctu.edu.tw/research_highlights/#bioinfo">
-                    <div class="ra-circle_l ra-c1 subtitled mobilehidden">生物資訊</div>
+                    <div class="ra-circle_l ra-c1 subtitled mobilehidden">Bioinformatics</div>
                 </a>
                 <!--</a>-->
                 <!--<a href="<?php echo site_url(); ?>/research_highlights#mathmetics">-->
                 <a href="https://cbt.nctu.edu.tw/research_highlights/#cell">
-                    <div class="ra-circle_2 ra-c2 subtitled mobilehidden">細胞與腫瘤</div>
+                    <div class="ra-circle_2 ra-c2 subtitled mobilehidden">Cells and Tumors</div>
                 </a>
                 <!--</a>-->
                 <!--<a href="<?php echo site_url(); ?>/research_highlights#chemistry">-->
                 <a href="https://cbt.nctu.edu.tw/research_highlights/#protein">
-                    <div class="ra-circle_3 ra-c3 subtitled mobilehidden">蛋白質<br>及生質能源</div>
+                    <div class="ra-circle_3 ra-c3 subtitled mobilehidden">Protein and<br>Biomass Energy</div>
                 </a>
                 <!--</a>-->
                 <a href="https://cbt.nctu.edu.tw/research_highlights/#biophysics">
-                    <div class="ra-circle_4 ra-c4 subtitled mobilehidden">&nbsp;&nbsp;&nbsp;生物物理<br>&nbsp;&nbsp;&nbsp;奈米檢測<br>與神經科學</div>
+                    <div class="ra-circle_4 ra-c4 subtitled mobilehidden">&nbsp;&nbsp;&nbsp;Biophysics,<br>&nbsp;&nbsp;&nbsp;Nano Inspection/Detection,<br>and Neuroscience</div>
                 </a>
             </div>
             <div class="ra-circle_block formobile">
