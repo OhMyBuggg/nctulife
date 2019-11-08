@@ -52,14 +52,14 @@
     position: fixed;
     top:18.5vh;
     left:28vw;
-    background-image:url(../image/icon/underline.png);
+    /*background-image:url(../image/icon/underline.png);*/
     background-size:220px 12px; 
     background-repeat: no-repeat;
     background-position: right bottom;
-    font-size: 2.4em;
+    font-size: 2em;
     color: #000000;
     height: 8vh;
-    width: 16.9vw;
+    width: 35vw;
     display: flex;
     align-items: flex-start;
 }
@@ -113,23 +113,23 @@ hr.intro-title{
     font-family: ‘Noto Sans TC’, ‘微軟正黑體’, sans-serif;*/
     font-weight: regular;
     position: fixed;
-    top: 33vh;
+    top: 30vh;
     right: 30vw;
     height:30vh;
     width:42vw;
     font-size: 1em;
-    line-height: 2.6em;
+    line-height: 1.8em;
     letter-spacing: 0.1em;
     color: #000000;
 }
 .download-information{
     font-family: ‘Noto Sans TC’, ‘微軟正黑體’, sans-serif;
     font-weight: regular;
-    font-size: 1em;
+    font-size: 0.8em;
     line-height: 2em;
     color: #000000;
     position: fixed;
-    top: 70vh;
+    top: 80vh;
     left: 28vw;
     width: 42vw;
 }
@@ -140,8 +140,8 @@ hr.intro-title{
     position: relative;
     width:4.5em;
     height: 1em;
-    top: 71vh;
-    left: 47vw;
+    top: 80.5vh;
+    left: 65vw;
     border-radius: 10%;
 }
 
