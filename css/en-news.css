@@ -783,14 +783,14 @@ hr.ft-hr{
     position: fixed;
     top:18.5vh;
     left:28vw;
-    background-image:url(../image/icon/underline.png);
+    /*background-image:url(../image/icon/underline.png);*/
     background-size:220px 12px; 
     background-repeat: no-repeat;
     background-position: right bottom;
-    font-size: 2.4em;
+    font-size: 2em;
     color: #000000;
     height: 8vh;
-    width: 16.9vw;
+    width: 35vw;
     display: flex;
     align-items: flex-start;
 }

@@ -63,7 +63,7 @@
     }
     else if(is_page('en-news')||is_page('en-research_centers')||is_page('academics_test')){/*學術單位*/
         echo '<link rel="stylesheet" href="';bloginfo('template_url'); 
-        echo'/css/news.css" type="text/css" media="screen and (min-width: 701px)" />';
+        echo'/css/en-news.css" type="text/css" media="screen and (min-width: 701px)" />';
 
         echo '<link rel="stylesheet" href="';bloginfo('template_url');
         echo'/mobile-css/en-news-mobile.css" type="text/css" media="screen and (max-width: 700px)" />';

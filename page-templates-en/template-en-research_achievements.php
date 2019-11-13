@@ -10,7 +10,7 @@
         <!--<p class="subtitled ra-title1 formobile">重點研究</p>-->
         <div class="ra-color_block"></div>
         <div class="ra-block">
-        <p class="subtitle ra-title2">Research Focuses by Field</p>
+        <p class="subtitle ra-title2">Research Focuses<br>by Field</p>
             <!--
             <div class="ra-btn ra-btn1"></div>
             <div class="ra-line formobile"></div>
@@ -25,16 +25,16 @@
                 <!--</a>-->
                 <!--<a href="<?php echo site_url(); ?>/research_highlights#mathmetics">-->
                 <a href="https://cbt.nctu.edu.tw/research_highlights/#cell">
-                    <div class="ra-circle_2 ra-c2 subtitled mobilehidden">Cells and Tumors</div>
+                    <div class="ra-circle_2 ra-c2 subtitled mobilehidden">Cells<br>and<br>Tumors</div>
                 </a>
                 <!--</a>-->
                 <!--<a href="<?php echo site_url(); ?>/research_highlights#chemistry">-->
                 <a href="https://cbt.nctu.edu.tw/research_highlights/#protein">
-                    <div class="ra-circle_3 ra-c3 subtitled mobilehidden">Protein and<br>Biomass Energy</div>
+                    <div class="ra-circle_3 ra-c3 subtitled mobilehidden">Protein<br>and<br>Biomass Energy</div>
                 </a>
                 <!--</a>-->
                 <a href="https://cbt.nctu.edu.tw/research_highlights/#biophysics">
-                    <div class="ra-circle_4 ra-c4 subtitled mobilehidden">&nbsp;&nbsp;&nbsp;Biophysics,<br>&nbsp;&nbsp;&nbsp;Nano Inspection/Detection,<br>and Neuroscience</div>
+                    <div class="ra-circle_4 ra-c4 subtitled mobilehidden"><br><br><br>Biophysics,<br>Nano Inspection<br>and<br>Neuroscience</div>
                 </a>
             </div>
             <div class="ra-circle_block formobile">
