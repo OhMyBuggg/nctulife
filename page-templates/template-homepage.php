@@ -22,15 +22,11 @@
     <div class="hp-p01_next hp-p01_1" style="display:none;"></div>
     <div class="hp-p01 hp-p01_0">
         <div class="language-opt">
-            <div class="lang-left lang-choose">
-                中文
-            </div>
             <a href="<?php echo site_url(); ?>/en-homepage/?lang=en">
 	    <!--<a href="http://188.166.179.62/homepage">-->
-	        <div class="lang-right lang-normal">
-                English
+	        <div class="lang-en">
             </div>
-   	    </a>
+   	        </a>
         </div>
     </div>
     <!--<div class="hp-p02">

@@ -118,7 +118,6 @@
             <div class="info">
                 <div class="info-title">Administrative Staff</div>
                 <div class="name">呂聖鈴</div>
-                <div class="line"></div>
                 <div class="information">Research projects and asset management<br>shenq@mail.nctu.edu.tw<br>03-5712121 # 56902</div>
             </div>
             <div class="photo">

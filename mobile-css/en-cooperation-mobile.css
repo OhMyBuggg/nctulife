@@ -177,10 +177,10 @@ hr.intro-title{
 .circle_p1_1{
     width: 100%;
     position: relative;
-    top:30%;
+    top:5vh;
     font-family: ‘Noto Sans TC’, ‘微軟正黑體’, sans-serif;
     /*font-weight: bold;*/
-    font-size: 5vw;
+    font-size: 3vh;
     line-height: 15.79pt;
     color: #ffffff;
 }
@@ -202,7 +202,7 @@ hr.intro-title{
     left:8%;
     font-family: ‘Noto Sans TC’, ‘微軟正黑體’, sans-serif;
     font-weight: light;
-    font-size: 3vw;
+    font-size: 3vh;
     line-height: 10px;
     color: #ffffff;
 }

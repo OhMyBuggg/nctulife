@@ -167,8 +167,14 @@ hr.ft-hr{
   /*page1*/
   .language-opt{
     position:absolute;
-    top: 13vmin;
-    right:8vmin;
+    top: 8vmin;
+    right:4vmin;
+    background-image: url(../image/icon/產博首頁-08.png);
+    -webkit-background-size: contain;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 10vw;
+    height: 20vh;
   }
   .lang-left{
     float:left;
@@ -207,6 +213,10 @@ hr.ft-hr{
     }
     .lang-normal{
         color: rgba(50,50,50,1);
+    }
+    .lang-chi{
+      width: 10vw;
+      height: 10vh; 
     }
   /*page2*/
     .hp-news{

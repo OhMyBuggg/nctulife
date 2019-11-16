@@ -23,13 +23,9 @@
     <div class="hp-p01 hp-p01_0">
         <div class="language-opt">
         <a href="<?php echo site_url(); ?>/?lang=zh">
-            <div class="lang-left lang-normal">
-                中文
+            <div class="lang-chi">
             </div>
         </a>
-        <div class="lang-right lang-choose">
-                English
-            </div>
         </div>
     </div>
     <!--<div class="hp-p02">

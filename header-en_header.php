@@ -262,7 +262,7 @@
 <script>
 /* Set the width of the side navigation to 250px */
 function openNav() {
-    var menutextheight = "8vh";
+    var menutextheight = "8.5vh";
     document.getElementById("mySidenav").style.height = "100%";
     document.getElementById("menucontainer").style.opacity = "0";
     document.getElementById("mysidetext1").style.height = menutextheight;

@@ -79,7 +79,7 @@
                         <div class="ra-circle_second">
                             <div class="ra-circle_4">
                                 <div class="circle_p1_1 textbox textbox0">
-                                    康鶴生醫科技
+                                    <!--康鶴生醫科技-->
                                 </div>
                                 <div class="circle_p1_1 textbox textbox1">
                                     康鶴生醫科技
@@ -88,7 +88,7 @@
                                     康鶴生醫科技
                                 </div>
                                 <div class="circle_p2 textbox textbox0">
-                                    股份有限公司
+                                    <!--股份有限公司-->
                                 </div>
                                 <div class="circle_p2 textbox textbox1">
                                     股份有限公司
