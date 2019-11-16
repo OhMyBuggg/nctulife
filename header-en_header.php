@@ -148,21 +148,21 @@
             <div class="lang_switch"><a href="<?php echo site_url(); ?>/homepage/?lang=zh" style="letter-spacing:0.4em;">中文</a>&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;<a href="<?php echo site_url(); ?>/en-homepage/?lang=en">English</a></div>
 
             <div class="sidenavlink">
-                             <a href="<?php echo site_url(); ?>/en-homepage"><div id="mysidetext1" class="menu_block" style="transition:0.8s;"><div class="header-icon0"><div class="menutext">Homepage</div></div></div></a>
+                             <a href="<?php echo site_url(); ?>/en-homepage"><div id="mysidetext1" class="menu_block" style="transition:0.8s;"><div class="header-icon header-icon0"><div class="menutext">Homepage</div></div></div></a>
 
                             <a href="<?php echo site_url(); ?>/en-intro"><div id="mysidetext2" class="menu_block" style="transition:1.2s;"><div class="header-icon header-icon1"><div class="menutext">About Us</div></div></div></a>
 
                             <a href="<?php echo site_url(); ?>/en-news"><div id="mysidetext3" class="menu_block"  style="transition:1.6s;"><div class="header-icon header-icon2"><div class="menutext">Latest News</div></div></div></a>
 
-                            <a href="<?php echo site_url(); ?>/en-research_achievements"><div id="mysidetext4" class="menu_block" style="transition:2.4s;"><div class="header-icon header-icon4"><div class="menutext">Research & Development</div></div></div></a>
+                            <a href="<?php echo site_url(); ?>/en-research_achievements"><div id="mysidetext4" class="menu_block" style="transition:2.4s;"><div class="header-icon-2 header-icon4"></div><div class="menutext2">Research &  <br> Development</div></div></a>
 
                             <!--<a href="<?php echo site_url(); ?>/admissions"><div id="mysidetext4" class="menu_block"  style="transition:2s;"><div class="header-icon header-icon3"><div class="menutext">招生資訊</div></div></div></a>-->
 
-                            <a href="<?php echo site_url(); ?>/en-learning_info"><div id="mysidetext5" class="menu_block"  style="transition:2s;"><div class="header-icon header-icon3"><div class="menutext">Academic Requirements</div></div></div></a>
+                            <a href="<?php echo site_url(); ?>/en-learning_info"><div id="mysidetext5" class="menu_block"  style="transition:2s;"><div class="header-icon-2 header-icon3"></div><div class="menutext2">Academic <br> Requirements</div></div></a>
 
                             <!--<a href="<?php echo site_url(); ?>/exchange_student"><div id="mysidetext6" class="menu_block" style="transition:2.8s;"><div class="header-icon header-icon5"><div class="menutext">國際交流合作</div></div></div></a>-->
 
-                            <a href="<?php echo site_url(); ?>/en-cooperation"><div id="mysidetext6" class="menu_block" style="transition:2.8s;"><div class="header-icon header-icon5"><div class="menutext">Industry-Academia Collaboration</div></div></div></a>
+                            <a href="<?php echo site_url(); ?>/en-cooperation"><div id="mysidetext6" class="menu_block" style="transition:2.8s;"><div class="header-icon-2 header-icon5"></div><div class="menutext2">Industry-Academia Collaboration</div></div></a>
 
                             <!--<a href="<?php echo site_url(); ?>/regulations_and_forms"><div id="mysidetext7" class="menu_block" style="transition:3.2s;"><div class="header-icon header-icon6"><div class="menutext">下載專區</div></div></div></a>-->
 

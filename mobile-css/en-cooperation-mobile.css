@@ -1,16 +1,17 @@
 /* intro */
 .page-intro{
-    background-image:url(../image/bg/15_2.jpg),url(../image/p4.png);
+    background-image:url(../image/bg/產學合作_手機版bg.png),url(../image/p4.png);
     background-size:cover,auto;
     background-repeat: no-repeat,repeat;
+    background-position: center;
     height:100vh;
 }
 #intro-container{
     position: absolute;
-    top: 130px; /*18%*/
-    left: 350px; /*20%*/
-    width: 540px; /*850px*/
-    height: 400px;/*500px*/
+    top: 21vh; /*18%*/
+    left: 27.5vw; /*20%*/
+    width: 820px; /*850px*/
+    height: 630px;/*500px*/
     overflow-x: hidden;
     overflow-y: hidden;
     border: solid 0px black;
@@ -26,8 +27,8 @@
 }
 .intro-subpage, .intro-subpage-1{
     float: left;
-    width: 70vw;
-    height: 68vh;
+    width: 100vw;
+    height: 630px;
     white-space: normal;
     background-repeat: no-repeat;
 }
@@ -45,22 +46,52 @@
     line-height: 6vh;
     margin-top: 0.5vmin;
 }
+.left{
+    background-image: url(../image/bg/cooperation_left.png);
+    width: 4vh;
+    height: 4vh;
+    position: absolute;
+    background-size: contain;
+    top: 72vh;
+    left: 30vw;
+    background-repeat: no-repeat;
+    border-radius: 999em;
+    display: none;
+}
+.left:hover{
+    cursor:pointer;
+}
+.right{
+    background-image: url(../image/bg/down-button.png);
+    width: 4vh;
+    height: 4vh;
+    position: absolute;
+    background-size: contain;
+    top: 90vh;
+    left: 45vw;
+    background-repeat: no-repeat;
+    border-radius: 999em;
+}
+.right:hover{
+    cursor: pointer;
+}
 .intro-bigTitle_1{
     font-family: ‘Noto Sans TC’, ‘微軟正黑體’, sans-serif;
     font-weight: regular;
     position: fixed;
-    top:18.5vh;
-    left:28vw;
-    /*background-image:url(../image/icon/underline.png);*/
-    background-size:220px 12px; 
+    top:16vh;
+    left:15vw;
+    /*background-image:url(../image/icon/underline.png);
+    background-size:100px 7px; 
     background-repeat: no-repeat;
-    background-position: right bottom;
-    font-size: 2em;
+    background-position: right bottom;*/
+    font-size: 3vh;
     color: #000000;
-    height: 8vh;
-    width: 35vw;
+    height: 3.3vh;
+    width: 60vw;
     display: flex;
     align-items: flex-start;
+    letter-spacing:0.1em;
 }
 .intro-button{
     float:left;
@@ -71,14 +102,6 @@
     cursor: pointer;
     background-size: contain;
     background-repeat: no-repeat;
-}
-.map{
-    position: absolute;
-    top: 24vh;
-    left: 39vw;
-    font-size: 1em;
-    font-style: italic;
-    font-weight: border;
 }
 .intro-prev{
     background-image: url(../image/btn/btn_left.svg);
@@ -126,11 +149,215 @@ hr.intro-title{
     top: 60px;
     width: 540px;
 }
+.ra-circle_block{
+    position: fixed;
+    top: 20vh;
+    left: 15vw;
+    height: 75vh;
+    width: 70vw;
+    margin-top: 0vh;
+    border: solid 0px green;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 
+}
+.ra-circle_first{
+    position: relative;
+    height: 60vh;
+    width: 30vw;
+}
+.ra-circle_second{
+    position: relative;
+    height: 60vh;
+    width: 30vw;
+    top:8vh;
+
+}
+.circle_p1_1{
+    width: 100%;
+    position: relative;
+    top:30%;
+    font-family: ‘Noto Sans TC’, ‘微軟正黑體’, sans-serif;
+    /*font-weight: bold;*/
+    font-size: 5vw;
+    line-height: 15.79pt;
+    color: #ffffff;
+}
+.circle_p1_2{
+    width: 100%;
+    position: relative;
+    top:30%;
+    font-family: ‘Noto Sans TC’, ‘微軟正黑體’, sans-serif;
+    /*font-weight: bold;*/
+    font-size: 5vw;
+    line-height: 15.79pt;
+    color: #ffffff;
+}
+.circle_p2{
+    width: 100%;
+    position: relative;
+    opacity: 0.5;
+    top:48%;
+    left:8%;
+    font-family: ‘Noto Sans TC’, ‘微軟正黑體’, sans-serif;
+    font-weight: light;
+    font-size: 3vw;
+    line-height: 10px;
+    color: #ffffff;
+}
+.ra-circle_l{
+    background-image: url(../image/icon/cooperate_circle.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*position:absolute;*/
+    text-align: center;
+    font-family: ‘Noto Sans TC’, ‘微軟正黑體’, sans-serif;
+    /*font-weight: bold ;*/
+    font-size: 17px;
+    border-radius: 999em;
+    width:19vmax;
+    /*background-color: black;*/
+    height:19vmax;
+    color: #FFFFFF;
+    float: left;
+    margin-top: 5vh;
+    /*left:55px;*/
+
+    /*padding: 15px;
+    /*left: 99vmin;*/
+    /*top: 1vmin;*/
+    /*display: flex;
+    align-items: flex-start;*/
+}
+.ra-circle_2{
+    background-image: url(../image/icon/cooperate_circle.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*position:absolute;*/
+    text-align: center;
+    font-family: ‘Noto Sans TC’, ‘微軟正黑體’, sans-serif;
+    /*font-weight: bold ;*/
+    font-size: 17px;
+    border-radius: 999em;
+    width:19vmax;
+    /*background-color: black;*/
+    height:19vmax;
+    float: left;
+    color: #FFFFFF;
+    margin-top: 5vh;
+    /*left:290px;*/
+
+    /*padding: 15px;
+    /*left: 99vmin;*/
+    /*top: 1vmin;*/
+    /*display: flex;
+    align-items: flex-start;*/
+}
+.ra-circle_3{
+    background-image: url(../image/icon/cooperate_circle.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*position:absolute;*/
+    text-align: center;
+    font-family: ‘Noto Sans TC’, ‘微軟正黑體’, sans-serif;
+    /*font-weight: bold ;*/
+    font-size: 17px;
+    border-radius: 999em;
+    width:19vmax;
+    /*background-color: black;*/
+    height:19vmax;
+    color: #FFFFFF;
+    float: left;
+    margin-top: 5vh;
+    /*left:525px;*/
+  
+    /*padding: 15px;
+    /*left: 99vmin;*/
+    /*top: 1vmin;*/
+    /*display: flex;
+    align-items: flex-start;*/
+}
+.ra-circle_4{
+    background-image: url(../image/icon/cooperate_circle.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*position:absolute;*/
+    text-align: center;
+    font-family: ‘Noto Sans TC’, ‘微軟正黑體’, sans-serif;
+    /*font-weight: bold ;*/
+    font-size: 17px;
+    border-radius: 999em;
+    width:19vmax;
+    /*background-color: black;*/
+    height:19vmax;
+    color: #FFFFFF;
+    float: left;
+    margin-top: 5vh;
+  
+    /*padding: 15px;
+    /*left: 99vmin;*/
+    /*top: 1vmin;*/
+    /*display: flex;
+    align-items: flex-start;*/
+}
+.ra-circle_5{
+    background-image: url(../image/icon/cooperate_circle.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*position:absolute;*/
+    text-align: center;
+    font-family: ‘Noto Sans TC’, ‘微軟正黑體’, sans-serif;
+    /*font-weight: bold ;*/
+    font-size: 17px;
+    border-radius: 999em;
+    width:19vmax;
+    /*background-color: black;*/
+    height:19vmax;
+    color: #FFFFFF;
+    float: left;
+    margin-top: 5vh;
+   
+    /*padding: 15px;
+    /*left: 99vmin;*/
+    /*top: 1vmin;*/
+    /*display: flex;
+    align-items: flex-start;*/
+}
+.ra-circle_6{
+    background-image: url(../image/icon/cooperate_circle.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*position:absolute;*/
+    text-align: center;
+    font-family: ‘Noto Sans TC’, ‘微軟正黑體’, sans-serif;
+    /*font-weight: bold ;*/
+    font-size: 17px;
+    border-radius: 999em;
+    width:19vmax;
+    
+    /*background-color: black;*/
+    height:19vmax;
+    color: #FFFFFF;
+    float: left;
+    margin-top: 5vh;
+   
+    /*padding: 15px;
+    /*left: 99vmin;*/
+    /*top: 1vmin;*/
+    /*display: flex;
+    align-items: flex-start;*/
+}
+/*.ra-circle_l:hover{ background:rgba(0,6,121,0.6); }
+.ra-circle_2:hover{ background:rgba(0,6,121,0.6); }
+.ra-circle_3:hover{ background:rgba(0,6,121,0.6); }
+.ra-circle_4:hover{ background:rgba(0,6,121,0.6); }
+.ra-circle_5:hover{ background:rgba(0,6,121,0.6); }
+.ra-circle_6:hover{ background:rgba(0,6,121,0.6); }*/
 /*
 @media (min-width: 550px) and (max-width: 900px){
     .intro-first-page-text{
-    float: none;
+  float: none;
     }
 }
 */
@@ -140,13 +367,13 @@ hr.intro-title{
         position: absolute; 
         top: 20%;
         left: 20%;
-    width: none;
-    height: none;
+  width: none;
+  height: none;
     }
     .intro-first-page-text{
         float: none;
-    font-size: 0.7em;
-    width: 220px;
+  font-size: 0.7em;
+  width: 220px;
     }
 }
 */
@@ -633,281 +860,4 @@ hr.vd_hr{
     background-size:contain;
     background-repeat: no-repeat;
     
-}
-.nextpage{
-    background-image: url(../image/bg/職員切版-07.png);
-    width: 8vh;
-    height: 8vh;
-    position: absolute;
-    left: 55vw;
-    top: 3.5vh;
-    background-size: contain;
-    background-repeat: no-repeat;
-    border-radius: 999em;
-    z-index: 10;
-}
-.nextpage:hover{
-    background-image: url(../image/bg/職員切版-08.jpg);
-    cursor:pointer;
-}
-.prepage{
-    background-image: url(../image/bg/職員切版-05.png);
-    width: 8vh;
-    height: 8vh;
-    position: absolute;
-    background-size: contain;
-    top: 9vh;
-    left: -11vw;
-    background-repeat: no-repeat;
-    border-radius: 999em;
-}
-.prepage:hover{
-    background-image: url(../image/bg/職員切版-06.jpg);
-    cursor:pointer;
-}
-.ra-circle_first{
-    position: relative;
-    top:35vh;
-    left:27vw;
-    height: 23vh;
-    width: 88vw;
-    margin-top: 0vh;
-    border: solid 0px green;
-}
-.ra-circle_first_block_1{
-    margin-top: 0vh;
-    border: solid 0px green;
-    float:left;
-    width: 23vw;
-    height:23vh;
-}
-.ra-circle_1{
-    background-image: url(../image/7_1.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    position:relative;
-    float:left;
-    border-radius: 999em;
-    width:23vh;
-    height:23vh;
-    color: #FFFFFF;
-    /*background-first_block_context_block: black;*/
-}
-.ra-circle_first_block_2{
-    position:relative;
-    left:1vw;
-    float:left;
-    height: 25vh;
-    width:36vw;
-    margin-top: 0vh;
-    border: solid 0px green;
-}
-.ra-circle_2{
-    background-image: url(../image/7_3.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    position:relative;
-    float:left;
-    border-radius: 999em;
-    width:30%;
-    height:93%;
-    color: #FFFFFF;
-    /*background-color: black;*/
-}
-.ra-circle_7{
-    background-image: url(../image/7_7.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    position:relative;
-    float:left;
-    border-radius: 999em;
-    width:23vh;
-    height:23vh;
-    color: #FFFFFF;
-    /*background-color: black;*/
-}
-.ra-circle_first_block_3{
-    position:absolute;
-    /*left:46vw;*/
-    height: 25vh;
-    margin-top: 0vh;
-    border: solid 0px green;
-}
-.ra-circle_3{
-    background-image: url(../image/7_2.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    position:relative;
-    float:left;
-    border-radius: 999em;
-    width:23vh;
-    height:23vh;
-    color: #FFFFFF;
-    left:0px;
-    /*background-color: black;*/
-}
-.ra-circle_second{
-    position: relative;
-    top:40vh;
-    left:38vw;
-    height: 25vh;
-    width: 70vw;
-    margin-top: 0vh;
-    border: solid 0px green;
-}
-.ra-circle_second_block_1{
-    clear:both;
-    float:left;
-    height: 23vh;
-    width: 22vw;
-    margin-top: 0vh;
-    border: solid 0px green;
-}
-.ra-circle_4{
-    background-image: url(../image/7_4.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    position:relative;
-    float:left;
-    border-radius: 999em;
-    width:23vh;
-    height:23vh;
-    color: #FFFFFF;
-    /*left:11vw;*/
-    /*background-color: black;*/
-}
-.ra-circle_second_block_2{
-    position:relative;
-    float:left;
-    left:1vw;
-    height: 25vh;
-    width:30vw;
-    margin-top: 0vh;
-    border: solid 0px green;
-}
-.ra-circle_5{
-    background-image: url(../image/7_5.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    position:relative;
-    float:left;
-    border-radius: 999em;
-    width:23vh;
-    height:23vh;
-    color: #FFFFFF;
-    /*left:11vw;*/
-    /*background-color: black;*/
-}
-.ra-circle_8{
-    background-image: url(../image/7_8.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    position:relative;
-    float:left;
-    border-radius: 999em;
-    width:23vh;
-    height:23vh;
-    color: #FFFFFF;
-    /*left:11vw;*/
-    /*background-color: black;*/
-}
-.ra-circle_second_block_3{
-    position:absolute;
-    /*left:46vw;*/
-    height: 25vh;
-    margin-top: 0vh;
-    border: solid 0px green;
-}
-.ra-circle_6{
-    background-image: url(../image/7_6.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    position:relative;
-    float:left;
-    border-radius: 999em;
-    width:23vh;
-    height:23vh;
-    color: #FFFFFF;
-    /*left:11vw;*/
-    /*background-color: black;*/
-}
-.first_block_context_block{
-    /*background-image: url(../image/7_1.png);*/
-    /*background-size: cover;*/
-    /*background-repeat: no-repeat;*/
-    position:relative;
-    overflow-x: hidden;
-    overflow-y: hidden;
-    /*border-radius: 999em;*/
-    width:45%;
-    height:23vh;
-    left:1vw;
-    /*color: #FFFFFF;*/
-    /*left:12.5vw;*/
-    top:2.5vh;
-    /*background-color: black;*/
-}
-.first_block_context_block2{
-    /*background-image: url(../image/7_1.png);*/
-    /*background-size: cover;*/
-    /*background-repeat: no-repeat;*/
-    position:relative;
-    overflow-x: hidden;
-    overflow-y: hidden;
-    /*border-radius: 999em;*/
-    width:50%;
-    height:23vh;
-    left:1vw;
-    /*color: #FFFFFF;*/
-    /*left:12.5vw;*/
-    top:2.5vh;
-    /*background-color: black;*/
-}
-.second_block_context_block{
-    /*background-image: url(../image/7_1.png);*/
-    /*background-size: cover;*/
-    /*background-repeat: no-repeat;*/
-    position:relative;
-    overflow-x: hidden;
-    overflow-y: hidden;
-    /*border-radius: 999em;*/
-    width:50%;
-    height:23vh;
-    /*color: #FFFFFF;*/
-    left:1vw;
-    top:2.5vh;
-    /*background-color: black;*/
-}
-.first_first_line{
-    font-family: ‘Noto Sans TC’, ‘微軟正黑體’, sans-serif;
-    font-weight: regular;
-    font-size: 15.5px;
-    color: #000000;
-}
-.first_second_line{
-    position: absolute;
-    top:24.582px;
-    font-family: ‘Noto Sans TC’, ‘微軟正黑體’, sans-serif;
-    font-weight: regular;
-    font-size: 2vw;
-    color: #000000;
-}
-.first_third_line{
-    position: absolute;
-    top:9vh;
-    font-family: ‘Noto Sans TC’, ‘微軟正黑體’, sans-serif;
-    font-weight: regular;
-    font-size: 12px;
-    line-height: 18px;
-    color: #000000;
-}
-.middle_line{
-    position: absolute;
-    top:8.5vh;
-    width:100vh;
-    height:1px;
-    background:#E0E0E0;
-}
-.mobile{
-    display: none;
 }
