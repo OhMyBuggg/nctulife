@@ -113,13 +113,15 @@ hr.intro-title{
     font-weight: regular;
     position: fixed;
     top: 30vh;
-    right: 30vw;
+    left: 28vw;
     height:30vh;
-    width:42vw;
+    width: 55vw;
     font-size: 1em;
     line-height: 1.6em;
     letter-spacing: 0.1em;
     color: #000000;
+    text-align: justify;
+    text-justify:inter-ideograph; 
 }
 /*
 @media (min-width: 550px) and (max-width: 900px){

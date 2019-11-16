@@ -120,6 +120,8 @@ hr.intro-title{
     line-height: 1.8em;
     letter-spacing: 0.1em;
     color: #000000;
+    text-align: justify;
+    text-justify:inter-ideograph;
 }
 .more-information{
     background-image: url(../image/bg/to_learn_more.png);
