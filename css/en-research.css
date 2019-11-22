@@ -78,29 +78,29 @@
     border: solid 0px green;
 }
 .ra-circle_b{
-    background-image: url(../image/icon/bgcolor.png);
+    /*background-image: url(../image/icon/bgcolor.png);*/
     background-size: cover;
     background-repeat: no-repeat;
     position: absolute;
     left: 60vmin;
     top: 16vmin;
-    width: 47vmin;
-    height: 23vmin;
-    /*border-radius: 8%;*/
-    /*background: rgba(255,255,255,0.3);*/
+    width: 50vmin;
+    height: 16vmin;
+    border-radius: 15px;
+    background: #014C63;
     color: white;
-    line-height: 22vmin;
+    line-height: 16vmin;
     text-align: center;
     font-family: ‘Noto Sans TC’, ‘微軟正黑體’, sans-serif;
     font-weight: bold ;
     font-size: 20px;
     color: #FFFFFF;
-    opacity:0.9;
+    opacity:0.5;
 }
 .ra-circle_l{
     position:absolute;
-    width: 15vmin;
-    height: 15vmin;
+    width: 17vmin;
+    height: 17vmin;
     border-radius: 8%;
     border: solid 3px white;
     line-height: 3vmin;
@@ -141,8 +141,8 @@
 }
 .ra-circle_4{
     position:absolute;
-    width: 19vmin;
-    height: 19vmin;
+    width: 20vmin;
+    height: 20vmin;
     border-radius: 8%;
     border: solid 3px white;
     line-height: 3vmin;
@@ -159,28 +159,28 @@
 .ra-circle_4:hover{ background:rgba(255,255,255,0.6); color:#024E66; }
 
 .ra-c1{
-    left: 99vmin;
-    top: 1vmin;
+    left: 102vmin;
+    top: -2.5vmin;
     display: flex;
     flex-direction: row-reverse;
     justify-content: flex-end;
 }
 .ra-c2{
-    left: 55vmin;
-    top: -3vmin;
+    left: 54vmin;
+    top: -2.5vmin;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
 }
 .ra-c3{
-    left: 88vmin;
-    top: 33vmin;
+    left: 93vmin;
+    top: 28.5vmin;
     display: flex;
     flex-direction: column-reverse;
 }
 .ra-c4{
-    left: 41vmin;
-    top: 28vmin;
+    left: 45vmin;
+    top: 28.5vmin;
     display: flex;
     flex-direction: row;
     justify-content : flex-start;

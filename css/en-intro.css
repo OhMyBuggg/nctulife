@@ -121,7 +121,7 @@ hr.intro-title{
     letter-spacing: 0.1em;
     color: #000000;
     text-align: justify;
-    text-justify:inter-ideograph; 
+    text-justify:inter-ideograph;
 }
 /*
 @media (min-width: 550px) and (max-width: 900px){

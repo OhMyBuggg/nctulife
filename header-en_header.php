@@ -152,7 +152,7 @@
 
                             <a href="<?php echo site_url(); ?>/en-intro"><div id="mysidetext2" class="menu_block" style="transition:1.2s;"><div class="header-icon header-icon1"><div class="menutext">About Us</div></div></div></a>
 
-                            <a href="<?php echo site_url(); ?>/en-news"><div id="mysidetext3" class="menu_block"  style="transition:1.6s;"><div class="header-icon header-icon2"><div class="menutext">Latest News</div></div></div></a>
+                            <a href="https://cbt.nctu.edu.tw/#2"><div id="mysidetext3" class="menu_block"  style="transition:1.6s;"><div class="header-icon header-icon2"><div class="menutext">Latest News</div></div></div></a>
 
                             <a href="<?php echo site_url(); ?>/en-research_achievements"><div id="mysidetext4" class="menu_block" style="transition:2.4s;"><div class="header-icon-2 header-icon4"></div><div class="menutext2">Research &  <br> Development</div></div></a>
 
@@ -229,7 +229,7 @@
             <a href="<?php echo site_url(); ?>/en-intro">
                 <div class="header-icon header-icon1"><div class="header-text">About Us</div></div>
             </a>
-            <a href="<?php echo site_url(); ?>/en-news">
+            <a href="https://cbt.nctu.edu.tw/#2">
                 <div class="header-icon header-icon2"><div class="header-text">Latest News</div></div></a>
             <a href="<?php echo site_url(); ?>/en-research_achievements">
                 <div class="header-icon header-icon4"><div class="header-text">Research & Development</div></div>

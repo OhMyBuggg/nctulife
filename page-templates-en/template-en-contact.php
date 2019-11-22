@@ -17,7 +17,7 @@
                 <div class="ra-circle_1"></div>
                 <div class="first_block_context_block">
                     <div class="first_first_line">Administrative Staff</div>
-                    <div class="first_second_line">呂聖鈴</div>
+                    <div class="first_second_line">Lu, Sheng-ling</div>
                     <div class="middle_line"><hr></div>
                     <div class="first_third_line">Research projects and asset management<br>shenq@mail.nctu.edu.tw<br>03-5712121 # 56902</div>
                 </div>
@@ -27,7 +27,7 @@
                 </div>
                 <div class="first_block_context_block2">
                     <div class="first_first_line">Technical Staff</div>
-                    <div class="first_second_line">郭珍佑</div>
+                    <div class="first_second_line">Kuo, Chen-yu</div>
                     <div class="middle_line"><hr></div>
                     <div class="first_third_line"><p>Maintenance of buildings and common instruments; security management; affairs related to the departmental teaching & evaluation committee; and class scheduling</p><p>cynthia@mail.nctu.edu.tw</p><p>03-5712121 # 56901</p></div>
                 </div>
@@ -38,7 +38,7 @@
                 <div class="ra-circle_3"></div>
                 <div class="first_block_context_block">
                     <div class="first_first_line">Administrative Staff</div>
-                    <div class="first_second_line">郭淑卿</div>
+                    <div class="first_second_line">Kuo, Shu-Ching</div>
                     <div class="middle_line"><hr></div>
                     <div class="first_third_line">The College and graduate students related affairs.<br>sunny@mail.nctu.edu.tw<br>03-5712121 # 56937</div>
                 </div>
@@ -48,7 +48,7 @@
                 </div>
                 <div class="first_block_context_block">
                     <div class="first_first_line">Administrative Staff</div>
-                    <div class="first_second_line">郭貞賢</div>
+                    <div class="first_second_line">Kuo, Chen-hsien</div>
                     <div class="middle_line"><hr></div>
                     <div class="first_third_line"><p>Projects of the Ministry of Science and Technology(MOST); departmental & institutes’ meetings; affairs regarding Academicians of the Academia Sinica</p><p>g0431@nctu.edu.tw</p><p>03-5712121 # 56938</p></div>
                 </div>
@@ -62,7 +62,7 @@
                 </div>
                 <div class="first_block_context_block">
                     <div class="first_first_line">Administrative Staff</div>
-                    <div class="first_second_line">吳佳文</div>
+                    <div class="first_second_line">Wu, Chia-wen</div>
                     <div class="middle_line"><hr></div>
                     <div class="first_third_line">Speeches & Seminars; environmental health and safety (EHS) of labs<br>chiawen@mail.nctu.edu.tw<br>03-5712121 # 56943</div>
                 </div>
@@ -71,7 +71,7 @@
                 <div class="ra-circle_5"></div>
                 <div class="second_block_context_block">
                     <div class="first_first_line">Administrative Staff</div>
-                    <div class="first_second_line">陳珮筠</div>
+                    <div class="first_second_line">Chen, Pei-yun</div>
                     <div class="middle_line"><hr></div>
                     <div class="first_third_line">Undergraduates related; contact of the Office of International Affairs; international faculty & students<br>Teaching venue & equipment assignments<br>g0630@nctu.edu.tw<br>03-5712121 # 56930</div>
                 </div>
@@ -83,7 +83,7 @@
                 <div class="ra-circle_6"></div>
                 <div class="first_block_context_block">
                     <div class="first_first_line">Janitor</div>
-                    <div class="first_second_line">葉連發</div>
+                    <div class="first_second_line">Yeh, Lian-fa</div>
                     <div class="middle_line"><hr></div>
                     <div class="first_third_line">Buildings maintenance; mails reception and delivery <br>yah@mail.nctu.edu.tw<br>03-5712121 # 53008</div>
                 </div>
@@ -92,7 +92,7 @@
                 <div class="ra-circle_8"></div>
                 <div class="second_block_context_block">
                     <div class="first_first_line">Administrative Staff</div>
-                    <div class="first_second_line">賴美伶</div>
+                    <div class="first_second_line">Lai, Mei-ling</div>
                     <div class="middle_line"><hr></div>
                     <div class="first_third_line">Contact of the Office of International Affairs<br>Teaching venue & equipment assignments<br>meiling@mail.nctu.edu.tw<br>03-5712121 # 56983</div>
                 </div>

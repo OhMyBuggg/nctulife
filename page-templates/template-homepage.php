@@ -324,8 +324,8 @@
                 <p id="foot-font-1">
                     <?php echo $translate ? 'NCTU' : '國立交通大學' ?>
                 </p>
-                <p id="foot-font-2">生科院</p>
-                <p id="foot-font-3">College of Biological<br>Science and Technology</p>
+                <p id="foot-font-2">生科院產業博士班</p>
+                <p id="foot-font-3">Industrial Development<br>Graduate Program of CBT</p>
             </div>
             <div id="foot-center">
                 <div class="foot-font-4"><img class="ft-icon" src="<?php bloginfo('template_url')?>/image/icon/icon_info_01.svg"> 886-3-572-9287</div>
