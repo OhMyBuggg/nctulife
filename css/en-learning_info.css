@@ -147,6 +147,10 @@ hr.intro-title{
     border-radius: 10%;
 }
 
+.download:hover{
+    background-image: url(../image/Mobile_500x600/產博_手機版-04.png);
+}
+
 /*
 @media (min-width: 550px) and (max-width: 900px){
     .intro-first-page-text{

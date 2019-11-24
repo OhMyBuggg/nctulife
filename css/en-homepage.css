@@ -45,21 +45,21 @@
 #foot-font-1{
   color:white;
   font-family:'Noto Sans TC', '微軟正黑體', sans-serif;
-  font-size:0.6em; 
+  font-size:0.8em; 
   margin-top:2vh;
   margin-left:1vw;
   font-weight: 350; 
-  letter-spacing: 0.1em;
+  letter-spacing: 0.2em;
     line-height: 2.5vh;
     border: solid 0px orange;
 }
 #foot-font-2{
   color:white;
   font-family:'Noto Sans TC', '微軟正黑體', sans-serif;
-  font-size:1em;
+  font-size:0.8em;
   margin-left:1vw;
   font-weight: 350;
-  letter-spacing: 0.5em; 
+  letter-spacing: 0.2em; 
     line-height: 3.5vh;
     border: solid 0px orange;
 }

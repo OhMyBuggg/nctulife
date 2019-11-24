@@ -20,19 +20,19 @@
                                     台達電子工業
                                 </div>
                                 <div class="circle_p1_1 textbox textbox1">
-                                    測試第二第一
+                                    百歐生命科技
                                 </div>
                                 <div class="circle_p1_1 textbox textbox2">
-                                    測試第三第一
+                                    <!--測試第三第一-->
                                 </div>
                                 <div class="circle_p2 textbox textbox0">
                                     股份有限公司       
                                 </div>
                                 <div class="circle_p2 textbox textbox1">
-                                    股份有限公司       
+                                    股份有限公司     
                                 </div>
                                 <div class="circle_p2 textbox textbox2">
-                                    股份有限公司       
+                                    <!--股份有限公司-->       
                                 </div>
                             </div>
                             <div class="ra-circle_2">
@@ -40,19 +40,19 @@
                                     宣捷生物科技
                                 </div>
                                 <div class="circle_p1_2 textbox textbox1">
-                                    四字測試
+                                    <!--測試第二第一-->
                                 </div>
                                 <div class="circle_p1_1 textbox textbox2">
-                                    炯毅我做好了
+                                    <!--測試第三第一-->
                                 </div>
                                 <div class="circle_p2 textbox textbox0">
                                     股份有限公司
                                 </div>
                                 <div class="circle_p2 textbox textbox1">
-                                    股份有限公司
+                                    <!--股份有限公司-->
                                 </div>
                                 <div class="circle_p2 textbox textbox2">
-                                    股份有限公司
+                                    <!--股份有限公司-->
                                 </div>
                             </div>
                             <div class="ra-circle_3">
@@ -60,41 +60,41 @@
                                     康健基因科技
                                 </div>
                                 <div class="circle_p1_1 textbox textbox1">
-                                    康健基因科技
+                                    <!--測試第二第一-->
                                 </div>
                                 <div class="circle_p1_1 textbox textbox2">
-                                    康健基因科技
+                                    <!--測試第三第一-->
                                 </div>
                                 <div class="circle_p2 textbox textbox0">
                                     股份有限公司
                                 </div>
                                 <div class="circle_p2 textbox textbox1">
-                                    股份有限公司
+                                    <!--股份有限公司-->
                                 </div>
                                 <div class="circle_p2 textbox textbox2">
-                                    股份有限公司
+                                    <!--股份有限公司-->
                                 </div>
                             </div>
                         </div>
                         <div class="ra-circle_second">
                             <div class="ra-circle_4">
                                 <div class="circle_p1_1 textbox textbox0">
-                                    康鶴生醫科技
+                                    百芮國際
                                 </div>
                                 <div class="circle_p1_1 textbox textbox1">
-                                    康鶴生醫科技
+                                    <!--測試第二第一-->
                                 </div>
                                 <div class="circle_p1_1 textbox textbox2">
-                                    康鶴生醫科技
+                                    <!--測試第三第一-->
                                 </div>
                                 <div class="circle_p2 textbox textbox0">
                                     股份有限公司
                                 </div>
                                 <div class="circle_p2 textbox textbox1">
-                                    股份有限公司
+                                    <!--股份有限公司-->
                                 </div>
                                 <div class="circle_p2 textbox textbox2">
-                                    股份有限公司
+                                    <!--股份有限公司-->
                                 </div>
                             </div>
                             <div class="ra-circle_5">
@@ -102,19 +102,19 @@
                                     琦芯科技
                                 </div>
                                 <div class="circle_p1_2 textbox textbox1">
-                                    琦芯科技
+                                    <!--測試第二第一-->
                                 </div>
                                 <div class="circle_p1_2 textbox textbox2">
-                                    琦芯科技
+                                    <!--測試第三第一-->
                                 </div>
                                 <div class="circle_p2 textbox textbox0">
                                     股份有限公司
                                 </div>
                                 <div class="circle_p2 textbox textbox1">
-                                    股份有限公司
+                                    <!--股份有限公司-->
                                 </div>
                                 <div class="circle_p2 textbox textbox2">
-                                    股份有限公司
+                                    <!--股份有限公司-->
                                 </div>
                             </div>
                             <div class="ra-circle_6">
@@ -122,19 +122,19 @@
                                     瀚源生醫
                                 </div>
                                 <div class="circle_p1_2 textbox textbox1">
-                                    瀚源生醫
+                                    <!--測試第二第一-->
                                 </div>
                                 <div class="circle_p1_2 textbox textbox2">
-                                    瀚源生醫
+                                    <!--測試第三第一-->
                                 </div>
                                 <div class="circle_p2 textbox textbox0">
                                     股份有限公司
                                 </div>
                                 <div class="circle_p2 textbox textbox1">
-                                    股份有限公司
+                                    <!--股份有限公司-->
                                 </div>
                                 <div class="circle_p2 textbox textbox2">
-                                    股份有限公司
+                                    <!--股份有限公司-->
                                 </div>
                             </div>
                         </div>
@@ -145,8 +145,8 @@
     </div>-->
 
 <!--往左右頁移動-->
-    <!--<div class="left"></div>-->
-    <!--<div class="right"></div>-->
+    <div class="left"></div>
+    <div class="right"></div>
 
                 <!--<a class="icon_down" href="<?php echo site_url(); ?>/dean" style="opacity:1; transform: matrix(1,0,0,1,0,0);"><div class="right_icon"></div></a>
 
@@ -239,12 +239,12 @@
         $('.textbox').hide();
         $('.textbox'+now).fadeIn(1000,"swing");
         $('.left').click(function(){
-            now = (now+3-1)%3;
+            now = (now+2-1)%2;
             $('.textbox').hide();
             $('.textbox'+now).fadeIn(1000,"swing");
         });
         $('.right').click(function(){
-            now = (now+1)%3;
+            now = (now+1)%2;
             $('.textbox').hide();
             $('.textbox'+now).fadeIn(1000,"swing");
         })
