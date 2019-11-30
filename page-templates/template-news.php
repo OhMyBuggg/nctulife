@@ -24,7 +24,6 @@
                             'paged' => $paged
                             );
                             $the_query = new WP_Query($args);
-                            //echo $the_query->max_num_pages;
                             if($the_query->have_posts()):
                                 while($the_query->have_posts()):
                                     $the_query->the_post();
@@ -35,7 +34,6 @@
                             <br>
                             <div class="dash"></div>
                             <a class="nl-news_item_title" href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
-                            <div class="clear_both"></div>
             </div>
                             <?php
                                     $i = $i + 1;
@@ -46,9 +44,6 @@
             </div>
                             <?php
                             endif;
-                                    //$current_page = get_query_var( 'paged' );
-                                    //previous_posts_link( 'Older Posts' );
-                                    //next_posts_link( 'Newer Posts', $the_query->max_num_pages );
                             ?>
         </div>
 
@@ -102,14 +97,8 @@
     </div>
 </div>
 <script>
-/*
-    $(document).ready(function(){
-    $('.nl-container').perfectScrollbar();
-    });
-/*for mobile*/
+
 
 
 </script>
-<!--<?php wp_nav_menu (array('theme_location' => 'Menu1','container_class' => 'nav_menu','container_id'=>'nav_menu_'.$n)); ?>
-<?php //get_sidebar(); ?>-->
 <?php get_footer(); ?>
