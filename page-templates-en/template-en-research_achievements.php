@@ -39,7 +39,7 @@
 </div>
 
 <div class="mobile">
-    <div class="intro-bigTitle_1">研究發展</div>
+    <div class="intro-bigTitle_1">Research & Development</div>
     <div class="container">
         <a class="link-1" href="https://cbt.nctu.edu.tw/research_achievements/"></a>
         <a class="link-2" href="https://cbt.nctu.edu.tw/research_achievements/"></a>
