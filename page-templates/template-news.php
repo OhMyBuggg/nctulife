@@ -38,12 +38,11 @@
         <div class="bar"><?php echo $title;?></div>
         <div class="content">
             <?php 
-                for ($i=0; $i <$c; $i++){
+                for ($i=0; $i <5; $i++){
                     preg_match('/href="(.*)"/', $content[$i], $h);
                     //$hh = '/$h[0]/';
                     $url = $h[1];
                     //$content[$i] = preg_replace($h,"",$content[$i]);
-                    $content[$i] = preg_replace('/<a/', '<div',$content[$i]);
                     //$content[$i] = preg_replace('/<\/a>/','</div>',$content[$i]);
 
                     echo $content[$i];

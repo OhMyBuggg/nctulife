@@ -215,9 +215,9 @@ hr.intro-title {
     background-image: url(../image/bg/職員切版-07.png);
     width: 8vh;
     height: 8vh;
-    position: absolute;
-    left: 55vw;
-    top: 3.5vh;
+    position: fixed;
+    right: 6vw;
+    top: 45vh;
     background-size: contain;
     background-repeat: no-repeat;
     border-radius: 999em;
@@ -261,7 +261,7 @@ hr.intro-title {
     border: solid 0 green;
     float: left;
     width: 27vw;
-    height: 23vh
+    height: 26vh;
 }
 
 .ra-circle_1 {
@@ -280,10 +280,8 @@ hr.intro-title {
     position: relative;
     left: 1vw;
     float: left;
-    height: 25vh;
+    height: 28vh;
     width: 36vw;
-    margin-top: 0;
-    border: solid 0 green
 }
 
 .ra-circle_2 {
@@ -293,9 +291,9 @@ hr.intro-title {
     position: relative;
     float: left;
     border-radius: 999em;
-    width: 30%;
-    height: 93%;
-    color: #fff
+    width: 23vh;
+    height: 23vh;
+    color: #fff;
 }
 
 .ra-circle_7 {
@@ -343,10 +341,9 @@ hr.intro-title {
 .ra-circle_second_block_1 {
     clear: both;
     float: left;
-    height: 23vh;
-    width: 22vw;
+    height: 24vh;
+    width: 26vw;
     margin-top: 0;
-    border: solid 0 green
 }
 
 .ra-circle_4 {
@@ -365,10 +362,9 @@ hr.intro-title {
     position: relative;
     float: left;
     left: 1vw;
-    height: 25vh;
+    height: 28vh;
     width: 30vw;
     margin-top: 0;
-    border: solid 0 green
 }
 
 .ra-circle_5 {
@@ -421,27 +417,27 @@ hr.intro-title {
     width: 45%;
     height: 23vh;
     left: 1vw;
-    top: 2.5vh
+    top: 2.5vh;
 }
 
 .first_block_context_block2 {
     position: relative;
     overflow-x: hidden;
     overflow-y: hidden;
-    width: 50%;
-    height: 23vh;
+    width: 55%;
+    height: 25vh;
     left: 1vw;
-    top: 2.5vh
+    top: 2.5vh;
 }
 
 .second_block_context_block {
     position: relative;
     overflow-x: hidden;
     overflow-y: hidden;
-    width: 50%;
-    height: 23vh;
+    width: 55%;
+    height: 26vh;
     left: 1vw;
-    top: 2.5vh
+    top: 2.5vh;
 }
 
 .first_first_line {
