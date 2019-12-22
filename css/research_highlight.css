@@ -1,0 +1,29 @@
+* {
+    font-family: 'Noto Sans TC', 微軟正黑體, sans-serif;
+}
+.page-research_achievements{
+    background-image:url(../image/bg/19_1.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    height:100vh;
+    width: 100vw;
+}
+.container {
+    position: absolute;
+    top:18vh;
+    left: 25vw;
+    height: 40vh;
+    width: 70vw;
+    border: 2px green solid;
+}
+.title{
+    font-size: 3vh;
+}
+.subtitle{
+    font-size: 4vh;
+}
+.bar{
+    background: black;
+    width: 25%;
+    height: 2px;
+}

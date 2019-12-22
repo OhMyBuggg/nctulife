@@ -109,6 +109,13 @@
         echo '<link rel="stylesheet" href="';bloginfo('template_url');
         echo'/mobile-css/contact-mobile.css" type="text/css" media="screen and (max-width: 700px)" />';
     }
+    else if(is_page('research_highlight_1')){/*聯絡我們*/
+        echo '<link rel="stylesheet" href="';bloginfo('template_url');
+        echo'/css/research_highlight.css" type="text/css" media="screen and (min-width: 700px)" />';
+
+        echo '<link rel="stylesheet" href="';bloginfo('template_url');
+        echo'/mobile-css/research_highlight-mobile.css" type="text/css" media="screen and (max-width: 700px)" />';
+    }
     else if(is_page('test')){/*聯絡我們*/
         echo '<link rel="stylesheet" href="';bloginfo('template_url');
         echo'/css/test.css" type="text/css" media="screen and (min-width: 0px)" />';
