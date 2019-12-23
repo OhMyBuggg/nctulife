@@ -27,6 +27,7 @@
        for ($i=0; $i <$c; $i++){
             $content[$i] = $contentArr[0][$i];
        }
+       $i = 0;
        // 通過 echo 函數輸出標題信息
         //echo $html[0];
         //$htmloneline = preg_replace('/\r|\n|\t/', '',$html);
@@ -35,19 +36,53 @@
 ?>
 <div class="nl-page">
     <div class="container">
-        <div class="bar"><?php echo $title;?></div>
+        <div class="intro-bigTitle_1">最新消息</div>
         <div class="content">
-            <?php 
-                for ($i=0; $i <5; $i++){
+            <div class="text">
+                <?php 
                     preg_match('/href="(.*)"/', $content[$i], $h);
-                    //$hh = '/$h[0]/';
-                    $url = $h[1];
-                    //$content[$i] = preg_replace($h,"",$content[$i]);
-                    //$content[$i] = preg_replace('/<\/a>/','</div>',$content[$i]);
-
-                    echo $content[$i];
+                    if($i > 0) echo '<div class="bar"></div>';
+                    echo $content[$i];       
                     echo '<br>';
-           }?>    
+                    $i = $i + 1;
+               ?>   
+           </div>
+           <div class="text">
+                <?php 
+                    preg_match('/href="(.*)"/', $content[$i], $h);
+                    if($i > 0) echo '<div class="bar"></div>';
+                    echo $content[$i];       
+                    echo '<br>';
+                    $i = $i + 1;
+               ?>   
+           </div> 
+           <div class="text">
+                <?php 
+                    preg_match('/href="(.*)"/', $content[$i], $h);
+                    if($i > 0) echo '<div class="bar"></div>';
+                    echo $content[$i];       
+                    echo '<br>';
+                    $i = $i + 1;
+               ?>   
+           </div> 
+           <div class="text">
+                <?php 
+                    preg_match('/href="(.*)"/', $content[$i], $h);
+                    if($i > 0) echo '<div class="bar"></div>';
+                    echo $content[$i];       
+                    echo '<br>';
+                    $i = $i + 1;
+               ?>   
+           </div> 
+           <div class="text">
+                <?php 
+                    preg_match('/href="(.*)"/', $content[$i], $h);
+                    if($i > 0) echo '<div class="bar"></div>';
+                    echo $content[$i];       
+                    echo '<br>';
+                    $i = $i + 1;
+               ?>   
+           </div> 
         </div>
             <!--<div class="mobile-nl-header hp-newsheader">
                 <div class="intro-bigTitle_1"><?php echo $bar;?></div>

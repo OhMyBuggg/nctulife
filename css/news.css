@@ -19,22 +19,46 @@
     overflow: hidden;
     border: 2px red solid;
 }
-.bar{
-    position: relative;
-    top: 10vh;
-    left: 20vw;
-    width: 60%;
-    height: 20%;
-    border: 2px green solid;
+.intro-bigTitle_1{
+    font-weight: regular;
+    position: fixed;
+    top:18.5vh;
+    left:28vw;
+    background-image:url(../image/icon/underline.png);
+    background-size:220px 12px; 
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    font-size: 2.4em;
+    color: #000000;
+    height: 8vh;
+    width: 16.9vw;
+    display: flex;
+    align-items: flex-start;
 }
 .content{
     position: relative;
-    top: 20vh;
-    left: 20vw;
+    display: flex;
+    flex-wrap: wrap;
+    top: 30vh;
+    left: 28vw;
     width: 60%;
-    height: 50%;
-    border: 2px blue solid;
-    overflow:scroll;
+    height: 60%;
+}
+.text{
+    height: 10%;
+    width: 100%;
+    font-size: 1.5vw;
+    font-family: 'Noto Sans TC', 微軟正黑體, sans-serif;
+
+}
+.bar{
+    width: 100%;
+    height: 2px;
+    background-color: #000;
+}
+.news-title {
+    height: 50vh;
+    width: 100%;
 }
 .hp-newsheader{
     height: 8vh;
