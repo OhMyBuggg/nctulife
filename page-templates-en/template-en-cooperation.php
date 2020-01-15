@@ -37,7 +37,7 @@
                         Meridigen Biotechnology
                     </div>
                     <div class="circle_p1_2 textbox textbox1">
-                        
+                        Bio Smart Co., Ltd.
                     </div>
                     <div class="circle_p1_1 textbox textbox2">
                         
@@ -57,7 +57,7 @@
                         The Health GeneTech Corporation
                     </div>
                     <div class="circle_p1_1 textbox textbox1">
-                        
+                        Centrillion Technology Holdings Ltd
                     </div>
                     <div class="circle_p1_1 textbox textbox2">
                         
@@ -79,7 +79,7 @@
                         Bio Race International, Inc.
                     </div>
                     <div class="circle_p1_1 textbox textbox1">
-                        
+                        Ye Yang Industrial Co., Ltd.
                     </div>
                     <div class="circle_p1_1 textbox textbox2">
                         
@@ -99,7 +99,7 @@
                         CheeShin Technology, Inc.
                     </div>
                     <div class="circle_p1_2 textbox textbox1">
-                        
+                        JOHNPRO BIOTECH INC
                     </div>
                     <div class="circle_p1_2 textbox textbox2">
                         
