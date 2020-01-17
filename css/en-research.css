@@ -26,11 +26,6 @@
     height: 70vh
 }
 
-.ra-title1 {
-    line-height: 3vh;
-    color: #fff
-}
-
 .ra-title1_1 {
     font-weight: regular;
     position: fixed;
@@ -193,35 +188,6 @@
     display: flex;
     flex-direction: row;
     justify-content: flex-start
-}
-
-.ra-text_block {
-    position: absolute;
-    top: 20vh;
-    left: 65vmin;
-    width: 15vw;
-    height: 40vh;
-    border: solid 0 #00f;
-    display: none
-}
-
-.ra-title3 {
-    height: 6vh;
-    line-height: 5vh;
-    color: #fff
-}
-
-.ra-text {
-    height: 4vh;
-    line-height: 3vh;
-    color: #fff
-}
-
-.page-research_highlights {
-    background-image: url(../image/bg/10.png), url(../image/p4.png);
-    background-size: cover, auto;
-    background-repeat: no-repeat, repeat;
-    height: 100vh
 }
 
 .mobile {

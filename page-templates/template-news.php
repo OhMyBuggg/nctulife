@@ -28,11 +28,6 @@
             $content[$i] = $contentArr[0][$i];
        }
        $i = 0;
-       // 通過 echo 函數輸出標題信息
-        //echo $html[0];
-        //$htmloneline = preg_replace('/\r|\n|\t/', '',$html);
-       // preg_match('/<div class="rf-form_list_block"><ul>(.*?)<\/ul><\/div>/',$htmloneline,$bar);
-       // preg_match('/<div[^>]*class="rf_block1_0"[^>]*>(.*?) <\/div>/',$html,$content);
 ?>
 <div class="nl-page">
     <div class="container">
@@ -84,89 +79,8 @@
                ?>   
            </div> 
         </div>
-            <!--<div class="mobile-nl-header hp-newsheader">
-                <div class="intro-bigTitle_1"><?php echo $bar;?></div>
-            </div>-->
-        <!--<div class="nl-container">
-                            <?php
-                            $i=0;
-                            $paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;
-                            $args = array(
-                            'category_name' => $cat_name,
-                            'posts_per_page' => 3,
-                            'paged' => $paged
-                            );
-                            $the_query = new WP_Query($args);
-                            if($the_query->have_posts()):
-                                while($the_query->have_posts()):
-                                    $the_query->the_post();
-                            ?>
-                            
-            <div class="nl-list_item">
-                            <div class="nl-news_item_date"><?php the_time('Y.m.d'); ?></div>
-                            <br>
-                            <div class="dash"></div>
-                            <a class="nl-news_item_title" href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
-            </div>
-                            <?php
-                                    $i = $i + 1;
-                                endwhile;
-                            else:?>
-            <div class="nl-list_item">
-                                <div class="hp-news_item_title">No post ~~</div>
-            </div>
-                            <?php
-                            endif;
-                            ?>
-        </div>-->
-
-        <!--下面頁數-->
-        <!--<div class="newslist_nav">
             
-            <!--回到第一頁
-            <a href="<?php echo site_url()."/${cat_name}/page/1"; ?>"><div class="nl-first_page"></div></a>
-                
-                <!--上一頁如果已在第一頁就不動
-                <?php if( $paged == 1 ) :?>
-            
-            <a href="<?php echo site_url()."/${cat_name}/page/1"; ?>"><div class="nl-prev_page"></div></a>
-                
-                <?php else: ?>
-            
-            <a href="<?php echo site_url()."/${cat_name}/page/".($paged-1); ?>"><div class="nl-prev_page"></div></a>
-                
-                <?php endif; ?>
-
-            <div class="spot">
-                <!--目前在第幾頁
-                <div class="nl-page_num"><?php echo $paged; ?></div>
-
-                 <!--最後一頁的頁數
-            <div class="nl-page_max_num"><?php echo $the_query->max_num_pages ?></div>
-            
-            </div>
-                
-                <!--下一頁如果在最後一頁就不動
-                <?php if( $paged == $the_query->max_num_pages ) :?>
-            
-            <a href="<?php echo site_url()."/${cat_name}/page/".($the_query->max_num_pages); ?>"><div class="nl-next_page"></div></a>
-                
-                <?php else: ?>
-            
-            <a href="<?php echo site_url()."/${cat_name}/page/".($paged+1); ?>"><div class="nl-next_page"></div></a>
-               
-                <?php endif; ?>
-            
-            <!--到最後一頁
-            <a href="<?php echo site_url()."/${cat_name}/page/".($the_query->max_num_pages); ?>"><div class="nl-last_page"></div></a>
-                
-                <!--下面手機板沒有
-                <input type="text" id="jump_to" name="jump_to" max="<?php echo $the_query->max_num_pages ?>">
-            
-            <a href="#" class="nl-go"></a>
-        
-        </div>-->
-                            <?php  wp_reset_postdata(); ?>
+      <?php  wp_reset_postdata(); ?>
     </div>
 </div>
 <script>

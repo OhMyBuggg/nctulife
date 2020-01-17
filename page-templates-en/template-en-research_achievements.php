@@ -29,11 +29,6 @@
                     <div class="ra-circle_4 ra-c4 subtitled mobilehidden"><br><br><br>Biophysics,<br>Nano Inspection<br>and<br>Neuroscience</div>
                 </a>
             </div>
-            <div class="ra-circle_block formobile">
-                <div class="ra-c1_mobile text formobile">物</div>
-                <div class="ra-c2_mobile text formobile">數</div>
-                <div class="ra-c3_mobile text formobile">化</div>
-            </div>
         </div>
     </div>
 </div>

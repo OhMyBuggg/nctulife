@@ -7,8 +7,6 @@
     background-repeat: no-repeat, repeat;
     height: 100vh
 }
-
-.intro-subpage,
 .intro-subpage-1 {
     float: left;
     width: 820px;
@@ -210,102 +208,4 @@
     height: 170px;
     color: #fff;
     left: 650px
-}
-
-.intro-second-page-left {
-    float: left;
-    width: 29vw;
-    height: 40vh;
-    margin-top: 28px;
-    border: solid red 0
-}
-
-.intro-second-page-right {
-    float: left;
-    width: 25vw;
-    height: 40vh;
-    margin-left: 2vw;
-    margin-top: 28px;
-    border: solid #00f 0
-}
-
-.intro-p2-block1 {
-    float: left;
-    padding-top: 1vw;
-    height: 6vw;
-    width: 5vw;
-    font-weight: 350;
-    font-size: 1.2em;
-    line-height: 2vw;
-    color: #000;
-    border: solid 1.5px #000;
-    text-align: center
-}
-
-.intro-p3-block {
-    margin-top: 28px;
-    margin-right: 20px;
-    padding-top: 1vw;
-    float: left;
-    height: 6vw;
-    width: 5vw;
-    font-weight: 350;
-    font-size: 1.2em;
-    line-height: 2vw;
-    color: #000;
-    border: solid 1.5px #000;
-    text-align: center
-}
-
-.intro-p3-block1 {
-    float: left;
-    width: 25vw;
-    margin-top: 28px;
-    border: solid 0 red
-}
-
-.intro-p3-block2 {
-    float: left;
-    width: 25vw;
-    margin-top: 28px;
-    border: solid 0 red
-}
-
-.intro-p4-block1 {
-    float: left;
-    margin-top: 5px;
-    height: 4vw;
-    width: 2.5vw;
-    font-weight: 350;
-    font-size: 1.2em;
-    line-height: 2vw;
-    color: #000;
-    border: solid 1.5px #000;
-    text-align: center
-}
-
-.intro-p4-block2 {
-    padding-top: 5px;
-    float: left;
-    height: 5vw;
-    width: 2.5vw;
-    font-weight: 350;
-    font-size: 1.2em;
-    line-height: 1.6vw;
-    color: #000;
-    border: solid 1.5px #000;
-    text-align: center
-}
-
-.intro-p4-block3 {
-    padding-top: 5px;
-    float: left;
-    height: 6.5vw;
-    width: 2.5vw;
-    font-weight: 350;
-    font-size: 1.2em;
-    line-height: 1.5vw;
-    color: #000;
-    border: solid 1.5px #000;
-    text-align: center
 }

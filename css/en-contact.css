@@ -7,26 +7,6 @@
     background-repeat: no-repeat, repeat;
     height: 100vh
 }
-
-#intro-container {
-    position: absolute;
-    top: 130px;
-    left: 350px;
-    width: 540px;
-    height: 400px;
-    overflow-x: hidden;
-    overflow-y: hidden;
-    border: solid 0 #000
-}
-
-.intro-bigTitle {
-    font-weight: 400;
-    font-size: 2.8em;
-    color: #000;
-    line-height: 6vh;
-    margin-top: .5vmin
-}
-
 .intro-bigTitle_1 {
     font-weight: regular;
     position: fixed;
@@ -42,175 +22,6 @@
     display: flex;
     align-items: flex-start
 }
-
-hr.intro-title {
-    border: 0;
-    height: 2px;
-    width: 56vw;
-    margin-top: 3px;
-    background: #505050;
-    clear: both
-}
-
-.intro-second-page-left {
-    float: left;
-    width: 29vw;
-    height: 40vh;
-    margin-top: 28px;
-    border: solid red 0
-}
-
-.intro-second-page-right {
-    float: left;
-    width: 25vw;
-    height: 40vh;
-    margin-left: 2vw;
-    margin-top: 28px;
-    border: solid #00f 0
-}
-
-.intro-p2-block1 {
-    float: left;
-    padding-top: 1vw;
-    height: 6vw;
-    width: 5vw;
-    font-weight: 350;
-    font-size: 1.2em;
-    line-height: 2vw;
-    color: #000;
-    border: solid 1.5px #000;
-    text-align: center
-}
-
-.intro-p2-space {
-    height: 2.5vh;
-    width: 100%;
-    clear: both
-}
-
-.intro-p3-block {
-    margin-top: 28px;
-    margin-right: 20px;
-    padding-top: 1vw;
-    float: left;
-    height: 6vw;
-    width: 5vw;
-    font-weight: 350;
-    font-size: 1.2em;
-    line-height: 2vw;
-    color: #000;
-    border: solid 1.5px #000;
-    text-align: center
-}
-
-.intro-p3-block1 {
-    float: left;
-    width: 25vw;
-    margin-top: 28px;
-    border: solid 0 red
-}
-
-.intro-p3-block2 {
-    float: left;
-    width: 25vw;
-    margin-top: 28px;
-    border: solid 0 red
-}
-
-.intro-p4-block1 {
-    float: left;
-    margin-top: 5px;
-    height: 4vw;
-    width: 2.5vw;
-    font-weight: 350;
-    font-size: 1.2em;
-    line-height: 2vw;
-    color: #000;
-    border: solid 1.5px #000;
-    text-align: center
-}
-
-.intro-p4-block2 {
-    padding-top: 5px;
-    float: left;
-    height: 5vw;
-    width: 2.5vw;
-    font-weight: 350;
-    font-size: 1.2em;
-    line-height: 1.6vw;
-    color: #000;
-    border: solid 1.5px #000;
-    text-align: center
-}
-
-.intro-p4-block3 {
-    padding-top: 5px;
-    float: left;
-    height: 6.5vw;
-    width: 2.5vw;
-    font-weight: 350;
-    font-size: 1.2em;
-    line-height: 1.5vw;
-    color: #000;
-    border: solid 1.5px #000;
-    text-align: center
-}
-
-.page-staff {
-    background-image: url(../image/bg/18.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100vh
-}
-
-#staff-container {
-    position: absolute;
-    top: 22.5vh;
-    left: 26vw;
-    width: 69vw;
-    height: 700px;
-    overflow: visible
-}
-
-.staff-block {
-    float: left;
-    width: 18vw;
-    height: 400px;
-    margin-top: 50px;
-    margin-right: 7vw
-}
-
-.staff-photo {
-    width: 14vw;
-    height: 14vw;
-    border-radius: 50%;
-    box-shadow: 0 0 4px rgba(0%, 0%, 0%, .4)
-}
-
-.staff-wu {
-    background-image: url(../image/Wu.jpg);
-    background-size: cover
-}
-
-.staff-block1 {
-    width: 200px;
-    height: 25px
-}
-
-.staff-line {
-    width: 16vw;
-    margin-top: 2vh;
-    margin-bottom: 2vh;
-    border: solid 1px #000
-}
-
-.staff-bigTitle {
-    font-weight: 400;
-    font-size: 2.8em;
-    color: #000;
-    line-height: 5.5vh
-}
-
 .nextpage {
     background-image: url(../image/bg/職員切版-07.png);
     width: 8vh;
@@ -255,6 +66,15 @@ hr.intro-title {
     margin-top: 0;
     border: solid 0 green
 }
+.ra-circle_second {
+    position: relative;
+    top: 40vh;
+    left: 38vw;
+    height: 25vh;
+    width: 70vw;
+    margin-top: 0;
+    border: solid 0 green
+}
 
 .ra-circle_first_block_1 {
     margin-top: 0;
@@ -263,7 +83,13 @@ hr.intro-title {
     width: 27vw;
     height: 26vh;
 }
-
+.ra-circle_second_block_1 {
+    clear: both;
+    float: left;
+    height: 24vh;
+    width: 26vw;
+    margin-top: 0;
+}
 .ra-circle_1 {
     background-image: url(../image/7_1.png);
     background-size: cover;
@@ -295,26 +121,6 @@ hr.intro-title {
     height: 23vh;
     color: #fff;
 }
-
-.ra-circle_7 {
-    background-image: url(../image/7_7.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: relative;
-    float: left;
-    border-radius: 999em;
-    width: 23vh;
-    height: 23vh;
-    color: #fff
-}
-
-.ra-circle_first_block_3 {
-    position: absolute;
-    height: 25vh;
-    margin-top: 0;
-    border: solid 0 green
-}
-
 .ra-circle_3 {
     background-image: url(../image/7_2.png);
     background-size: cover;
@@ -327,25 +133,6 @@ hr.intro-title {
     color: #fff;
     left: 0
 }
-
-.ra-circle_second {
-    position: relative;
-    top: 40vh;
-    left: 38vw;
-    height: 25vh;
-    width: 70vw;
-    margin-top: 0;
-    border: solid 0 green
-}
-
-.ra-circle_second_block_1 {
-    clear: both;
-    float: left;
-    height: 24vh;
-    width: 26vw;
-    margin-top: 0;
-}
-
 .ra-circle_4 {
     background-image: url(../image/7_4.png);
     background-size: cover;
@@ -357,16 +144,6 @@ hr.intro-title {
     height: 23vh;
     color: #fff
 }
-
-.ra-circle_second_block_2 {
-    position: relative;
-    float: left;
-    left: 1vw;
-    height: 28vh;
-    width: 30vw;
-    margin-top: 0;
-}
-
 .ra-circle_5 {
     background-image: url(../image/7_5.png);
     background-size: cover;
@@ -378,26 +155,6 @@ hr.intro-title {
     height: 23vh;
     color: #fff
 }
-
-.ra-circle_8 {
-    background-image: url(../image/7_8.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: relative;
-    float: left;
-    border-radius: 999em;
-    width: 23vh;
-    height: 23vh;
-    color: #fff
-}
-
-.ra-circle_second_block_3 {
-    position: absolute;
-    height: 25vh;
-    margin-top: 0;
-    border: solid 0 green
-}
-
 .ra-circle_6 {
     background-image: url(../image/7_6.png);
     background-size: cover;
@@ -409,7 +166,28 @@ hr.intro-title {
     height: 23vh;
     color: #fff
 }
-
+.ra-circle_7 {
+    background-image: url(../image/7_7.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    float: left;
+    border-radius: 999em;
+    width: 23vh;
+    height: 23vh;
+    color: #fff
+}
+.ra-circle_8 {
+    background-image: url(../image/7_8.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    float: left;
+    border-radius: 999em;
+    width: 23vh;
+    height: 23vh;
+    color: #fff
+}
 .first_block_context_block {
     position: relative;
     overflow-x: hidden;
@@ -429,7 +207,6 @@ hr.intro-title {
     left: 1vw;
     top: 2.5vh;
 }
-
 .second_block_context_block {
     position: relative;
     overflow-x: hidden;
@@ -439,7 +216,14 @@ hr.intro-title {
     left: 1vw;
     top: 2.5vh;
 }
-
+.ra-circle_second_block_2 {
+    position: relative;
+    float: left;
+    left: 1vw;
+    height: 28vh;
+    width: 30vw;
+    margin-top: 0;
+}
 .first_first_line {
     font-weight: regular;
     font-size: 15.5px;
@@ -470,7 +254,6 @@ hr.intro-title {
     height: 1px;
     background: #e0e0e0
 }
-
 .mobile {
     display: none
 }

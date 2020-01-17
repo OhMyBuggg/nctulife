@@ -2,6 +2,7 @@
 /*
  * Template Name: en-homepage
  */
+    $translate = 1;
 ?>
 <?php get_header('en_header'); ?>
 <div class="hp">
@@ -23,7 +24,9 @@
                 <p id="foot-font-1">
                     <?php echo $translate ? 'NCTU' : '國立交通大學' ?>
                 </p>
-                <p id="foot-font-2">生科院產業博士班</p>
+                <p id="foot-font-2">
+                    <?php echo $translate ? '<br>' : '生科院產業博士班' ?>
+                </p>
                 <p id="foot-font-3">Industrial Development<br>Graduate Program of CBT</p>
             </div>
             <div id="foot-center">
