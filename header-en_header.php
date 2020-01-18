@@ -179,7 +179,7 @@
                     <p class="foot-font-top formobile">E-MAIL│meiling@cc.nctu.edu.tw</p>
                 </div>
                 <div class="foot-bottom">
-                <p class="foot-font-bottom formobile">300 新竹市博愛街75號 賢齊館325室</p>
+                <p class="foot-font-bottom formobile">Room 117, Lab Building 1, 75 Bo-Ai Street, Hsin-Chu, Taiwan 300, ROC</p>
                 </div>
             </div>
 
@@ -191,7 +191,7 @@
         <!--<span onclick="openNav()" class="dropbtn"></span>-->
 
         <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
-                <div class="mobile-header formobile">交通</br>大學</div> <!--AnnieDisplayNone-->
+                <div class="mobile-header formobile">National Chiao Tung University</div> <!--AnnieDisplayNone-->
                 <div class="mobile-header-line"></div>
                 <!-- add in dropdown btn-->
                 <!--<div id="header-block2">生</div>

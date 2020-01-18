@@ -810,7 +810,7 @@ hr.ft-hr{
     width: 50vw;
     display: flex;
     align-items: flex-start;
-    letter-spacing:0.3em;
+    letter-spacing:0.2em;
 }
 .dash{
     background-image:url(../image/icon/news_01.png);
