@@ -43,11 +43,15 @@
     height: 60%;
 }
 .text{
-    height: 10%;
-    width: 100%;
-    font-size: 1.5vw;
     font-family: 'Noto Sans TC', 微軟正黑體, sans-serif;
-
+    height: 4.8vh;
+    width: 100%;
+    font-size: 3vh;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
 }
 .bar{
     width: 100%;
