@@ -136,8 +136,8 @@ a{font-family:'Noto Sans TC', '微軟正黑體', sans-serif; text-decoration:non
     position: fixed;
     width: 10vw;
     height: 5vh;
-    left: 17vw;
-    top: 1.6vh;
+    left: 19.5vw;
+    top: 4vh;
     font-family: "Noto Sans TC", "微軟正黑體", sans-serif;
     font-weight: 350;
     font-size: 0.63em;
@@ -425,7 +425,7 @@ a{font-family:'Noto Sans TC', '微軟正黑體', sans-serif; text-decoration:non
     margin-top: calc(5vh - 10px);
         width: 20px;
         height: 20px;
-        background-image: url(../nctu_cos/image/Mobile_500x600/btn_menu_close.svg);
+        /*background-image: url(../nctu_cos/image/Mobile_500x600/btn_menu_close.svg);*/
         background-size: contain;
         background-repeat: no-repeat;
 }

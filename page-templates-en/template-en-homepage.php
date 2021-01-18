@@ -17,12 +17,12 @@
     </div>
         <div id="p5-announce-block">
             <div id="copy-right-title">著作權聲明</div>
-            <div id="copy-right-text"> 1.交通大學生科院產業博士班網站(以下簡稱本網站)上刊載之所有內容，除著作權法規定不得為著作權之標的(如法律、命令、公務員撰擬之講稿、新聞稿等--請參考著作權法第9條規定)外，其他包括文字敘述、攝影、圖片、錄音、影像及其他資訊，均受著作權法保護。<br>2.本網站所提供相關連結網站之網頁或資料，均為被連結網站所提供，相關權利為該等網站或合法權利人所有，本網站不擔保其正確性、即時性或完整性。</div>
+            <div id="copy-right-text"> 1.陽明交通大學生科院產業博士班網站(以下簡稱本網站)上刊載之所有內容，除著作權法規定不得為著作權之標的(如法律、命令、公務員撰擬之講稿、新聞稿等--請參考著作權法第9條規定)外，其他包括文字敘述、攝影、圖片、錄音、影像及其他資訊，均受著作權法保護。<br>2.本網站所提供相關連結網站之網頁或資料，均為被連結網站所提供，相關權利為該等網站或合法權利人所有，本網站不擔保其正確性、即時性或完整性。</div>
         </div>
         <div id="foot">
             <div id="foot-left">
                 <p id="foot-font-1">
-                    <?php echo $translate ? 'NCTU' : '國立交通大學' ?>
+                    <?php echo $translate ? 'NYCU' : '國立陽明交通大學' ?>
                 </p>
                 <p id="foot-font-2">
                     <?php echo $translate ? '<br>' : '生科院產業博士班' ?>
@@ -39,7 +39,7 @@
                 <hr class="ft-hr"/>
                 <div class="foot-font-4" style="float:left;">
                     <a href="http://www.nctu.edu.tw/">
-                        <?php echo $translate ? 'NCTU' : '交通大學' ?>
+                        <?php echo $translate ? 'NYCU' : '國立陽明交通大學' ?>
                     </a>
                     <a href="https://pidcbt.nctu.edu.tw/wp-content/uploads/2019/07/產業博士班網站導覽.pdf">
                         <?php echo $translate ? '' : ' | 網頁導覽' ?> | 

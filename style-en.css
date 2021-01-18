@@ -391,7 +391,7 @@ label{ display: none;}
     height: 19vw;
     width: 18vw;
     /*background: #00FF00;*/
-    background-image: url(image/nctu_logo_s.png);
+    /*background-image: url(image/nctu_logo_s.png);*/
     background-size:contain;
     background-repeat:no-repeat;
     background-position:left bottom;

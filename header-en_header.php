@@ -7,7 +7,7 @@
 <meta http-equiv="Content-Type" content="<?php bloginfo('html_type'); ?>; charset=<?php bloginfo('charset'); ?>" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <!--<title><?php bloginfo('name'); ?><?php wp_title(); ?></title>-->
-<title>College of Science, NCTU</title>
+<title>College of Science, NYCU</title>
         <!--<link rel="stylesheet" href="<?php bloginfo('template_url');?>/reset.css" type="text/css" media="screen" />-->
         <!--<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen and (min-width: 701px)"/>-->
         <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/style-en.css" type="text/css" media="screen and (min-width: 701px)"/>
@@ -24,7 +24,7 @@
         echo'/mobile-css/en-homepage-mobile.css" type="text/css" media="screen and (max-width: 700px)" />';
 
         echo '<link rel="stylesheet" href="';bloginfo('template_url');
-        echo'/css/gallery.css" type="text/css" media="screen and (min-width: 701px)" />';
+        echo'/css/en-homepage.css" type="text/css" media="screen and (min-width: 701px)" />';
     }
     else if(is_page('en-intro')||is_page('en-dean')||is_page('en-vice_dean')||is_page('en-staff') || is_page('en-history_of_the_deans')){/*學院簡介*/
         echo '<link rel="stylesheet" href="';bloginfo('template_url');
@@ -191,14 +191,14 @@
         <!--<span onclick="openNav()" class="dropbtn"></span>-->
 
         <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
-                <div class="mobile-header formobile">National Chiao Tung University</div> <!--AnnieDisplayNone-->
+                <div class="mobile-header formobile">NYCU<!--National Yang Ming Chiao Tung University--></div> <!--AnnieDisplayNone-->
                 <div class="mobile-header-line"></div>
                 <!-- add in dropdown btn-->
                 <!--<div id="header-block2">生</div>
                 <div id="header-block3">科</div>
                 <div id="header-block4">院</div>-->
                 <div id="header-block8">生科院產業博士班</div>
-                <div id="header-block5">國立交通大學</div>
+                <div id="header-block5">國立陽明交通大學</div>
                 <div id="header-block6">Ph.D. in Industrial Development of CBST</div>
                 <!--<div id="header-block7">Industrial<br>Development<br>Graduate<br>Program of<br>CBT</div>-->
         <a href="<?php echo site_url(); ?>"><div class="header-block-link"></div></a>
@@ -218,7 +218,7 @@
                 <div id="header-block3">科</div>
                 <div id="header-block4">院</div>
                 <div id="header-block8">生科院產業博士班</div>
-                <div id="header-block5">國立交通大學</div>
+                <div id="header-block5">國立陽明交通大學</div>
                 <div id="header-block6">Industrial Development Graduate Program of<br>College of Biological Science and Technology</div>
                 <div id="header-block7">Industrial<br>Development<br>Graduate<br>Program of<br>CBT</div>
 
